@@ -1,0 +1,162 @@
+{
+  "antigen_density_reachable_fraction": {
+    "high": 0.2064439140811456,
+    "low": 1.0
+  },
+  "barrier_scenario_expression_reach_gap": {
+    "high_barrier": 0.8644444444444445,
+    "low_barrier": 0.0
+  },
+  "dose_sweep_reachable_fraction": {
+    "10": 0.07637231503579953,
+    "100": 1.0,
+    "20": 0.3747016706443914
+  },
+  "global_sensitivity": {
+    "indices": {
+      "antigen_calibration_factor": {
+        "first_order": 0.24614324666438825,
+        "total_order": 0.4294372476736693
+      },
+      "beta_caf": {
+        "first_order": -0.09879791888925119,
+        "total_order": 0.05906089882311695
+      },
+      "beta_ecm": {
+        "first_order": 0.0010170462503674988,
+        "total_order": 0.005028060012911582
+      },
+      "clearance_s": {
+        "first_order": 0.0,
+        "total_order": 0.0
+      },
+      "diffusion_um2_s": {
+        "first_order": 0.15310457784378625,
+        "total_order": 0.07798156989504275
+      },
+      "internalisation_s": {
+        "first_order": 0.5254578479561477,
+        "total_order": 0.6596056465771075
+      },
+      "kd_nM": {
+        "first_order": 0.17023187742098123,
+        "total_order": 0.054414983407236994
+      }
+    },
+    "method": "Saltelli-style hybrid matrices from scrambled Sobol sequences",
+    "sample_count": 16,
+    "seed": 17,
+    "status": "OK",
+    "variance": 0.08477932027649769
+  },
+  "internalisation_reachable_fraction": {
+    "1.0e-05": 1.0,
+    "3.0e-04": 0.13126491646778043
+  },
+  "model_comparison": {
+    "classification_winner": "distance_only",
+    "distance_only": {
+      "classification_accuracy": 0.8950461796809404,
+      "rmse": 0.11209043210422431
+    },
+    "mechanistic": {
+      "classification_accuracy": 0.8354324097397146,
+      "rmse": 0.08728359680207216
+    },
+    "naive_weighted_sum": {
+      "classification_accuracy": 0.8513853904282116,
+      "label": "EXPLICITLY_NAIVE_UNFITTED_BASELINE",
+      "rmse": 0.09141041030041648
+    },
+    "physics_buys_lower_rmse": true,
+    "primary_metric": "rmse",
+    "qualification": "Ground truth and prediction share the same equation family, but prediction uses blurred, noisy and morphologically perturbed observed features. This validates implementation robustness, not biology."
+  },
+  "peak_memory_mb": 6.950441360473633,
+  "preregistered_predictions": {
+    "clinical_retrospective_null_or_weak": "NOT_COMPUTED_REAL_DATA",
+    "high_density_fast_internalisation_stroma_gap": "SUPPORTED_IN_SIMULATION",
+    "uncertainty_forces_substantial_abstention": "SUPPORTED_IN_SIMULATION"
+  },
+  "retrospective": {
+    "distance_matched_null": "NOT_COMPUTED_REAL_DATA",
+    "status": "NOT_COMPUTED_REAL_DATA",
+    "synthetic_schema_test": {
+      "label": "SYNTHETIC_SCHEMA_EXAMPLE_NOT_SCIENTIFIC_EVIDENCE",
+      "median_difference": 0.0,
+      "n_programmes": 12,
+      "permutation_p": 1.0,
+      "status": "EXPLORATORY_ONLY",
+      "stratified_difference": null
+    }
+  },
+  "runtime_seconds": 26.09765714699961,
+  "seed": 17,
+  "segmentation_robustness": {
+    "cell_jitter_reachable_fraction_5_95": [
+      0.3575178997613365,
+      0.3804295942720764
+    ],
+    "vessel_mask_sensitivity": {
+      "dilated": 0.5429594272076372,
+      "eroded": 0.15632458233890215,
+      "original": 0.3747016706443914
+    }
+  },
+  "simulation_only": true,
+  "size_series_penetration_depth_um": {
+    "Fab": 14.142135623730951,
+    "IgG": 10.0,
+    "scFv": 28.284271247461902
+  },
+  "status": "PASS",
+  "theory_checks": {
+    "high_barrier_scenario_increases_gap": true,
+    "higher_antigen_reduces_reach": true,
+    "higher_dose_rescues_reach": true,
+    "higher_internalisation_reduces_reach": true,
+    "size_series_increasing_penetration": true
+  },
+  "top_total_sensitivity_parameter": "internalisation_s",
+  "uncertainty_abstention": {
+    "abstention_share": 0.6666666666666666,
+    "prediction_supported": true,
+    "scenarios": {
+      "high_barrier": {
+        "abstention_reasons": [
+          "PARAMETER_INTERVAL_SPANS_DECISION_THRESHOLD"
+        ],
+        "decision_stability": false,
+        "reachable_fraction_interval": {
+          "lower": 0.059904534606205255,
+          "median": 0.399164677804296,
+          "upper": 1.0
+        },
+        "status": "INSUFFICIENT_EVIDENCE"
+      },
+      "low_barrier": {
+        "abstention_reasons": [],
+        "decision_stability": true,
+        "reachable_fraction_interval": {
+          "lower": 0.7728520286396181,
+          "median": 1.0,
+          "upper": 1.0
+        },
+        "status": "OK"
+      },
+      "reference": {
+        "abstention_reasons": [
+          "PARAMETER_INTERVAL_SPANS_DECISION_THRESHOLD"
+        ],
+        "decision_stability": false,
+        "reachable_fraction_interval": {
+          "lower": 0.25626491646778043,
+          "median": 0.9946300715990454,
+          "upper": 1.0
+        },
+        "status": "INSUFFICIENT_EVIDENCE"
+      }
+    },
+    "substantial_threshold": 0.3333333333333333
+  }
+}

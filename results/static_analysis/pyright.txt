@@ -1,0 +1,230 @@
+/mnt/data/reach-gap-v051/reach-gap/src/reach_gap/benchmark.py
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/benchmark.py:59:28 - error: Operator "*" not supported for types "tuple[Unknown, ...] | Unknown | None" and "float"
+    Operator "*" not supported for types "tuple[Unknown, ...]" and "float"
+    Operator "*" not supported for types "None" and "float" (reportOperatorIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/benchmark.py:116:28 - error: Operator "*" not supported for types "tuple[Unknown, ...] | Unknown | None" and "float"
+    Operator "*" not supported for types "tuple[Unknown, ...]" and "float"
+    Operator "*" not supported for types "None" and "float" (reportOperatorIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/benchmark.py:116:52 - error: Operator "~" not supported for type "_Array1D[float64] | ndarray[tuple[int], dtype[Any]] | NDArray[Unknown]" (reportOperatorIssue)
+/mnt/data/reach-gap-v051/reach-gap/src/reach_gap/bundle_tools.py
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/bundle_tools.py:158:17 - error: Cannot access attribute "member" for class "tuple[Any, ...]"
+    Attribute "member" is unknown (reportAttributeAccessIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/bundle_tools.py:159:43 - error: Cannot access attribute "uncompressed_bytes" for class "tuple[Any, ...]"
+    Attribute "uncompressed_bytes" is unknown (reportAttributeAccessIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/bundle_tools.py:160:41 - error: Cannot access attribute "compressed_bytes" for class "tuple[Any, ...]"
+    Attribute "compressed_bytes" is unknown (reportAttributeAccessIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/bundle_tools.py:161:30 - error: Cannot access attribute "crc32" for class "tuple[Any, ...]"
+    Attribute "crc32" is unknown (reportAttributeAccessIssue)
+/mnt/data/reach-gap-v051/reach-gap/src/reach_gap/features.py
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/features.py:36:17 - error: Operator "*" not supported for types "tuple[Unknown, ...] | Unknown | None" and "float"
+    Operator "*" not supported for types "tuple[Unknown, ...]" and "float"
+    Operator "*" not supported for types "None" and "float" (reportOperatorIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/features.py:114:28 - error: Operator "*" not supported for types "tuple[Unknown, ...] | Unknown | None" and "float"
+    Operator "*" not supported for types "tuple[Unknown, ...]" and "float"
+    Operator "*" not supported for types "None" and "float" (reportOperatorIssue)
+/mnt/data/reach-gap-v051/reach-gap/src/reach_gap/he_pathology.py
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/he_pathology.py:230:9 - error: Object of type "None" cannot be used as iterable value (reportOptionalIterable)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/he_pathology.py:232:24 - error: Object of type "None" cannot be used as iterable value (reportOptionalIterable)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/he_pathology.py:300:21 - error: "Literal[1]" is not iterable
+    "__iter__" method not defined (reportGeneralTypeIssues)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/he_pathology.py:300:21 - error: "Literal[0]" is not iterable
+    "__iter__" method not defined (reportGeneralTypeIssues)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/he_pathology.py:306:23 - error: No overloads for "__getitem__" match the provided arguments (reportCallIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/he_pathology.py:306:23 - error: Argument of type "ndarray[Unknown, Unknown] | _Array[tuple[()], signedinteger[_NBitIntP] | signedinteger[_32Bit]] | _Array[tuple[()], float64] | Unknown" cannot be assigned to parameter "key" of type "_ToIndices" in function "__getitem__"
+    Type "ndarray[Unknown, Unknown] | _Array[tuple[()], signedinteger[_NBitIntP] | signedinteger[_32Bit]] | _Array[tuple[()], float64] | Unknown" is not assignable to type "_ToIndices"
+      Type "_Array[tuple[()], float64]" is not assignable to type "_ToIndices"
+        "ndarray[tuple[()], dtype[float64]]" is incompatible with protocol "SupportsIndex"
+          Could not bind method "__index__" because "ndarray[tuple[()], dtype[float64]]" is not assignable to parameter "self"
+            "ndarray[tuple[()], dtype[float64]]" is not assignable to "ndarray[_AnyShape, dtype[integer[Any]]]"
+        "ndarray[tuple[()], dtype[float64]]" is not assignable to "slice[Any, Any, Any]"
+        "ndarray[tuple[()], dtype[float64]]" is not assignable to "EllipsisType"
+        "ndarray[tuple[()], dtype[float64]]" is incompatible with protocol "_SupportsArray[dtype[numpy.bool[builtins.bool] | integer[Any]]]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/he_pathology.py:328:45 - error: Operator "~" not supported for type "_Array1D[float64] | ndarray[tuple[int], dtype[Any]] | NDArray[Unknown]" (reportOperatorIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/he_pathology.py:350:13 - error: Operator "&" not supported for types "_Array1D[float64] | ndarray[tuple[int], dtype[Any]] | NDArray[Unknown] | None" and "BoolArray"
+    Operator "&" not supported for types "_Array1D[float64]" and "BoolArray"
+    Operator "&" not supported for types "None" and "BoolArray" (reportOperatorIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/he_pathology.py:355:22 - error: "Literal[1]" is not iterable
+    "__iter__" method not defined (reportGeneralTypeIssues)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/he_pathology.py:355:22 - error: "Literal[0]" is not iterable
+    "__iter__" method not defined (reportGeneralTypeIssues)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/he_pathology.py:583:29 - error: Operator "~" not supported for type "_Array1D[float64] | ndarray[tuple[int], dtype[Any]] | NDArray[Unknown]" (reportOperatorIssue)
+/mnt/data/reach-gap-v051/reach-gap/src/reach_gap/parquet_lite.py
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/parquet_lite.py:492:36 - error: Argument of type "list[Any] | ndarray[_AnyShape, dtype[Any]]" cannot be assigned to parameter "object" of type "ndarray[_AnyShape, dtype[Any]]" in function "append"
+    Type "list[Any] | ndarray[_AnyShape, dtype[Any]]" is not assignable to type "ndarray[_AnyShape, dtype[Any]]"
+      "list[Any]" is not assignable to "ndarray[_AnyShape, dtype[Any]]" (reportArgumentType)
+/mnt/data/reach-gap-v051/reach-gap/src/reach_gap/protein_imaging.py
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/protein_imaging.py:252:30 - error: "Literal[1]" is not iterable
+    "__iter__" method not defined (reportGeneralTypeIssues)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/protein_imaging.py:252:30 - error: "Literal[0]" is not iterable
+    "__iter__" method not defined (reportGeneralTypeIssues)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/protein_imaging.py:257:16 - error: No overloads for "__getitem__" match the provided arguments (reportCallIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/protein_imaging.py:257:16 - error: Argument of type "ndarray[Unknown, Unknown] | _Array[tuple[()], signedinteger[_NBitIntP] | signedinteger[_32Bit]] | _Array[tuple[()], float64] | Unknown" cannot be assigned to parameter "key" of type "_ToIndices" in function "__getitem__"
+    Type "ndarray[Unknown, Unknown] | _Array[tuple[()], signedinteger[_NBitIntP] | signedinteger[_32Bit]] | _Array[tuple[()], float64] | Unknown" is not assignable to type "_ToIndices"
+      Type "_Array[tuple[()], float64]" is not assignable to type "_ToIndices"
+        "ndarray[tuple[()], dtype[float64]]" is incompatible with protocol "SupportsIndex"
+          Could not bind method "__index__" because "ndarray[tuple[()], dtype[float64]]" is not assignable to parameter "self"
+            "ndarray[tuple[()], dtype[float64]]" is not assignable to "ndarray[_AnyShape, dtype[integer[Any]]]"
+        "ndarray[tuple[()], dtype[float64]]" is not assignable to "slice[Any, Any, Any]"
+        "ndarray[tuple[()], dtype[float64]]" is not assignable to "EllipsisType"
+        "ndarray[tuple[()], dtype[float64]]" is incompatible with protocol "_SupportsArray[dtype[numpy.bool[builtins.bool] | integer[Any]]]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/protein_imaging.py:263:44 - error: "Literal[1]" is not iterable
+    "__iter__" method not defined (reportGeneralTypeIssues)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/protein_imaging.py:263:44 - error: "Literal[0]" is not iterable
+    "__iter__" method not defined (reportGeneralTypeIssues)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/protein_imaging.py:285:23 - error: Operator "*" not supported for types "tuple[Unknown, ...] | Unknown | None" and "float"
+    Operator "*" not supported for types "tuple[Unknown, ...]" and "float"
+    Operator "*" not supported for types "None" and "float" (reportOperatorIssue)
+/mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc.py
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc.py:18:27 - error: "cKDTree" is unknown import symbol (reportAttributeAccessIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc.py:69:29 - error: "astype" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc.py:133:47 - error: Cannot access attribute "statistic" for class "_"
+    Attribute "statistic" is unknown (reportAttributeAccessIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc.py:202:25 - error: Argument of type "ndarray[_AnyShape, dtype[Any]] | Unknown" cannot be assigned to parameter "values" of type "Sequence[float]" in function "robust_scale"
+    Type "ndarray[_AnyShape, dtype[Any]] | Unknown" is not assignable to type "Sequence[float]"
+      "ndarray[_AnyShape, dtype[Any]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc.py:204:46 - error: Argument of type "FloatArray" cannot be assigned to parameter "values" of type "Sequence[float]" in function "otsu_threshold"
+    "ndarray[_AnyShape, dtype[float64]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc.py:205:53 - error: Argument of type "ndarray[_AnyShape, dtype[Any]] | Unknown" cannot be assigned to parameter "values" of type "Sequence[float]" in function "otsu_threshold"
+    Type "ndarray[_AnyShape, dtype[Any]] | Unknown" is not assignable to type "Sequence[float]"
+      "ndarray[_AnyShape, dtype[Any]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc.py:220:10 - error: "astype" is not a known attribute of "None" (reportOptionalMemberAccess)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc.py:413:5 - error: No overloads for "sort_values" match the provided arguments
+    Argument types: (Literal['cell_id']) (reportCallIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc.py:419:13 - error: Argument of type "Series | Unknown | DataFrame" cannot be assigned to parameter "table" of type "DataFrame" in function "write_partitioned_table"
+    Type "Series | Unknown | DataFrame" is not assignable to type "DataFrame"
+      "Series" is not assignable to "DataFrame" (reportArgumentType)
+/mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc_imaging.py
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc_imaging.py:167:27 - error: Argument of type "ndarray[_AnyShape, dtype[Any]]" cannot be assigned to parameter "values" of type "Sequence[float]" in function "robust_scale"
+    "ndarray[_AnyShape, dtype[Any]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc_imaging.py:168:38 - error: Argument of type "FloatArray" cannot be assigned to parameter "values" of type "Sequence[float]" in function "otsu_threshold"
+    "ndarray[_AnyShape, dtype[float64]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc_imaging.py:182:35 - error: Cannot access attribute "statistic" for class "_"
+    Attribute "statistic" is unknown (reportAttributeAccessIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc_imaging.py:363:13 - error: Argument of type "ndarray[_AnyShape, dtype[Any]] | Unknown" cannot be assigned to parameter "x_um" of type "Sequence[float]" in function "sample_local_mean"
+    Type "ndarray[_AnyShape, dtype[Any]] | Unknown" is not assignable to type "Sequence[float]"
+      "ndarray[_AnyShape, dtype[Any]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc_imaging.py:364:13 - error: Argument of type "ndarray[_AnyShape, dtype[Any]] | Unknown" cannot be assigned to parameter "y_um" of type "Sequence[float]" in function "sample_local_mean"
+    Type "ndarray[_AnyShape, dtype[Any]] | Unknown" is not assignable to type "Sequence[float]"
+      "ndarray[_AnyShape, dtype[Any]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc_imaging.py:371:49 - error: Argument of type "FloatArray" cannot be assigned to parameter "image_samples" of type "Sequence[float]" in function "calibrate_image_threshold"
+    "ndarray[_AnyShape, dtype[float64]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc_imaging.py:371:56 - error: Argument of type "ndarray[_AnyShape, dtype[Any]]" cannot be assigned to parameter "reference_positive" of type "Sequence[bool]" in function "calibrate_image_threshold"
+    "ndarray[_AnyShape, dtype[Any]]" is not assignable to "Sequence[bool]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc_imaging.py:372:52 - error: Cannot access attribute "statistic" for class "_"
+    Attribute "statistic" is unknown (reportAttributeAccessIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc_imaging.py:442:13 - error: Argument of type "ndarray[_AnyShape, dtype[Any]] | Unknown" cannot be assigned to parameter "x_um" of type "Sequence[float]" in function "sample_pixels"
+    Type "ndarray[_AnyShape, dtype[Any]] | Unknown" is not assignable to type "Sequence[float]"
+      "ndarray[_AnyShape, dtype[Any]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc_imaging.py:443:13 - error: Argument of type "ndarray[_AnyShape, dtype[Any]] | Unknown" cannot be assigned to parameter "y_um" of type "Sequence[float]" in function "sample_pixels"
+    Type "ndarray[_AnyShape, dtype[Any]] | Unknown" is not assignable to type "Sequence[float]"
+      "ndarray[_AnyShape, dtype[Any]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc_imaging.py:458:13 - error: Argument of type "ndarray[_AnyShape, dtype[Any]] | Unknown" cannot be assigned to parameter "x_um" of type "Sequence[float]" in function "sample_pixels"
+    Type "ndarray[_AnyShape, dtype[Any]] | Unknown" is not assignable to type "Sequence[float]"
+      "ndarray[_AnyShape, dtype[Any]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/real_rcc_imaging.py:459:13 - error: Argument of type "ndarray[_AnyShape, dtype[Any]] | Unknown" cannot be assigned to parameter "y_um" of type "Sequence[float]" in function "sample_pixels"
+    Type "ndarray[_AnyShape, dtype[Any]] | Unknown" is not assignable to type "Sequence[float]"
+      "ndarray[_AnyShape, dtype[Any]]" is not assignable to "Sequence[float]" (reportArgumentType)
+/mnt/data/reach-gap-v051/reach-gap/src/reach_gap/retrospective.py
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/retrospective.py:67:49 - error: Cannot access attribute "nunique" for class "ndarray[_AnyShape, dtype[Any]]"
+    Attribute "nunique" is unknown (reportAttributeAccessIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/retrospective.py:76:47 - error: Cannot access attribute "to_numpy" for class "ndarray[_AnyShape, dtype[Any]]"
+    Attribute "to_numpy" is unknown (reportAttributeAccessIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/retrospective.py:91:58 - error: Cannot access attribute "to_numpy" for class "ndarray[_AnyShape, dtype[Any]]"
+    Attribute "to_numpy" is unknown (reportAttributeAccessIssue)
+/mnt/data/reach-gap-v051/reach-gap/src/reach_gap/sensitivity.py
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/sensitivity.py:63:55 - error: No parameter named "seed" (reportCallIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/sensitivity.py:64:55 - error: No parameter named "seed" (reportCallIssue)
+/mnt/data/reach-gap-v051/reach-gap/src/reach_gap/solver.py
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/solver.py:58:12 - error: Type "tuple[csr_array, _Array1D[float64]]" is not assignable to return type "tuple[csr_matrix, FloatArray]"
+    "csr_array" is not assignable to "csr_matrix" (reportReturnType)
+/mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:24:27 - error: "cKDTree" is unknown import symbol (reportAttributeAccessIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:289:26 - error: Cannot access attribute "member" for class "tuple[Any, ...]"
+    Attribute "member" is unknown (reportAttributeAccessIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:291:26 - error: Cannot access attribute "is_dir" for class "tuple[Any, ...]"
+    Attribute "is_dir" is unknown (reportAttributeAccessIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:294:25 - error: Cannot access attribute "uncompressed_bytes" for class "tuple[Any, ...]"
+    Attribute "uncompressed_bytes" is unknown (reportAttributeAccessIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:376:20 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:377:31 - error: Operator "in" not supported for types "Literal['name']" and "Group | Dataset | Datatype | Unknown"
+    Operator "in" not supported for types "Literal['name']" and "Datatype" (reportOperatorIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:378:27 - error: Operator "in" not supported for types "Literal['id']" and "Group | Dataset | Datatype | Unknown"
+    Operator "in" not supported for types "Literal['id']" and "Datatype" (reportOperatorIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:379:31 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:379:31 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:379:31 - error: Argument of type "Group | Dataset | Datatype | Unknown" cannot be assigned to parameter "values" of type "NDArray[Any]" in function "_decode"
+    Type "Group | Dataset | Datatype | Unknown" is not assignable to type "NDArray[Any]"
+      "Dataset" is not assignable to "ndarray[_AnyShape, dtype[Any]]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:380:33 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:380:33 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:380:33 - error: Argument of type "Group | Dataset | Datatype | Unknown" cannot be assigned to parameter "values" of type "NDArray[Any]" in function "_decode"
+    Type "Group | Dataset | Datatype | Unknown" is not assignable to type "NDArray[Any]"
+      "Dataset" is not assignable to "ndarray[_AnyShape, dtype[Any]]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:381:12 - error: Operator "in" not supported for types "Literal['feature_type']" and "Group | Dataset | Datatype | Unknown"
+    Operator "in" not supported for types "Literal['feature_type']" and "Datatype" (reportOperatorIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:382:37 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:382:37 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:382:37 - error: Argument of type "Group | Dataset | Datatype | Unknown" cannot be assigned to parameter "values" of type "NDArray[Any]" in function "_decode"
+    Type "Group | Dataset | Datatype | Unknown" is not assignable to type "NDArray[Any]"
+      "Dataset" is not assignable to "ndarray[_AnyShape, dtype[Any]]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:385:28 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:385:28 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:385:28 - error: Argument of type "Group | Dataset | Datatype | Unknown" cannot be assigned to parameter "values" of type "NDArray[Any]" in function "_decode"
+    Type "Group | Dataset | Datatype | Unknown" is not assignable to type "NDArray[Any]"
+      "Dataset" is not assignable to "ndarray[_AnyShape, dtype[Any]]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:386:51 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:386:51 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:386:51 - error: "Datatype" is not iterable
+    "__iter__" method not defined (reportGeneralTypeIssues)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:512:22 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:513:19 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:514:27 - error: Cannot access attribute "shape" for class "Group"
+    Attribute "shape" is unknown (reportAttributeAccessIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:514:27 - error: Cannot access attribute "shape" for class "Datatype"
+    Attribute "shape" is unknown (reportAttributeAccessIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:517:34 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:518:33 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:557:21 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:558:22 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:559:19 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:562:33 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:566:34 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:567:33 - error: "__getitem__" method not defined on type "Datatype" (reportIndexIssue)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:581:42 - error: Argument of type "list[str]" cannot be assigned to parameter "columns" of type "Axes | None" in function "__init__"
+    Type "list[str]" is not assignable to type "Axes | None"
+      "list[str]" is not assignable to "ExtensionArray"
+      "list[str]" is not assignable to "ndarray[_AnyShape, dtype[Any]]"
+      "list[str]" is not assignable to "Index"
+      "list[str]" is not assignable to "Series"
+      "list[str]" is incompatible with protocol "SequenceNotStr[Unknown]"
+        "index" is an incompatible type
+          Type "(value: str, start: SupportsIndex = 0, stop: SupportsIndex = sys.maxsize, /) -> int" is not assignable to type "(value: Any, /, start: int = 0, stop: int = ...) -> int"
+    ... (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:582:32 - error: Argument of type "list[str]" cannot be assigned to parameter "value" of type "Scalar | AnyArrayLike" in function "insert"
+    Type "list[str]" is not assignable to type "Scalar | AnyArrayLike"
+      "list[str]" is not assignable to "str"
+      "list[str]" is not assignable to "float"
+      "list[str]" is not assignable to "bool"
+      "list[str]" is not assignable to "Period"
+      "list[str]" is not assignable to "Timestamp"
+      "list[str]" is not assignable to "Timedelta"
+      "list[str]" is not assignable to "Interval[Unknown]"
+    ... (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:645:44 - error: Argument of type "ndarray[_AnyShape, dtype[Any]] | Unknown" cannot be assigned to parameter "values" of type "Sequence[float]" in function "robust_scale"
+    Type "ndarray[_AnyShape, dtype[Any]] | Unknown" is not assignable to type "Sequence[float]"
+      "ndarray[_AnyShape, dtype[Any]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:756:39 - error: Argument of type "NDArray[Any]" cannot be assigned to parameter "values" of type "Sequence[float]" in function "otsu_threshold"
+    "ndarray[_AnyShape, dtype[Any]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:759:45 - error: Argument of type "NDArray[Any]" cannot be assigned to parameter "values" of type "Sequence[float]" in function "threshold_aligned_scale"
+    "ndarray[_AnyShape, dtype[Any]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:763:49 - error: Argument of type "NDArray[Any]" cannot be assigned to parameter "values" of type "Sequence[float]" in function "threshold_aligned_scale"
+    "ndarray[_AnyShape, dtype[Any]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:788:56 - error: Argument of type "ndarray[_AnyShape, dtype[Any]] | Unknown" cannot be assigned to parameter "values" of type "Sequence[float]" in function "otsu_threshold"
+    Type "ndarray[_AnyShape, dtype[Any]] | Unknown" is not assignable to type "Sequence[float]"
+      "ndarray[_AnyShape, dtype[Any]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:809:50 - error: Argument of type "FloatArray" cannot be assigned to parameter "values" of type "Sequence[float]" in function "otsu_threshold"
+    "ndarray[_AnyShape, dtype[float64]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:810:42 - error: Argument of type "FloatArray" cannot be assigned to parameter "values" of type "Sequence[float]" in function "threshold_aligned_scale"
+    "ndarray[_AnyShape, dtype[float64]]" is not assignable to "Sequence[float]" (reportArgumentType)
+  /mnt/data/reach-gap-v051/reach-gap/src/reach_gap/xenium.py:1059:16 - error: Import "pyarrow" could not be resolved (reportMissingImports)
+100 errors, 0 warnings, 0 informations

@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.1",
+  "status": "REAL_XENIUM_MOLECULAR_GEOMETRY_PREPARED_ABSOLUTE_INDEX_NOT_COMPUTED",
+  "dataset": "Xenium gene and protein expression, FFPE human renal cell carcinoma",
+  "cells": 465534,
+  "features": 543,
+  "selected_features": 51,
+  "matrix_shape": [
+    543,
+    465534
+  ],
+  "pathology_alignment": {
+    "name": "affine_scale_0.2125",
+    "matrix": [
+      [
+        0.0030273239131817036,
+        1.2896024024947854,
+        -11895.632666864709
+      ],
+      [
+        -1.2896024024947854,
+        0.0030273239131817036,
+        28913.600558020305
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "scale_x": 0.2125,
+    "scale_y": 0.2125,
+    "score": 0.8510511509756903,
+    "fraction_inside": 0.9100785945446139,
+    "accepted": true
+  },
+  "input_files": {
+    "cells": {
+      "name": "cells.parquet.bin",
+      "size_bytes": 9438617,
+      "sha256": "58e05a6056f79a27f4bad7b415c229c323c310ec81aa173aa4028ced162c892d"
+    },
+    "h5": {
+      "name": "cell_feature_matrix.h5.bin",
+      "size_bytes": 32075495,
+      "sha256": "08a3f491f5b68608ff787e7f45cf6d4e0f5815650c604ed4bc88d970406f3b59"
+    },
+    "cell_boundaries": {
+      "name": "cell_boundaries.parquet.bin",
+      "size_bytes": 40493144,
+      "sha256": "e150ca84522e7461a0ed423925a99872565d1348224d473f71b7a63752185ab4"
+    },
+    "nucleus_boundaries": {
+      "name": "nucleus_boundaries.parquet.bin",
+      "size_bytes": 37038064,
+      "sha256": "f5abf3985707fcfbe914599c926df37314e3009fd942d391ec2370d9e16f29d2"
+    },
+    "gene_panel": {
+      "name": "gene_panel.json",
+      "size_bytes": 242693,
+      "sha256": "a1cbbd5c5b48f8f3c93199609f6214f52a00296b3350e4d4fd40285aa0d2dea0"
+    },
+    "protein_panel": {
+      "name": "protein_panel.json",
+      "size_bytes": 10083,
+      "sha256": "9561fe788c500057dadff541b3ff0ebbcc5f550d30084afb0ea76409fa66e926"
+    },
+    "metrics": {
+      "name": "metrics_summary.csv",
+      "size_bytes": 2180,
+      "sha256": "9e8966c9922573fbd6a2e8922a75e3e2b8dccc6928d50ee5bd0ac3ae2db44c89"
+    },
+    "experiment": {
+      "name": "experiment.xenium.bin",
+      "size_bytes": 3153,
+      "sha256": "d13200eee045598698d641dd64ad0a81c7a059352e41016a6b439bc7aeb2d3d3"
+    },
+    "annotation": {
+      "name": "Xenium_V1_Human_Kidney_FFPE_Protein_updated_annotation.geojson.bin",
+      "size_bytes": 65584,
+      "sha256": "3bfec612db469f78e35aaed9337e03989e74f023413f8e4e4cdc05a60a04a474"
+    },
+    "alignment": {
+      "name": "Xenium_V1_Human_Kidney_FFPE_Protein_updated_he_imagealignment.csv",
+      "size_bytes": 129,
+      "sha256": "1c00942ff045f25d2a758db4f38139323f7181121d132e3ae401ec13239385eb"
+    }
+  },
+  "committed_outputs": [
+    "annotation_alignment_candidates.json",
+    "cell_scoring_diagnostics.json",
+    "claims.json",
+    "feature_summary.csv",
+    "figures/rna_protein_concordance.png",
+    "figures/segmentation_area_robustness.png",
+    "figures/target_map_LAG_3.png",
+    "figures/target_map_PD_1.png",
+    "figures/target_map_PD_L1.png",
+    "figures/target_map_VISTA.png",
+    "figures/vessel_definition_sensitivity.png",
+    "full_cell_tables_manifest.json",
+    "marker_resolution.json",
+    "pathology_annotations_xenium.geojson",
+    "pathology_molecular_summary.csv",
+    "real_data_summary.json",
+    "rna_protein_concordance.csv",
+    "scored_cells_sample.csv.gz",
+    "segmentation_boundary_metrics_sample.csv.gz",
+    "segmentation_robustness.json",
+    "target_spatial_summary.csv",
+    "vessel_calling_sensitivity.csv",
+    "vessel_calling_sensitivity.json",
+    "vessel_robustness_ranges.csv"
+  ],
+  "full_per_cell_outputs": {
+    "status": "DISTRIBUTED_SEPARATELY",
+    "manifest": "full_cell_tables_manifest.json"
+  },
+  "vessel_calling_sensitivity": {
+    "primary_positive_cells": 77406,
+    "primary_positive_fraction": 0.16627357,
+    "definition_count": 6,
+    "fraction_range": [
+      0.08842318713563349,
+      0.29559387713894153
+    ]
+  },
+  "segmentation_robustness": {
+    "cells_total": 465534,
+    "cell_polygons": 465534,
+    "cell_coverage_fraction": 1.0,
+    "cell_median_relative_area_error": 0.04899377672062003,
+    "cell_q95_relative_area_error": 0.09010432281660191,
+    "cell_within_1pct": 0.0023134722705538155,
+    "cell_within_5pct": 0.5247221470397436,
+    "cell_within_10pct": 0.969959229615882,
+    "cell_median_vertices": 25.0,
+    "cell_median_compactness": 0.7459658626039919,
+    "nucleus_polygons": 459288,
+    "nucleus_coverage_fraction": 0.9865831496732784,
+    "nucleus_median_relative_area_error": 0.06861581114545642,
+    "nucleus_q95_relative_area_error": 0.15217093344225066,
+    "nucleus_within_1pct": 0.0006787903783611938,
+    "nucleus_within_5pct": 0.17006706277092543,
+    "nucleus_within_10pct": 0.7783835337483406,
+    "nucleus_median_vertices": 25.0,
+    "nucleus_median_compactness": 0.8120284589119553,
+    "runtime_seconds": 11.395185025999808
+  },
+  "execution": {
+    "end_to_end_runtime_seconds": "NOT_COMPUTED_RESUMED_FROM_CHECKPOINTS",
+    "segmentation_runtime_seconds": 11.395185025999808,
+    "reason": "The first all-cell run completed scoring before the build command timeout and was finalised from validated checkpoints; no complete wall-clock measurement was fabricated."
+  },
+  "absolute_index": {
+    "status": "NOT_COMPUTED",
+    "reasons": [
+      "Xenium protein fluorescence is not calibrated to surface antigen density.",
+      "CD31-positive structures are not confirmed to be functionally perfused vessels.",
+      "The measured panel contains no direct ECM marker set; ECM was not imputed."
+    ]
+  }
+}
