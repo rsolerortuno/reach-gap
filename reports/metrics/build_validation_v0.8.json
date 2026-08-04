@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "repository_version": "0.8.0",
+  "validated_at_utc": "2026-08-04T19:27:30.587994+00:00",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "linux x86_64"
+  },
+  "checks": {
+    "pytest": {
+      "status": "PASS",
+      "tests_passed": 120,
+      "tests_failed": 0
+    },
+    "coverage": {
+      "status": "PASS",
+      "percent": 88.33091436865021,
+      "threshold_percent": 85.0,
+      "covered_lines": 3043,
+      "statements": 3445
+    },
+    "ruff_check": {
+      "status": "PASS",
+      "version": "0.16.0"
+    },
+    "ruff_format": {
+      "status": "PASS",
+      "files": 114
+    },
+    "mypy_full_strict": {
+      "status": "PASS",
+      "version": "2.3.0",
+      "source_modules": 37
+    },
+    "pyright_v080_modules": {
+      "status": "PASS",
+      "version": "1.1.411",
+      "files": 4,
+      "errors": 0,
+      "warnings": 0
+    },
+    "pyright_full_package": {
+      "status": "PASS_WITH_ONE_OPTIONAL_DEPENDENCY_SOURCE_WARNING",
+      "errors": 0,
+      "warnings": 1,
+      "reason": "pyarrow source unresolved in unchanged optional Xenium module"
+    },
+    "compileall": {
+      "status": "PASS"
+    },
+    "tabnanny": {
+      "status": "PASS"
+    },
+    "local_source_audit": {
+      "status": "PASS",
+      "source_modules": 37
+    },
+    "quick_benchmark": {
+      "status": "PASS"
+    },
+    "result_bundle_validation": {
+      "status": "PASS",
+      "checks": 67,
+      "issues": 0
+    },
+    "clean_wheel_install": {
+      "status": "PASS",
+      "version": "0.8.0"
+    },
+    "cli_help": {
+      "status": "PASS"
+    },
+    "wheel_build": {
+      "status": "PASS",
+      "path": "dist/reach_gap-0.8.0-py3-none-any.whl",
+      "size_bytes": 139912,
+      "sha256": "67560047febf90fa5cffe052e2a8fc1a1c36cd17af7fd80fe0541be7082a6c28"
+    },
+    "sdist_build": {
+      "status": "PASS",
+      "path": "dist/reach_gap-0.8.0.tar.gz",
+      "size_bytes": 15938698,
+      "sha256": "7bcf3c60c4ae552958067cd66d6b4de406df2475aa275bf16507d00bb4281373"
+    },
+    "sdist_clean_test": {
+      "status": "PASS",
+      "tests_passed": 120,
+      "tests_failed": 0
+    },
+    "scientific_status": {
+      "status": "PASS_WITH_ABSTENTION",
+      "value": "EVIDENCE_SYNTHESIS_AND_RELATIVE_RCC_TARGET_RANKING_COMPLETE_ABSOLUTE_REACHABILITY_NOT_COMPUTED"
+    },
+    "evidence_readiness": {
+      "status": "COMPUTED_AUDIT_SCORE_NOT_BIOLOGICAL_PROBABILITY",
+      "score": 40.5,
+      "same_tissue_requirements_satisfied": 3,
+      "requirements_total": 8
+    },
+    "relative_accessibility": {
+      "status": "RELATIVE_RCC_GEOMETRY_EXPRESSION_PROXY_ABSOLUTE_REACHABILITY_NOT_COMPUTED",
+      "stable_top_target": "VISTA",
+      "stable_top_probability": 0.98525,
+      "draws": 20000,
+      "vessel_definitions": 6
+    },
+    "absolute_reachability": {
+      "status": "NOT_COMPUTED",
+      "outputs": {
+        "reachable_fraction": "NOT_COMPUTED",
+        "penetration_depth": "NOT_COMPUTED",
+        "expression_reach_gap": "NOT_COMPUTED",
+        "model_pharmacological_concordance": "NOT_COMPUTED"
+      },
+      "reasons": [
+        "No functional-perfusion measurement in the RCC section",
+        "No RCC surface-antigen calibration in molecules per cell",
+        "No administered-antibody concentration or engagement field in RCC",
+        "No same-tissue pharmacological concordance endpoint"
+      ]
+    }
+  }
+}
