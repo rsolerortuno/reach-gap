@@ -1,0 +1,50 @@
+{
+  "status": "REAL_PROTEIN_IMAGE_GEOMETRY_PREPARED_ABSOLUTE_INDEX_NOT_COMPUTED",
+  "cells": 465534,
+  "channels": [
+    "CD31",
+    "alphaSMA",
+    "Vimentin",
+    "PanCK",
+    "PD-L1",
+    "VISTA"
+  ],
+  "pyramid_level": 4,
+  "level_pixel_size_um": 3.4,
+  "runtime_seconds": 32.33471083641052,
+  "peak_rss_mib": 916.96875,
+  "python": "3.13.5",
+  "primary_vessel_definition": "balanced_fpr_0_5pct",
+  "input_sha256": {
+    "h5": "sha256:08a3f491f5b68608ff787e7f45cf6d4e0f5815650c604ed4bc88d970406f3b59",
+    "channel_CD31": "sha256:cf76dcb54e4893fdded3346b7b9987e8885cb78a088ec0349234f19506fce73a",
+    "channel_alphaSMA": "sha256:e0253e5fe109dae90b72d37384da3b01523e4e107087127af0b2c11f9ef54b5d",
+    "channel_Vimentin": "sha256:8363e5c5d8877dfa1c585f8019f3cee7598ad95f4d604b6c531cc416ee109ce5",
+    "channel_PanCK": "sha256:fe314d9bceafe097057cfd244d615d5a8ce0cc51bb8b24f4b11c92a122842c5c",
+    "channel_PD-L1": "sha256:aeb8b9a2ab37cf2ed93a5686da215e0dad8831528c19c386b026a4b3d9fda16f",
+    "channel_VISTA": "sha256:6f61ec4699e70db5da2f1276e0e66432410854ba892039cd599c184e339ea100",
+    "qc_mask_CD31": "sha256:f67ea7a5ae02c9c31ba082496d607cc1416db82d4f47ce31470380393401104e",
+    "qc_mask_alphaSMA": "sha256:ae70492b4129b5e3e4865d1fb9814e3cc29577721b815ef5bbf9bf930828601c",
+    "qc_mask_Vimentin": "sha256:5e72de04a3b92241550ffc89ae2d848f09f4c58e95284bc5129f3c820655d4c5",
+    "qc_mask_PanCK": "sha256:babf2c3e41d857e3a82da8bc7c93cded0288f117d54d2973ed9b19e5ccac9c1b",
+    "qc_mask_PD-L1": "sha256:f573ad712e2b1bdc56bdef1aaa214b03dc0b0b0d1c6e25878cd66ec5596a2084",
+    "qc_mask_VISTA": "sha256:7f5fd299fbbf6421c21ac31c10cfc61b7f64187a833287b5c09e079c75416dfe",
+    "background_blu": "sha256:093fa7f5f16ff29b2b097e364e9919f26352f605f6e8ffe6eca8c628064d27c1",
+    "background_grn": "sha256:e93e06b8aceba83e4a0c5df1ecf901f1b90c03db108fabff225672e670e4b37c",
+    "background_yel": "sha256:67dc560445f1a8b4683f4a95d7bacb887f3705360d354f174a1253621893beb4",
+    "background_red": "sha256:228187a06353fe2bc239549c5626f143b6f747fedc8110c372bf62d71ba45663",
+    "background_nuv": "sha256:2a8b313565f1abc5c5dc84abac133a6708530c79bd2bbd6beb432ed1ca81b93a"
+  },
+  "cell_table_parts": [],
+  "figures": [
+    "/mnt/data/reach-gap-v05-final-run/figures/cell_image_concordance.png",
+    "/mnt/data/reach-gap-v05-final-run/figures/image_vessel_definition_sensitivity.png",
+    "/mnt/data/reach-gap-v05-final-run/figures/perivascular_stroma_profile.png"
+  ],
+  "abstention_reasons": [
+    "FUNCTIONALLY_PERFUSED_VESSELS_NOT_IDENTIFIED",
+    "SURFACE_ANTIGEN_CALIBRATION_NOT_AVAILABLE",
+    "MATRIX_TRANSPORT_COEFFICIENT_NOT_CALIBRATED",
+    "DRUG_DISTRIBUTION_OR_ENGAGEMENT_NOT_MEASURED"
+  ]
+}

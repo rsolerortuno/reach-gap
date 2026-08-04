@@ -1,0 +1,32 @@
+{
+  "version": "0.8.0",
+  "status": "EVIDENCE_SYNTHESIS_AND_RELATIVE_RCC_TARGET_RANKING_COMPLETE_ABSOLUTE_REACHABILITY_NOT_COMPUTED",
+  "evidence_readiness": {
+    "absolute_readiness_score": 40.5,
+    "same_tissue_requirements_satisfied": 3,
+    "requirements_total": 8,
+    "dominant_uncertainty": "administered_antibody_field",
+    "measurement_priority": [
+      "administered_antibody_field",
+      "functional_perfusion",
+      "surface_antigen_calibration",
+      "matrix_transport",
+      "same_tissue_pharmacological_endpoint"
+    ]
+  },
+  "relative_accessibility": {
+    "status": "RELATIVE_RCC_GEOMETRY_EXPRESSION_PROXY_ABSOLUTE_REACHABILITY_NOT_COMPUTED",
+    "targets": 4,
+    "vessel_definitions": 6,
+    "draws": 20000,
+    "stable_top_target": "VISTA",
+    "stable_top_probability": 0.98525
+  },
+  "absolute_outputs": {
+    "reachable_fraction": "NOT_COMPUTED",
+    "penetration_depth": "NOT_COMPUTED",
+    "expression_reach_gap": "NOT_COMPUTED",
+    "model_pharmacological_concordance": "NOT_COMPUTED"
+  },
+  "interpretation": "The v0.8 score measures evidence readiness, and the target ranking is a relative geometry-expression proxy. Neither is an estimate of therapeutic-antibody reachability."
+}

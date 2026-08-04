@@ -1,0 +1,29 @@
+{
+  "status": "EXTERNAL_IGG_TRANSPORT_PRIOR_NOT_RCC_MEASUREMENT",
+  "absolute_diffusion_um2_s": {
+    "central_low": 8.7,
+    "central_high": 19.7,
+    "broad_low": 5.4,
+    "broad_high": 31.2,
+    "basis": "Four tumour FRAP measurements reported by Netti et al."
+  },
+  "relative_diffusion_ratio": {
+    "low": 0.3,
+    "high": 0.5,
+    "basis": "Tumour-to-free diffusion range reported across Davies et al. tumour clones"
+  },
+  "shg_mapping": {
+    "status": "NOT_COMPUTED",
+    "reasons": [
+      "SHG intensity has no universal conversion to collagen concentration",
+      "The FRAP studies and SHG benchmark do not measure the same tissue sections",
+      "RCC-specific porosity, glycosaminoglycans, pressure and binding were not measured"
+    ]
+  },
+  "recommended_solver_use": {
+    "distribution": "loguniform",
+    "low_um2_s": 5.4,
+    "high_um2_s": 31.2,
+    "claim_scope": "sensitivity prior only"
+  }
+}

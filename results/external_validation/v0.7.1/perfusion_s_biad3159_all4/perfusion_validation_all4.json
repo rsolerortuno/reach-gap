@@ -1,0 +1,19 @@
+{
+  "version": "0.7.1",
+  "completed_at_utc": "2026-08-04T15:41:38.264240+00:00",
+  "status": "IN_VIVO_HOECHST_RELATIVE_PERFUSION_VALIDATION_ALL_FOUR_FIELDS_COMPLETE",
+  "fields": 4,
+  "sensitivity_settings_per_field": 3,
+  "fields_robust_negative_distance_correlation": 4,
+  "fields_robust_near_vessel_enrichment": 4,
+  "median_spearman_across_all_sensitivity_runs": -0.20487613481240474,
+  "median_near_to_far_ratio_across_all_sensitivity_runs": 3.061670838050694,
+  "claim_scope": {
+    "validated": "Relative association between in-vivo Hoechst signal and distance to structural CD31 signal in independent LLC mouse tumour fields",
+    "not_validated": [
+      "Functional perfusion of vessels in the RCC Xenium section",
+      "Delivery of an administered therapeutic antibody",
+      "Absolute vascular source terms for the RCC solver"
+    ]
+  }
+}

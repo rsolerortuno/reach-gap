@@ -1,0 +1,497 @@
+{
+  "version": "0.8.0",
+  "status": "EVIDENCE_GRAPH_COMPLETE_ABSOLUTE_RCC_REACHABILITY_NOT_COMPUTED",
+  "nodes": [
+    {
+      "node_id": "rcc_histology_geometry",
+      "title": "RCC histology and pathology geometry",
+      "domain": "tissue_geometry",
+      "evidence_class": "SAME_TISSUE_MEASUREMENT",
+      "tissue": "human RCC section",
+      "organism": "human",
+      "assay": "H&E plus pathology polygons",
+      "status": "REAL_HE_PATHOLOGY_GEOMETRY_PREPARED_TARGET_INDEX_NOT_COMPUTED",
+      "source_path": "results/real_rcc_he/he_pathology_result.json",
+      "measured_values": {
+        "tissue_area_mm2": 76.79435707258928,
+        "analysis_pixel_size_um": 4.380331920653658
+      },
+      "permitted_use": [
+        "Same-section morphology and pathology-region geometry"
+      ],
+      "prohibited_transfer": [
+        "H&E lumen candidates as validated perfused vessels"
+      ]
+    },
+    {
+      "node_id": "rcc_structural_vasculature",
+      "title": "RCC structural CD31 vessel-proxy geometry",
+      "domain": "structural_vasculature",
+      "evidence_class": "SAME_TISSUE_MEASUREMENT",
+      "tissue": "human RCC section",
+      "organism": "human",
+      "assay": "Xenium protein plus morphology-focus imaging",
+      "status": "REAL_PROTEIN_IMAGE_GEOMETRY_PREPARED_ABSOLUTE_INDEX_NOT_COMPUTED",
+      "source_path": "results/real_rcc_imaging/real_imaging_summary.json",
+      "measured_values": {
+        "cells": 465534,
+        "vessel_definition_count": 6,
+        "vessel_fraction_low": 0.08842318713563349,
+        "vessel_fraction_high": 0.29559387713894153
+      },
+      "permitted_use": [
+        "Relative distance to structural CD31 definitions in the RCC section"
+      ],
+      "prohibited_transfer": [
+        "Structural CD31 positivity as proof of functional perfusion"
+      ]
+    },
+    {
+      "node_id": "rcc_target_localisation",
+      "title": "RCC target protein and RNA localisation",
+      "domain": "spatial_target_localisation",
+      "evidence_class": "SAME_TISSUE_MEASUREMENT",
+      "tissue": "human RCC section",
+      "organism": "human",
+      "assay": "Xenium gene and protein panel",
+      "status": "RELATIVE_REAL_TISSUE_GEOMETRY_COMPUTED_ABSOLUTE_REACHABILITY_NOT_COMPUTED",
+      "source_path": "results/real_rcc_xenium/real_data_summary.json",
+      "measured_values": {
+        "cells": 465534,
+        "targets": 4,
+        "pathology_alignment_score": 0.8510511509756903
+      },
+      "permitted_use": [
+        "Relative within-section target prevalence and spatial geometry"
+      ],
+      "prohibited_transfer": [
+        "Fluorescence or RNA counts as surface molecules per cell"
+      ]
+    },
+    {
+      "node_id": "external_llc_perfusion",
+      "title": "Four-field in-vivo Hoechst/CD31 perfusion-proxy validation",
+      "domain": "functional_perfusion",
+      "evidence_class": "EXTERNAL_METHOD_VALIDATION",
+      "tissue": "mouse LLC tumours",
+      "organism": "mouse",
+      "assay": "RGB fluorescence microscopy",
+      "status": "IN_VIVO_HOECHST_RELATIVE_PERFUSION_VALIDATION_ALL_FOUR_FIELDS_COMPLETE",
+      "source_path": "results/external_validation/v0.7.1/perfusion_s_biad3159_all4/perfusion_validation_all4.json",
+      "measured_values": {
+        "fields": 4,
+        "sensitivity_runs": 12,
+        "median_spearman": -0.20487613481240474,
+        "median_near_far_ratio": 3.061670838050694
+      },
+      "permitted_use": [
+        "Validation of a relative perfusion-gradient extraction method"
+      ],
+      "prohibited_transfer": [
+        "Functional perfusion labels or source terms in RCC"
+      ]
+    },
+    {
+      "node_id": "external_igg_transport_prior",
+      "title": "Published tumour IgG diffusion prior",
+      "domain": "matrix_transport",
+      "evidence_class": "LITERATURE_PRIOR",
+      "tissue": "external tumour systems",
+      "organism": "mixed published models",
+      "assay": "FRAP literature measurements",
+      "status": "EXTERNAL_IGG_TRANSPORT_PRIOR_NOT_RCC_MEASUREMENT",
+      "source_path": "results/external_validation/igg_transport_prior/igg_transport_prior.json",
+      "measured_values": {
+        "diffusion_low_um2_s": 5.4,
+        "diffusion_high_um2_s": 31.2
+      },
+      "permitted_use": [
+        "Log-uniform solver sensitivity prior"
+      ],
+      "prohibited_transfer": [
+        "RCC-specific transport coefficient"
+      ]
+    },
+    {
+      "node_id": "external_her2_calibration",
+      "title": "Source-protocol Cy5-to-HER2 receptor calibration",
+      "domain": "surface_antigen_calibration",
+      "evidence_class": "EXTERNAL_ASSAY_CALIBRATION",
+      "tissue": "external HER2-positive tumours",
+      "organism": "human tumour material",
+      "assay": "source Cy5 quantitative-IHC workflow",
+      "status": "SOURCE_PROTOCOL_HER2_RECEPTOR_CALIBRATION_NOT_XENIUM_TRANSFER",
+      "source_path": "results/external_validation/her2_receptor_calibration_mckinski2026/her2_receptor_calibration.json",
+      "measured_values": {
+        "tumours": 50,
+        "replicate_pairs": 65,
+        "log_log_r2": 0.9906341282693898
+      },
+      "permitted_use": [
+        "Calibration within the original Cy5 protocol"
+      ],
+      "prohibited_transfer": [
+        "Conversion of RCC Xenium channels to receptors per cell"
+      ]
+    },
+    {
+      "node_id": "external_breast_erbb2_control",
+      "title": "Independent breast Xenium ERBB2 RNA control",
+      "domain": "external_assay_control",
+      "evidence_class": "EXTERNAL_METHOD_VALIDATION",
+      "tissue": "two human breast cancer sections",
+      "organism": "human",
+      "assay": "native Xenium cell_features Zarr",
+      "status": "INDEPENDENT_BREAST_XENIUM_ERBB2_RNA_SUMMARY_COMPLETE",
+      "source_path": "results/external_validation/v0.7.1/breast_xenium_erbb2/breast_erbb2_validation.json",
+      "measured_values": {
+        "cells": 679197,
+        "provider_tumor_cells": 148736,
+        "descriptive_fold": 20.623041384394085
+      },
+      "permitted_use": [
+        "Validation of Xenium sparse-matrix extraction and descriptive RNA contrast"
+      ],
+      "prohibited_transfer": [
+        "Surface HER2 calibration or antibody-reach inference"
+      ]
+    },
+    {
+      "node_id": "external_administered_antibody_reference",
+      "title": "Published administered-trastuzumab reference",
+      "domain": "administered_antibody_field",
+      "evidence_class": "PUBLISHED_REFERENCE",
+      "tissue": "SKOV3 xenograft",
+      "organism": "mouse xenograft",
+      "assay": "published fluorescence microscopy",
+      "status": "PUBLISHED_ADMINISTERED_TRASTUZUMAB_ENDPOINTS_CURATED_REPRESENTATIVE_FIGURE_ONLY",
+      "source_path": "results/external_validation/bordeau_2021_supplement/bordeau_supplement_benchmark.json",
+      "measured_values": {
+        "dose_mg_per_kg": 2.0,
+        "time_hours": 24.0,
+        "representative_panel_permutation_p": 0.6
+      },
+      "permitted_use": [
+        "External reference endpoint and negative-result audit"
+      ],
+      "prohibited_transfer": [
+        "Same-tissue RCC antibody concentration or model concordance"
+      ]
+    },
+    {
+      "node_id": "missing_rcc_functional_perfusion",
+      "title": "RCC same-section functional perfusion",
+      "domain": "functional_perfusion",
+      "evidence_class": "MISSING_REQUIREMENT",
+      "tissue": "human RCC section",
+      "organism": "human",
+      "assay": "not measured",
+      "status": "NOT_COMPUTED",
+      "source_path": null,
+      "measured_values": {},
+      "permitted_use": [],
+      "prohibited_transfer": [
+        "Do not substitute external LLC perfusion for RCC perfusion"
+      ]
+    },
+    {
+      "node_id": "missing_rcc_surface_antigen_calibration",
+      "title": "RCC surface-antigen molecules per cell",
+      "domain": "surface_antigen_calibration",
+      "evidence_class": "MISSING_REQUIREMENT",
+      "tissue": "human RCC section",
+      "organism": "human",
+      "assay": "not measured",
+      "status": "NOT_COMPUTED",
+      "source_path": null,
+      "measured_values": {},
+      "permitted_use": [],
+      "prohibited_transfer": [
+        "Do not convert RNA or arbitrary fluorescence to receptor copies"
+      ]
+    },
+    {
+      "node_id": "missing_rcc_administered_antibody_field",
+      "title": "RCC administered-antibody concentration field",
+      "domain": "administered_antibody_field",
+      "evidence_class": "MISSING_REQUIREMENT",
+      "tissue": "human RCC section",
+      "organism": "human",
+      "assay": "not measured",
+      "status": "NOT_COMPUTED",
+      "source_path": null,
+      "measured_values": {},
+      "permitted_use": [],
+      "prohibited_transfer": [
+        "Do not infer drug concentration from structural geometry alone"
+      ]
+    },
+    {
+      "node_id": "missing_rcc_pharmacological_endpoint",
+      "title": "RCC same-tissue pharmacological endpoint",
+      "domain": "same_tissue_pharmacological_endpoint",
+      "evidence_class": "MISSING_REQUIREMENT",
+      "tissue": "human RCC section",
+      "organism": "human",
+      "assay": "not measured",
+      "status": "NOT_COMPUTED",
+      "source_path": null,
+      "measured_values": {},
+      "permitted_use": [],
+      "prohibited_transfer": [
+        "Do not claim model-versus-drug concordance without an endpoint"
+      ]
+    },
+    {
+      "node_id": "blocked_absolute_rcc_outputs",
+      "title": "Absolute RCC reachability outputs",
+      "domain": "absolute_outputs",
+      "evidence_class": "BLOCKED_OUTPUT",
+      "tissue": "human RCC section",
+      "organism": "human",
+      "assay": "mechanistic synthesis",
+      "status": "NOT_COMPUTED",
+      "source_path": null,
+      "measured_values": {},
+      "permitted_use": [
+        "Explicit abstention and requirement audit"
+      ],
+      "prohibited_transfer": [
+        "No absolute reachable_fraction",
+        "No absolute penetration_depth",
+        "No absolute expression_reach_gap"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "rcc_histology_geometry",
+      "target": "blocked_absolute_rcc_outputs",
+      "relation": "SUPPORTS",
+      "transferable": true,
+      "reason": "Same-section morphology supplies geometry but not source or binding calibration."
+    },
+    {
+      "source": "rcc_structural_vasculature",
+      "target": "blocked_absolute_rcc_outputs",
+      "relation": "SUPPORTS",
+      "transferable": true,
+      "reason": "Structural source geometry is measured under multiple definitions."
+    },
+    {
+      "source": "rcc_target_localisation",
+      "target": "blocked_absolute_rcc_outputs",
+      "relation": "SUPPORTS",
+      "transferable": true,
+      "reason": "Relative target localisation is measured in the RCC section."
+    },
+    {
+      "source": "external_llc_perfusion",
+      "target": "missing_rcc_functional_perfusion",
+      "relation": "BLOCKED_TRANSFER",
+      "transferable": false,
+      "reason": "Different organism, tumour model and image field; method validation is transferable, labels are not."
+    },
+    {
+      "source": "external_her2_calibration",
+      "target": "missing_rcc_surface_antigen_calibration",
+      "relation": "BLOCKED_TRANSFER",
+      "transferable": false,
+      "reason": "No shared calibrator between the Cy5 source protocol and RCC Xenium channels."
+    },
+    {
+      "source": "external_igg_transport_prior",
+      "target": "blocked_absolute_rcc_outputs",
+      "relation": "CONSTRAINS",
+      "transferable": true,
+      "reason": "The prior constrains sensitivity ranges but does not identify RCC diffusivity."
+    },
+    {
+      "source": "external_administered_antibody_reference",
+      "target": "missing_rcc_administered_antibody_field",
+      "relation": "BLOCKED_TRANSFER",
+      "transferable": false,
+      "reason": "Published SKOV3 endpoints are not a concentration field in the RCC section."
+    },
+    {
+      "source": "external_breast_erbb2_control",
+      "target": "rcc_target_localisation",
+      "relation": "SUPPORTS",
+      "transferable": true,
+      "reason": "It validates the native Xenium Zarr adapter, not biological calibration."
+    },
+    {
+      "source": "missing_rcc_functional_perfusion",
+      "target": "blocked_absolute_rcc_outputs",
+      "relation": "REQUIRED_FOR",
+      "transferable": false,
+      "reason": "The vascular boundary condition is unidentified without same-section perfusion."
+    },
+    {
+      "source": "missing_rcc_surface_antigen_calibration",
+      "target": "blocked_absolute_rcc_outputs",
+      "relation": "REQUIRED_FOR",
+      "transferable": false,
+      "reason": "Binding-site density is unidentified without surface molecules per cell."
+    },
+    {
+      "source": "missing_rcc_administered_antibody_field",
+      "target": "blocked_absolute_rcc_outputs",
+      "relation": "REQUIRED_FOR",
+      "transferable": false,
+      "reason": "Absolute source concentration and validation are unavailable."
+    },
+    {
+      "source": "missing_rcc_pharmacological_endpoint",
+      "target": "blocked_absolute_rcc_outputs",
+      "relation": "REQUIRED_FOR",
+      "transferable": false,
+      "reason": "Model concordance cannot be evaluated without a same-tissue endpoint."
+    }
+  ],
+  "requirements": [
+    {
+      "requirement": "tissue_geometry",
+      "weight": 0.08,
+      "evidence_state": "SATISFIED",
+      "satisfaction": 1.0,
+      "supporting_nodes": [
+        "rcc_histology_geometry"
+      ],
+      "reason": "Same-section physical geometry and pathology regions are measured.",
+      "next_measurement": null,
+      "uncertainty_contribution": 0.0,
+      "uncertainty_share": 0.0
+    },
+    {
+      "requirement": "structural_vasculature",
+      "weight": 0.08,
+      "evidence_state": "SATISFIED",
+      "satisfaction": 1.0,
+      "supporting_nodes": [
+        "rcc_structural_vasculature"
+      ],
+      "reason": "Same-section structural CD31 geometry is available under six definitions.",
+      "next_measurement": null,
+      "uncertainty_contribution": 0.0,
+      "uncertainty_share": 0.0
+    },
+    {
+      "requirement": "spatial_target_localisation",
+      "weight": 0.12,
+      "evidence_state": "SATISFIED",
+      "satisfaction": 1.0,
+      "supporting_nodes": [
+        "rcc_target_localisation"
+      ],
+      "reason": "Relative target protein/RNA localisation is available for 465,534 cells.",
+      "next_measurement": null,
+      "uncertainty_contribution": 0.0,
+      "uncertainty_share": 0.0
+    },
+    {
+      "requirement": "functional_perfusion",
+      "weight": 0.18,
+      "evidence_state": "EXTERNAL_ONLY",
+      "satisfaction": 0.25,
+      "supporting_nodes": [
+        "external_llc_perfusion",
+        "missing_rcc_functional_perfusion"
+      ],
+      "reason": "The method is externally validated, but RCC vessel perfusion is not measured.",
+      "next_measurement": "Measure an intravascular perfusion tracer co-registered to RCC CD31.",
+      "uncertainty_contribution": 0.135,
+      "uncertainty_share": 0.22689075630252103
+    },
+    {
+      "requirement": "surface_antigen_calibration",
+      "weight": 0.18,
+      "evidence_state": "EXTERNAL_ONLY",
+      "satisfaction": 0.25,
+      "supporting_nodes": [
+        "external_her2_calibration",
+        "missing_rcc_surface_antigen_calibration"
+      ],
+      "reason": "A source-protocol calibration exists, but no shared RCC/Xenium calibrator exists.",
+      "next_measurement": "Measure target surface molecules per cell with a shared quantitative calibrator.",
+      "uncertainty_contribution": 0.135,
+      "uncertainty_share": 0.22689075630252103
+    },
+    {
+      "requirement": "matrix_transport",
+      "weight": 0.14,
+      "evidence_state": "EXTERNAL_ONLY",
+      "satisfaction": 0.25,
+      "supporting_nodes": [
+        "external_igg_transport_prior"
+      ],
+      "reason": "Published FRAP values constrain sensitivity but are not measured in RCC.",
+      "next_measurement": "Measure IgG diffusivity or a validated transport surrogate in the RCC tissue.",
+      "uncertainty_contribution": 0.10500000000000001,
+      "uncertainty_share": 0.17647058823529413
+    },
+    {
+      "requirement": "administered_antibody_field",
+      "weight": 0.15,
+      "evidence_state": "MISSING",
+      "satisfaction": 0.0,
+      "supporting_nodes": [
+        "external_administered_antibody_reference",
+        "missing_rcc_administered_antibody_field"
+      ],
+      "reason": "No administered-antibody concentration or engagement field exists in RCC.",
+      "next_measurement": "Acquire spatial antibody concentration or target-engagement measurements after dosing.",
+      "uncertainty_contribution": 0.15,
+      "uncertainty_share": 0.25210084033613445
+    },
+    {
+      "requirement": "same_tissue_pharmacological_endpoint",
+      "weight": 0.07,
+      "evidence_state": "MISSING",
+      "satisfaction": 0.0,
+      "supporting_nodes": [
+        "missing_rcc_pharmacological_endpoint"
+      ],
+      "reason": "No same-tissue response or engagement endpoint is available for concordance.",
+      "next_measurement": "Collect a blinded same-sample pharmacological endpoint before model evaluation.",
+      "uncertainty_contribution": 0.07,
+      "uncertainty_share": 0.11764705882352942
+    }
+  ],
+  "absolute_readiness_score": 40.5,
+  "satisfied_weight": 0.405,
+  "same_tissue_requirements_satisfied": 3,
+  "requirements_total": 8,
+  "dominant_uncertainty": "administered_antibody_field",
+  "measurement_priority": [
+    "administered_antibody_field",
+    "functional_perfusion",
+    "surface_antigen_calibration",
+    "matrix_transport",
+    "same_tissue_pharmacological_endpoint"
+  ],
+  "absolute_outputs": {
+    "reachable_fraction": "NOT_COMPUTED",
+    "penetration_depth": "NOT_COMPUTED",
+    "expression_reach_gap": "NOT_COMPUTED",
+    "model_pharmacological_concordance": "NOT_COMPUTED"
+  },
+  "permitted_claims": [
+    "The evidence needed for absolute RCC reachability is represented as an auditable graph.",
+    "Same-tissue measurements, external validations and literature priors are kept distinct.",
+    "The readiness score describes evidence completeness, not biological reachability.",
+    "Measurement priorities rank unresolved uncertainty under a fixed published weighting rubric."
+  ],
+  "unsupported_claims": [
+    "Absolute therapeutic-antibody reachability in RCC.",
+    "Transfer of external LLC perfusion labels to RCC vessels.",
+    "Conversion of RCC RNA or fluorescence to surface molecules per cell.",
+    "Model-versus-drug concordance in the absence of a same-tissue endpoint."
+  ],
+  "scoring_rubric": {
+    "SATISFIED": 1.0,
+    "PARTIAL": 0.5,
+    "EXTERNAL_ONLY": 0.25,
+    "MISSING": 0.0
+  }
+}

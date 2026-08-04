@@ -1,0 +1,29 @@
+{
+  "status": "IHC_SCORE_BENCHMARK_ONLY_NOT_MOLECULE_CALIBRATION",
+  "cases": 11,
+  "scores_present": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "best_feature": "brown_median",
+  "best_spearman_vs_her2_score": 0.921383257182275,
+  "max_statistic_exact_permutation_pvalue": 0.0007575757575757576,
+  "permutations_evaluated": 3960,
+  "denominator_valid_only_best_feature_spearman": 0.8677218312746247,
+  "positive_only_masks": 2,
+  "denominator_valid_masks": 9,
+  "absolute_antigen_density": {
+    "status": "NOT_COMPUTED",
+    "reasons": [
+      "Ordinal HER2 IHC score is not receptors per cell",
+      "No calibration beads or antibodies-bound-per-cell curve is supplied",
+      "Positive-only masks cannot define a tumour-cell denominator"
+    ]
+  },
+  "runtime_seconds": 7.0100178718566895,
+  "figures": [
+    "results/external_validation/her2_ihc_ahihci/figures/her2_score_vs_brown_signal.png"
+  ]
+}

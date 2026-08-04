@@ -1,0 +1,21 @@
+{
+  "status": "SHG_FEATURE_EXTRACTOR_PILOT_NOT_DIFFUSIVITY_CALIBRATION",
+  "images": 12,
+  "tissue_classes": [
+    "adjacent_colon",
+    "cancerous_colon",
+    "normal_colon"
+  ],
+  "transport_coefficient": {
+    "status": "NOT_COMPUTED",
+    "reasons": [
+      "SHG intensity and orientation are not an antibody diffusion coefficient",
+      "The pilot images are not registered to the RCC Xenium tissue",
+      "No FRAP or tracer transport measurement is supplied"
+    ]
+  },
+  "runtime_seconds": 2.273206949234009,
+  "figures": [
+    "results/external_validation/shg_collagen_pilot/figures/shg_relative_collagen_fraction.png"
+  ]
+}

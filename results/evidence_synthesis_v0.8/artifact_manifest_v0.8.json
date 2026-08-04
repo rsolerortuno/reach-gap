@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "version": "0.8.0",
+  "files": [
+    {
+      "relative_path": "claims_v0.8.json",
+      "size_bytes": 1171,
+      "sha256": "5cc18d8ac856683e902582d8053d07d0f7d2a9d5193f8cb8a3cdc0c7c3b6145e"
+    },
+    {
+      "relative_path": "evidence/evidence_graph_v0.8.json",
+      "size_bytes": 18597,
+      "sha256": "1b3e4af5d030f379a8ee694c4950b312c580e7e13261b8705f6151a86fc616a3"
+    },
+    {
+      "relative_path": "evidence/evidence_requirements_v0.8.csv",
+      "size_bytes": 1652,
+      "sha256": "22a9dd4ebf1b0ee9b3e8726c2e678c4cffa5bda87bfadb8c1e8606748444e6fd"
+    },
+    {
+      "relative_path": "evidence/evidence_uncertainty_budget_v0.8.svg",
+      "size_bytes": 2829,
+      "sha256": "08d133c186c20c7481154dcd9dcb0e4d53959ce674de30bad5c66b5d60d177ba"
+    },
+    {
+      "relative_path": "evidence/measurement_priorities_v0.8.csv",
+      "size_bytes": 767,
+      "sha256": "9e966c3373965f1b17f2ce37fef100495fb5c88890a90b3decdee1e4eab05baa"
+    },
+    {
+      "relative_path": "relative_accessibility/leave_one_component_out_v0.8.csv",
+      "size_bytes": 462,
+      "sha256": "bcb58ccc5ec63b08b3c871b52a66a82985d4171f4cb95f5e2e28944ea6ffbc9d"
+    },
+    {
+      "relative_path": "relative_accessibility/pairwise_win_probability_v0.8.csv",
+      "size_bytes": 156,
+      "sha256": "c440bac92456fdb020d61a17703e82a4ba03f37d2f07fabbc727c1415352560a"
+    },
+    {
+      "relative_path": "relative_accessibility/relative_accessibility_v0.8.json",
+      "size_bytes": 3480,
+      "sha256": "539763fff9b5315745103ced4782de5573b539da1759420411c6670ce6723ff9"
+    },
+    {
+      "relative_path": "relative_accessibility/target_rank_summary_v0.8.csv",
+      "size_bytes": 512,
+      "sha256": "228389506f61f177607fa76c1b2d7217f31881922fe508c35f083c6f478a1212"
+    },
+    {
+      "relative_path": "relative_accessibility/target_top_rank_probability_v0.8.svg",
+      "size_bytes": 2503,
+      "sha256": "ebd48a762befc7ef22503470b2cafa26f438db4bac2af2f887745961db38e3d4"
+    },
+    {
+      "relative_path": "summary_v0.8.json",
+      "size_bytes": 1216,
+      "sha256": "f318c36e448654e3778640697162bf807e35d850514ddfe6ff62b1348a1fb3c4"
+    },
+    {
+      "relative_path": "validation_v0.8.json",
+      "size_bytes": 603,
+      "sha256": "486b7e07a3afe925b037edac99cc904efc94f1453d400939da87ddbb8690c17f"
+    }
+  ]
+}

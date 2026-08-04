@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="346" viewBox="0 0 960 346" role="img" aria-labelledby="title desc">
+<title id="title">RCC relative geometry-expression top-rank probability</title>
+<desc id="desc">Probability of rank 1 across vessel and objective uncertainty shown as horizontal bars.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<text x="480" y="38" text-anchor="middle" font-family="sans-serif" font-size="24">RCC relative geometry-expression top-rank probability</text>
+<line x1="270.0" y1="65" x2="270.0" y2="274" stroke="#d0d0d0" stroke-width="1"/>
+<text x="270.0" y="296" text-anchor="middle" font-family="sans-serif" font-size="13">0.0%</text>
+<line x1="410.0" y1="65" x2="410.0" y2="274" stroke="#d0d0d0" stroke-width="1"/>
+<text x="410.0" y="296" text-anchor="middle" font-family="sans-serif" font-size="13">25.0%</text>
+<line x1="550.0" y1="65" x2="550.0" y2="274" stroke="#d0d0d0" stroke-width="1"/>
+<text x="550.0" y="296" text-anchor="middle" font-family="sans-serif" font-size="13">50.0%</text>
+<line x1="690.0" y1="65" x2="690.0" y2="274" stroke="#d0d0d0" stroke-width="1"/>
+<text x="690.0" y="296" text-anchor="middle" font-family="sans-serif" font-size="13">75.0%</text>
+<line x1="830.0" y1="65" x2="830.0" y2="274" stroke="#d0d0d0" stroke-width="1"/>
+<text x="830.0" y="296" text-anchor="middle" font-family="sans-serif" font-size="13">100.0%</text>
+<text x="258" y="107" text-anchor="end" font-family="sans-serif" font-size="15">VISTA</text>
+<rect x="270" y="90" width="551.74" height="24" fill="#404040"/>
+<text x="829.74" y="107" font-family="sans-serif" font-size="14">98.5%</text>
+<text x="258" y="151" text-anchor="end" font-family="sans-serif" font-size="15">PD-1</text>
+<rect x="270" y="134" width="5.01" height="24" fill="#404040"/>
+<text x="283.01" y="151" font-family="sans-serif" font-size="14">0.9%</text>
+<text x="258" y="195" text-anchor="end" font-family="sans-serif" font-size="15">PD-L1</text>
+<rect x="270" y="178" width="3.25" height="24" fill="#404040"/>
+<text x="281.25" y="195" font-family="sans-serif" font-size="14">0.6%</text>
+<text x="258" y="239" text-anchor="end" font-family="sans-serif" font-size="15">LAG-3</text>
+<rect x="270" y="222" width="0.00" height="24" fill="#404040"/>
+<text x="278.00" y="239" font-family="sans-serif" font-size="14">0.0%</text>
+<text x="550.0" y="328" text-anchor="middle" font-family="sans-serif" font-size="15">Probability of rank 1 across vessel and objective uncertainty</text>
+</svg>

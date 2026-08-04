@@ -1,0 +1,13 @@
+omitted_component,target,top_rank_probability
+tumour_positive_fraction,LAG-3,0.0
+tumour_positive_fraction,PD-1,0.054
+tumour_positive_fraction,PD-L1,0.03425
+tumour_positive_fraction,VISTA,0.91175
+median_structural_proximity,LAG-3,0.0
+median_structural_proximity,PD-1,0.07775
+median_structural_proximity,PD-L1,0.0
+median_structural_proximity,VISTA,0.92225
+within_50um,LAG-3,0.0
+within_50um,PD-1,0.0
+within_50um,PD-L1,0.02775
+within_50um,VISTA,0.97225

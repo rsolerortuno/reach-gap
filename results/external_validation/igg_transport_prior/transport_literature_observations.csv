@@ -1,0 +1,7 @@
+source,system,metric,central_value,lower_value,upper_value,unit,note
+Netti_2000,MCaIV tumour,IgG diffusion coefficient,1.97,1.24,3.12,1e-7 cm2/s,FRAP; reported interval reproduced from the source table
+Netti_2000,LS174T tumour,IgG diffusion coefficient,1.89,1.29,2.77,1e-7 cm2/s,FRAP; reported interval reproduced from the source table
+Netti_2000,U87 tumour,IgG diffusion coefficient,0.87,0.73,1.03,1e-7 cm2/s,FRAP; reported interval reproduced from the source table
+Netti_2000,HSTS26T tumour,IgG diffusion coefficient,0.96,0.54,1.71,1e-7 cm2/s,FRAP; reported interval reproduced from the source table
+Davies_2002,rhabdomyosarcoma tumour clones,D_tissue / D_free,0.4,0.3,0.5,ratio,Range across tumour clones; collagen and sulphated GAG associated with lower diffusion
+Ramanujan_2002,high-hyaluronan collagen gel,IgG D_gel / D_free,0.56,0.45,0.67,ratio,Reported mean ± spread represented as a conservative interval

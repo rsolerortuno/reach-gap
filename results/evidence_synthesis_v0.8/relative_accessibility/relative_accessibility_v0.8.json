@@ -1,0 +1,122 @@
+{
+  "version": "0.8.0",
+  "status": "RELATIVE_RCC_GEOMETRY_EXPRESSION_PROXY_ABSOLUTE_REACHABILITY_NOT_COMPUTED",
+  "target_count": 4,
+  "vessel_definition_count": 6,
+  "draws": 20000,
+  "seed": 17,
+  "components": [
+    "tumour_positive_fraction",
+    "median_structural_proximity",
+    "within_50um"
+  ],
+  "weight_sampling": "Uniform over the three-component simplex via Dirichlet(1,1,1)",
+  "vessel_definition_sampling": "Uniform over six preregistered structural vessel definitions",
+  "target_summaries": [
+    {
+      "target": "LAG-3",
+      "tumour_positive_fraction": 0.2309188210453588,
+      "top_rank_probability": 0.0,
+      "median_rank": 3.0,
+      "rank_q05": 2.0,
+      "rank_q95": 3.0,
+      "proxy_score_median": 0.4651926334438127,
+      "proxy_score_q05": 0.19547147711130947,
+      "proxy_score_q95": 0.6417549168816873
+    },
+    {
+      "target": "PD-1",
+      "tumour_positive_fraction": 0.1760986810169481,
+      "top_rank_probability": 0.00895,
+      "median_rank": 2.0,
+      "rank_q05": 2.0,
+      "rank_q95": 4.0,
+      "proxy_score_median": 0.4625578656422733,
+      "proxy_score_q05": 0.14096871896402213,
+      "proxy_score_q95": 0.8172052326502154
+    },
+    {
+      "target": "PD-L1",
+      "tumour_positive_fraction": 0.0464339213017698,
+      "top_rank_probability": 0.0058,
+      "median_rank": 4.0,
+      "rank_q05": 2.0,
+      "rank_q95": 4.0,
+      "proxy_score_median": 0.08364998280228503,
+      "proxy_score_q05": 0.0,
+      "proxy_score_q95": 0.6063769900072207
+    },
+    {
+      "target": "VISTA",
+      "tumour_positive_fraction": 0.439403911384828,
+      "top_rank_probability": 0.98525,
+      "median_rank": 1.0,
+      "rank_q05": 1.0,
+      "rank_q95": 1.0,
+      "proxy_score_median": 0.994995274039777,
+      "proxy_score_q05": 0.8529944978025285,
+      "proxy_score_q95": 1.0
+    }
+  ],
+  "pairwise_win_probability": {
+    "LAG-3": {
+      "LAG-3": 0.5,
+      "PD-1": 0.43505,
+      "PD-L1": 0.8248,
+      "VISTA": 0.0
+    },
+    "PD-1": {
+      "LAG-3": 0.56495,
+      "PD-1": 0.5,
+      "PD-L1": 0.8128,
+      "VISTA": 0.00895
+    },
+    "PD-L1": {
+      "LAG-3": 0.1752,
+      "PD-1": 0.1872,
+      "PD-L1": 0.5,
+      "VISTA": 0.0058
+    },
+    "VISTA": {
+      "LAG-3": 1.0,
+      "PD-1": 0.99105,
+      "PD-L1": 0.9942,
+      "VISTA": 0.5
+    }
+  },
+  "leave_one_component_out_top_probability": {
+    "tumour_positive_fraction": {
+      "LAG-3": 0.0,
+      "PD-1": 0.054,
+      "PD-L1": 0.03425,
+      "VISTA": 0.91175
+    },
+    "median_structural_proximity": {
+      "LAG-3": 0.0,
+      "PD-1": 0.07775,
+      "PD-L1": 0.0,
+      "VISTA": 0.92225
+    },
+    "within_50um": {
+      "LAG-3": 0.0,
+      "PD-1": 0.0,
+      "PD-L1": 0.02775,
+      "VISTA": 0.97225
+    }
+  },
+  "stable_top_target": "VISTA",
+  "stable_top_probability": 0.98525,
+  "permitted_claims": [
+    "Targets may be compared on a relative, within-section geometry-expression proxy.",
+    "Rank uncertainty includes vessel-definition choice and unknown objective weights.",
+    "A stable top target means robustness within this proxy only."
+  ],
+  "unsupported_claims": [
+    "Absolute antibody reachability or engagement.",
+    "Clinical target priority or efficacy.",
+    "Functional perfusion of structural CD31 definitions.",
+    "Equivalence of relative proxy score and drug concentration.",
+    "A Bayesian posterior probability that a target is clinically best.",
+    "Comparison of proxy scores across datasets or changing target sets."
+  ]
+}

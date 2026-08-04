@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "command": "PYTHONPATH=src python -c prepare_he_pathology_rcc(..., analysis_level=4)",
+  "elapsed_wall_seconds": 18.29,
+  "maximum_resident_set_kb": 1052860,
+  "maximum_resident_set_gib": 1.0040855407714844,
+  "analysis_level": 4,
+  "note": "RSS includes native TIFF, NumPy, SciPy and image-processing allocations; source hashing reads the full OME-TIFF by streaming."
+}

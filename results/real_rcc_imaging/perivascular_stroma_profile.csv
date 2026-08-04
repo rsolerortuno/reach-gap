@@ -1,0 +1,16 @@
+distance_band_um,pixels,alphaSMA_median,alphaSMA_q90,Vimentin_median,Vimentin_q90,definition
+0-10,1370125,2.0,11.0,18.0,55.0,inclusive_fpr_1pct
+10-25,1807908,1.0,5.0,15.0,52.0,inclusive_fpr_1pct
+25-50,1273005,1.0,4.0,14.0,50.0,inclusive_fpr_1pct
+50-100,736891,0.0,3.0,11.0,48.0,inclusive_fpr_1pct
+>=100,532131,0.0,1.0,1.0,34.0,inclusive_fpr_1pct
+0-10,1160920,2.0,12.0,19.0,56.0,balanced_fpr_0_5pct
+10-25,1743406,1.0,5.0,15.0,52.0,balanced_fpr_0_5pct
+25-50,1370282,1.0,4.0,14.0,50.0,balanced_fpr_0_5pct
+50-100,833698,0.0,3.0,11.0,48.0,balanced_fpr_0_5pct
+>=100,611754,0.0,2.0,1.0,35.0,balanced_fpr_0_5pct
+0-10,733183,2.0,14.0,20.0,60.0,strict_fpr_0_1pct
+10-25,1461525,1.0,6.0,16.0,53.0,strict_fpr_0_1pct
+25-50,1563808,1.0,4.0,14.0,51.0,strict_fpr_0_1pct
+50-100,1133725,0.0,4.0,12.0,47.0,strict_fpr_0_1pct
+>=100,827819,0.0,2.0,4.0,37.0,strict_fpr_0_1pct

@@ -1,0 +1,5 @@
+image_label,image,sensitivity_settings,all_negative_distance_correlations,all_near_to_far_ratios_above_one,spearman_min,spearman_max,near_to_far_ratio_min,near_to_far_ratio_max
+Upper_Left,Fig_5C_Upper_Left.tif,3,True,True,-0.17168106565207064,-0.16962644337696575,2.0499404590069403,2.0531385011478545
+Upper_Right,Fig_5C_Upper_Right.tif,3,True,True,-0.25236503728874116,-0.2493390119874422,4.048875239107552,4.0629096513763745
+Bottom_Left,Fig_5C_Bottom_Left.tif,3,True,True,-0.16488497826030088,-0.02593030047942561,1.7918541258703489,2.651835388645524
+Bottom_Right,Fig_5C_Bottom_Right.tif,3,True,True,-0.3568949343144592,-0.23807120397273882,3.471506287455864,14.072250781988306

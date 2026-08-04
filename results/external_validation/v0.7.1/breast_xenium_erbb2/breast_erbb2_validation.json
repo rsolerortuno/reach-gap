@@ -1,0 +1,67 @@
+{
+  "version": "0.7.1",
+  "completed_at_utc": "2026-08-04T15:42:08.256900+00:00",
+  "status": "INDEPENDENT_BREAST_XENIUM_ERBB2_RNA_SUMMARY_COMPLETE",
+  "sections": 2,
+  "cells": 679197,
+  "provider_tumor_cells": 148736,
+  "descriptive_tumor_group_mean_fold_HER2_3plus_vs_HER2_2plus": 20.623041384394085,
+  "sample_summary": [
+    {
+      "sample": "S2_Middle_HER2_2plus",
+      "provider_status": "HER2-2+",
+      "cells": 345556,
+      "provider_groups": 11,
+      "features": 542,
+      "matrix_shape": [
+        542,
+        380739
+      ],
+      "ERBB2_RNA_mean_all_cells": 0.7572144601743277,
+      "ERBB2_RNA_median_all_cells": 0.0,
+      "ERBB2_RNA_positive_fraction_all_cells": 0.24870353864496636,
+      "provider_tumor_cells": 87431,
+      "ERBB2_RNA_mean_provider_tumor_cells": 2.7289062231931465,
+      "ERBB2_RNA_median_provider_tumor_cells": 2.0,
+      "ERBB2_RNA_positive_fraction_provider_tumor_cells": 0.7768869165399,
+      "nested_zarr_root_prefix": "",
+      "nested_zarr_size_bytes": 40664028,
+      "nested_zarr_sha256": "cb055542da7729745d5bff4cef00ba488dbfe6b2cb4295d2372f0d7091df963a",
+      "source_bundle_size_bytes": 4453854396,
+      "source_bundle_sha256": "NOT_COMPUTED_BY_CONFIGURATION"
+    },
+    {
+      "sample": "S2_Bottom_HER2_3plus",
+      "provider_status": "HER2-3+",
+      "cells": 333641,
+      "provider_groups": 15,
+      "features": 542,
+      "matrix_shape": [
+        542,
+        358519
+      ],
+      "ERBB2_RNA_mean_all_cells": 10.79205793053012,
+      "ERBB2_RNA_median_all_cells": 0.0,
+      "ERBB2_RNA_positive_fraction_all_cells": 0.30555597183799355,
+      "provider_tumor_cells": 61305,
+      "ERBB2_RNA_mean_provider_tumor_cells": 56.27834597504282,
+      "ERBB2_RNA_median_provider_tumor_cells": 47.0,
+      "ERBB2_RNA_positive_fraction_provider_tumor_cells": 0.9878313351276404,
+      "nested_zarr_root_prefix": "",
+      "nested_zarr_size_bytes": 39196221,
+      "nested_zarr_sha256": "962cb95195bc2b9c061dba9d419bb2bc3befcb071360578912cbe19618110e71",
+      "source_bundle_size_bytes": 6218590192,
+      "source_bundle_sha256": "NOT_COMPUTED_BY_CONFIGURATION"
+    }
+  ],
+  "statistical_scope": "Descriptive comparison of two independent sections; no cell-level inferential p-value is reported because cells are not independent biological replicates.",
+  "claim_scope": {
+    "validated": "ERBB2 RNA extraction and descriptive summary from two independent Xenium Explorer Zarr matrices",
+    "not_validated": [
+      "HER2 surface receptors per cell",
+      "Transfer of the McKinski Cy5 calibration to Xenium",
+      "Antibody binding or penetration in these sections",
+      "Clinical equivalence of RNA counts and IHC status"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+sample_left,sample_right,targets_compared,spearman_target_rank
+lung_adenocarcinoma_TMA1,lung_adenocarcinoma_TMA2,6,-0.028571428571428574
+lung_adenocarcinoma_TMA1,mesothelioma_TMA1,6,-0.08571428571428573
+lung_adenocarcinoma_TMA1,mesothelioma_TMA2,6,-0.6
+lung_adenocarcinoma_TMA2,mesothelioma_TMA1,6,0.7142857142857143
+lung_adenocarcinoma_TMA2,mesothelioma_TMA2,6,-0.3714285714285715
+mesothelioma_TMA1,mesothelioma_TMA2,6,-0.48571428571428577

@@ -1,0 +1,25 @@
+{
+  "permitted": [
+    "The full RCC section was analysed at a declared OME pyramid level.",
+    "CD31 image structures provide a relative vascular-geometry proxy.",
+    "alphaSMA and Vimentin provide relative perivascular stromal signal.",
+    "Matched morphology-focus and cell-aggregate protein measurements can be compared.",
+    "Vessel-definition sensitivity is propagated into target-distance summaries."
+  ],
+  "conditional": [
+    "CD31 structures may represent vessel walls, but functional perfusion is unmeasured.",
+    "Local image intensity is relative and depends on acquisition and correction settings."
+  ],
+  "unsupported": [
+    "The CD31 mask identifies functionally perfused vessels.",
+    "Xenium image intensity equals surface-antigen molecules per cell.",
+    "A real reachable_fraction or expression_reach_gap has been computed.",
+    "The image geometry predicts clinical response or programme outcome."
+  ],
+  "abstention_reasons": [
+    "FUNCTIONALLY_PERFUSED_VESSELS_NOT_IDENTIFIED",
+    "SURFACE_ANTIGEN_CALIBRATION_NOT_AVAILABLE",
+    "MATRIX_TRANSPORT_COEFFICIENT_NOT_CALIBRATED",
+    "DRUG_DISTRIBUTION_OR_ENGAGEMENT_NOT_MEASURED"
+  ]
+}

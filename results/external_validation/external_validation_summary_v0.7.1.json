@@ -1,0 +1,29 @@
+{
+  "absolute_reachability": {
+    "reasons": [
+      "No functional-perfusion measurement in the RCC section",
+      "No RCC surface-antigen calibration in molecules per cell",
+      "No RCC-specific measured antibody concentration field",
+      "No same-tissue pharmacological concordance endpoint"
+    ],
+    "status": "NOT_COMPUTED"
+  },
+  "breast_xenium_erbb2": {
+    "cells": 679197,
+    "descriptive_tumor_group_mean_fold_HER2_3plus_vs_HER2_2plus": 20.623041384394085,
+    "provider_tumor_cells": 148736,
+    "sections": 2
+  },
+  "perfusion": {
+    "fields": 4,
+    "median_distance_hoechst_spearman": -0.20487613481240474,
+    "median_near_to_far_mean_ratio": 3.061670838050694,
+    "sensitivity_runs": 12
+  },
+  "status": "EXTERNAL_PERFUSION_ALL_FOUR_FIELDS_AND_BREAST_XENIUM_ERBB2_RNA_VALIDATED_MODEL_PHARMACOLOGICAL_CONCORDANCE_NOT_COMPUTED",
+  "validation": {
+    "checks": 69,
+    "issues": 0
+  },
+  "version": "0.7.1"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "VERIFIED",
+  "parts": 40,
+  "source_bytes": 3720697771,
+  "provider_md5_expected": "96ad5f699c7d6280cdf6af1c13f39515",
+  "observed_md5": "96ad5f699c7d6280cdf6af1c13f39515",
+  "observed_sha256": "5e3e35fd6dd6122a3927c01aff273a25846d7a2532191b547eeacba46e1dacde",
+  "part_sha256_policy": "all 40 parts verified against source split manifest before concatenation",
+  "source_manifest": "results/real_rcc_he/source_he_split_manifest.json"
+}

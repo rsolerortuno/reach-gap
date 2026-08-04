@@ -1,0 +1,160 @@
+{
+  "version": "0.7.1",
+  "completed_at_utc": "2026-08-04T15:42:11.315559+00:00",
+  "status": "COMPLETE",
+  "perfusion_all_four_fields": true,
+  "breast_erbb2_two_sections": true,
+  "absolute_rcc_outputs": {
+    "reachable_fraction": "NOT_COMPUTED",
+    "penetration_depth": "NOT_COMPUTED",
+    "expression_reach_gap": "NOT_COMPUTED"
+  },
+  "reasons_absolute_rcc_remains_not_computed": [
+    "No functional-perfusion measurement in the RCC section",
+    "No RCC surface-antigen calibration in molecules per cell",
+    "No RCC-specific measured antibody concentration field",
+    "No same-tissue pharmacological concordance endpoint"
+  ],
+  "files": [
+    {
+      "relative_path": "breast_xenium_erbb2/S2_Bottom_HER2_3plus/analysis_summary.html",
+      "size_bytes": 12891363,
+      "sha256": "a838182d9e488e1c55e7fe500fa50d478ba4f378a98de8fabb90140944f8de00"
+    },
+    {
+      "relative_path": "breast_xenium_erbb2/S2_Bottom_HER2_3plus/bundle_inventory.csv",
+      "size_bytes": 968,
+      "sha256": "2d2241c2c5715bbcf4a43024b08c9d21f28a26af1ecaf9237906c2824d3290a5"
+    },
+    {
+      "relative_path": "breast_xenium_erbb2/S2_Bottom_HER2_3plus/cell_feature_matrix.zarr.zip",
+      "size_bytes": 39196221,
+      "sha256": "962cb95195bc2b9c061dba9d419bb2bc3befcb071360578912cbe19618110e71"
+    },
+    {
+      "relative_path": "breast_xenium_erbb2/S2_Bottom_HER2_3plus/experiment.xenium",
+      "size_bytes": 2751,
+      "sha256": "5b3b5300060f0e14eac6333377e4f64482d2968dfd81b0b1f6f3e0bd4be9442c"
+    },
+    {
+      "relative_path": "breast_xenium_erbb2/S2_Bottom_HER2_3plus/gene_panel.json",
+      "size_bytes": 157037,
+      "sha256": "6a84bf4ad93d29833fc6e9fd0bb708b6639d388495ea6c578a5491d33a34aa5b"
+    },
+    {
+      "relative_path": "breast_xenium_erbb2/S2_Middle_HER2_2plus/analysis_summary.html",
+      "size_bytes": 11048603,
+      "sha256": "340fc8999c582e7492eb918b74772e9d8b3ecbc566a179a6680e43531b906243"
+    },
+    {
+      "relative_path": "breast_xenium_erbb2/S2_Middle_HER2_2plus/bundle_inventory.csv",
+      "size_bytes": 966,
+      "sha256": "e9f50a448fbd0f7faa4912f99d270041e4fae3d52838a2ca3d2132e45ebe8f30"
+    },
+    {
+      "relative_path": "breast_xenium_erbb2/S2_Middle_HER2_2plus/cell_feature_matrix.zarr.zip",
+      "size_bytes": 40664028,
+      "sha256": "cb055542da7729745d5bff4cef00ba488dbfe6b2cb4295d2372f0d7091df963a"
+    },
+    {
+      "relative_path": "breast_xenium_erbb2/S2_Middle_HER2_2plus/experiment.xenium",
+      "size_bytes": 2756,
+      "sha256": "a61d47c9f314f1b85efb4a0b35f95e372df8d8a9b0f05e6c410209009ec410d6"
+    },
+    {
+      "relative_path": "breast_xenium_erbb2/S2_Middle_HER2_2plus/gene_panel.json",
+      "size_bytes": 157037,
+      "sha256": "6a84bf4ad93d29833fc6e9fd0bb708b6639d388495ea6c578a5491d33a34aa5b"
+    },
+    {
+      "relative_path": "breast_xenium_erbb2/breast_erbb2_cell_values.csv.gz",
+      "size_bytes": 3899779,
+      "sha256": "8d0c051e9b94eae34b61ff42664b59021b790f7dc17e60b5270396818068817e"
+    },
+    {
+      "relative_path": "breast_xenium_erbb2/breast_erbb2_group_summary.csv",
+      "size_bytes": 3100,
+      "sha256": "143503390de60ab257c36f9a35f046df4485d29dcf93d4906a5ad4b02bc55c9b"
+    },
+    {
+      "relative_path": "breast_xenium_erbb2/breast_erbb2_sample_summary.csv",
+      "size_bytes": 941,
+      "sha256": "472820e27429ec61e8cab08a7bcc34100c579e010269db23c1497ca0c75d6966"
+    },
+    {
+      "relative_path": "breast_xenium_erbb2/breast_erbb2_validation.json",
+      "size_bytes": 2700,
+      "sha256": "f0cf50fc1c3ef36da560ae48bebf68ca5c1287dce3ec5696bc30bcb8d5177544"
+    },
+    {
+      "relative_path": "breast_xenium_erbb2/erbb2_tumor_group_sample_comparison.png",
+      "size_bytes": 49360,
+      "sha256": "217ca311c17fe710a03aa24c33ed32f3dfc3fc83d52611cfa6d61f2287926634"
+    },
+    {
+      "relative_path": "breast_xenium_erbb2/zarr_array_inventory.json",
+      "size_bytes": 844,
+      "sha256": "91c1ab7bfb2323a04f8915f724ec826e6293f50cfafc08d24ffda2d2e52304ff"
+    },
+    {
+      "relative_path": "perfusion_s_biad3159_all4/Bottom_Left_cd31_mask_overlay.png",
+      "size_bytes": 1574788,
+      "sha256": "7bf40be761f07cf784fac0fa7df4f1fa2b24d4febd54e17d3f7ab168fdd0cf0d"
+    },
+    {
+      "relative_path": "perfusion_s_biad3159_all4/Bottom_Left_hoechst_distance_profile.png",
+      "size_bytes": 124219,
+      "sha256": "a65291a813d4fa5460cdcfb72baa0f73b990812faf24372c1034feae8d523b87"
+    },
+    {
+      "relative_path": "perfusion_s_biad3159_all4/Bottom_Right_cd31_mask_overlay.png",
+      "size_bytes": 2021297,
+      "sha256": "76e362bd329d4ed38e18e557636205422d26be1f5378974f48c0c6c01116b6f9"
+    },
+    {
+      "relative_path": "perfusion_s_biad3159_all4/Bottom_Right_hoechst_distance_profile.png",
+      "size_bytes": 107260,
+      "sha256": "d4b5f3d0a74d2666dc6058df0216249743e2cc6ee0decb7eaea55c68a49f442d"
+    },
+    {
+      "relative_path": "perfusion_s_biad3159_all4/Upper_Left_cd31_mask_overlay.png",
+      "size_bytes": 1242259,
+      "sha256": "c5e26ae772cd3880571f916611abcd4770183d96491b4368e865fde0f2ea5755"
+    },
+    {
+      "relative_path": "perfusion_s_biad3159_all4/Upper_Left_hoechst_distance_profile.png",
+      "size_bytes": 98295,
+      "sha256": "273d5b4c2f18bfef795d44d1e9fc5f60c5a2bb8da07b0de785ceb474cbe0c9a3"
+    },
+    {
+      "relative_path": "perfusion_s_biad3159_all4/Upper_Right_cd31_mask_overlay.png",
+      "size_bytes": 1434152,
+      "sha256": "f7170ae34ba7c1b9bc89c9b5f04a963e55d1ea088faea5e1cda72029cd91156d"
+    },
+    {
+      "relative_path": "perfusion_s_biad3159_all4/Upper_Right_hoechst_distance_profile.png",
+      "size_bytes": 87724,
+      "sha256": "51ef5cb476c6133497f9fafabb2ae53b6eda77d7282d9b5460dde0a005f068e8"
+    },
+    {
+      "relative_path": "perfusion_s_biad3159_all4/perfusion_distance_profiles_all4_sensitivity.csv",
+      "size_bytes": 6745,
+      "sha256": "7f0fa81f55942816c245f28ce3058bf0c3ceb5cd39a5af1331f3c94a43c589a1"
+    },
+    {
+      "relative_path": "perfusion_s_biad3159_all4/perfusion_image_robustness_all4.csv",
+      "size_bytes": 680,
+      "sha256": "c9ed1c72e106faefa9aa867144bf06b99a2872678ee43439c0bfc22a8224ac6b"
+    },
+    {
+      "relative_path": "perfusion_s_biad3159_all4/perfusion_sensitivity_summary_all4.csv",
+      "size_bytes": 4218,
+      "sha256": "9d00644fd4eafb3e8b8795a17de16555e3331601b036082652c23a306c6e9fce"
+    },
+    {
+      "relative_path": "perfusion_s_biad3159_all4/perfusion_validation_all4.json",
+      "size_bytes": 853,
+      "sha256": "8e96d27845be52a0f9bfe221f0878aed1280ac85af1edf5dcb5d9d65968bdc09"
+    }
+  ]
+}

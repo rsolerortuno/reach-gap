@@ -1,0 +1,21 @@
+{
+  "status": "IN_VIVO_HOECHST_PERFUSION_RELATIVE_VALIDATION_COMPOSITE_IMAGES",
+  "images": 2,
+  "downsample": 4,
+  "all_images_negative_distance_correlation": true,
+  "all_images_near_vessel_enrichment": true,
+  "median_distance_hoechst_spearman": -0.16046994885557114,
+  "median_near_to_far_mean_ratio": 2.3813758174686814,
+  "rcc_transfer": {
+    "status": "NOT_COMPUTED",
+    "reasons": [
+      "The validation images are independent LLC mouse tumours, not the RCC Xenium section",
+      "The TIFF exports are RGB composites rather than raw single-channel acquisitions",
+      "Hoechst access validates a perfusion proxy, not administered-antibody delivery"
+    ]
+  },
+  "runtime_seconds": 1.4022583961486816,
+  "figures": [
+    "/mnt/data/reach-gap-v070/reach-gap/results/external_validation/perfusion_s_biad3159/figures/hoechst_vs_cd31_distance.png"
+  ]
+}

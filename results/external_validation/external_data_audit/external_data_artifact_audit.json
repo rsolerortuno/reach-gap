@@ -1,0 +1,49 @@
+{
+  "status": "FAIL",
+  "artifacts": {
+    "bordeau_pdf_download": {
+      "path": "Bordeau_2021_trastuzumab_SKOV3.pdf",
+      "expected_kind": "pdf",
+      "actual_kind": "html",
+      "valid": false,
+      "size_bytes": 21260,
+      "sha256": "5915ff412295867aa5df1142847294929e1a204cd7c08b8d1710de88b8afdd3b"
+    },
+    "bordeau_supplement_download": {
+      "path": "PMC8338739_supplementaryFiles.zip",
+      "expected_kind": "zip",
+      "actual_kind": "xml",
+      "valid": false,
+      "size_bytes": 164,
+      "sha256": "dc11a93206d885a615ee2199383123412a2a511164b7b11ad0c5f78914ab7ccc"
+    },
+    "ahihci_split_part_1": {
+      "path": "dataset_images_AHIHCI.zip.part001-of-006",
+      "expected_kind": "zip",
+      "actual_kind": "zip",
+      "valid": true,
+      "size_bytes": 95000000,
+      "sha256": "f1a859554901a6f3a17bd960ac84174ae2c018ade0bec8e4e9d22c9790783cf2"
+    },
+    "cosmx_expression_gsm9046088": {
+      "path": "GSM9046088_Lung_Adenocarcinoma_TMA1_CosMx_exprMat_file.csv.gz",
+      "expected_kind": "gzip",
+      "actual_kind": "gzip",
+      "valid": true,
+      "size_bytes": 7249202,
+      "sha256": "706278343388481e6f03def0e65cb85cb7c500789f7b35a107b45944d997741e"
+    },
+    "shg_example_tiff": {
+      "path": "052821_17-302A.tif.tiff",
+      "expected_kind": "tiff",
+      "actual_kind": "tiff",
+      "valid": true,
+      "size_bytes": 1085308,
+      "sha256": "8d5b8e276f817bc735a5618690c9607afe7514b7ddb2a7af00b0a4dab3c89e50"
+    }
+  },
+  "invalid_artifacts": [
+    "bordeau_pdf_download",
+    "bordeau_supplement_download"
+  ]
+}

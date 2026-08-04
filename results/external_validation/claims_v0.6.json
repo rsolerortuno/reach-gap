@@ -1,0 +1,28 @@
+{
+  "status": "EXTERNAL_ADAPTERS_AND_RELATIVE_FEATURES_VALIDATED_PHARMACOLOGICAL_CONCORDANCE_NOT_COMPUTED",
+  "supported": [
+    "The CosMx adapters processed four samples and 199,517 metadata cells with explicit pixel units.",
+    "CosMx polygon reconstruction and metadata-expression joins are quantified per sample.",
+    "Relative RNA-endothelial-proxy distances are strongly sensitive to proxy definition.",
+    "Target distance rankings do not generalise across the four CosMx samples.",
+    "Relative HER2 image features discriminate ordinal IHC score in this 11-case benchmark.",
+    "The denominator-valid-only HER2 association remains positive.",
+    "The SHG feature extractor returns relative collagen fraction and orientation coherence on a 12-image pilot.",
+    "Content-signature validation detects the Bordeau fallback files as invalid HTML/XML payloads."
+  ],
+  "unsupported": [
+    "CosMx RNA endothelial proxies are functionally perfused vessels.",
+    "CosMx pixel distances are micrometres.",
+    "HER2 image intensity is receptors per cell.",
+    "HER2 ordinal score calibrates binding capacity.",
+    "SHG intensity or coherence is an antibody diffusion coefficient.",
+    "The Bordeau data provide a valid measured-antibody distribution benchmark in this release.",
+    "Any real-tissue reachable fraction, penetration depth, expression-reach gap, efficacy or clinical success prediction."
+  ],
+  "abstention_reasons": [
+    "No valid raw administered-antibody distribution artifact was available",
+    "No functionally perfused vessel measurement was supplied",
+    "No receptors-per-cell calibration was supplied",
+    "SHG features were not linked to antibody diffusivity or registered to the RCC tissue"
+  ]
+}

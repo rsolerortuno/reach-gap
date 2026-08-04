@@ -1,0 +1,9 @@
+requirement,weight,evidence_state,satisfaction,uncertainty_contribution,uncertainty_share,reason,next_measurement
+tissue_geometry,0.08,SATISFIED,1.0,0.0,0.0,Same-section physical geometry and pathology regions are measured.,
+structural_vasculature,0.08,SATISFIED,1.0,0.0,0.0,Same-section structural CD31 geometry is available under six definitions.,
+spatial_target_localisation,0.12,SATISFIED,1.0,0.0,0.0,"Relative target protein/RNA localisation is available for 465,534 cells.",
+functional_perfusion,0.18,EXTERNAL_ONLY,0.25,0.135,0.22689075630252103,"The method is externally validated, but RCC vessel perfusion is not measured.",Measure an intravascular perfusion tracer co-registered to RCC CD31.
+surface_antigen_calibration,0.18,EXTERNAL_ONLY,0.25,0.135,0.22689075630252103,"A source-protocol calibration exists, but no shared RCC/Xenium calibrator exists.",Measure target surface molecules per cell with a shared quantitative calibrator.
+matrix_transport,0.14,EXTERNAL_ONLY,0.25,0.10500000000000001,0.17647058823529413,Published FRAP values constrain sensitivity but are not measured in RCC.,Measure IgG diffusivity or a validated transport surrogate in the RCC tissue.
+administered_antibody_field,0.15,MISSING,0.0,0.15,0.25210084033613445,No administered-antibody concentration or engagement field exists in RCC.,Acquire spatial antibody concentration or target-engagement measurements after dosing.
+same_tissue_pharmacological_endpoint,0.07,MISSING,0.0,0.07,0.11764705882352942,No same-tissue response or engagement endpoint is available for concordance.,Collect a blinded same-sample pharmacological endpoint before model evaluation.

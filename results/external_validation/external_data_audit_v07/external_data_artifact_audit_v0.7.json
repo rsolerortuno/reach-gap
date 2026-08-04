@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "artifacts": {
+    "bordeau_supplement_docx": {
+      "path": "/mnt/data/NIHMS1684776-supplement-1.docx",
+      "expected_kind": "zip",
+      "actual_kind": "zip",
+      "valid": true,
+      "size_bytes": 1443539,
+      "sha256": "29f822f12b1a60ddbaf57dee412f17ef7a862da4db2ad55e88709cba4e3e03e9"
+    },
+    "mckinski_workbook_xlsx": {
+      "path": "/mnt/data/41598_2026_42898_MOESM1_ESM.xlsx",
+      "expected_kind": "zip",
+      "actual_kind": "zip",
+      "valid": true,
+      "size_bytes": 12748,
+      "sha256": "6bca2f1f841a3c1c271c6462b82ff0108b92821e776495ef18d8263d7e38d1e4"
+    },
+    "mckinski_article_pdf": {
+      "path": "/mnt/data/41598_2026_Article_42898.pdf",
+      "expected_kind": "pdf",
+      "actual_kind": "pdf",
+      "valid": true,
+      "size_bytes": 4507784,
+      "sha256": "6f14e6cecc9655b44f01e726aeefb0152e0be4b5802cc7e2c3df492f23bf9be5"
+    },
+    "netti_frap_pdf": {
+      "path": "/mnt/data/ch090002497p.pdf",
+      "expected_kind": "pdf",
+      "actual_kind": "pdf",
+      "valid": true,
+      "size_bytes": 1006110,
+      "sha256": "38ecfb1147a3b47110bbdaffea837b3d77677f145237b4b77697b0456fe61621"
+    },
+    "ramanujan_frap_pdf": {
+      "path": "/mnt/data/12202388.pdf",
+      "expected_kind": "pdf",
+      "actual_kind": "pdf",
+      "valid": true,
+      "size_bytes": 529479,
+      "sha256": "d4e402a15d53b304ae30220d4048367f1b23f7a00ff789093f40f50170c62331"
+    },
+    "davies_frap_pdf": {
+      "path": "/mnt/data/86-6600270a.pdf",
+      "expected_kind": "pdf",
+      "actual_kind": "pdf",
+      "valid": true,
+      "size_bytes": 142795,
+      "sha256": "70486fe28635a1bce8dca15fb9802cad209f552458afee0646d5427d0895228b"
+    },
+    "s_biad3159_upper_left_tiff": {
+      "path": "/mnt/data/Fig_5C_Upper_Left.tif.tiff",
+      "expected_kind": "tiff",
+      "actual_kind": "tiff",
+      "valid": true,
+      "size_bytes": 93008102,
+      "sha256": "bf18e908318104e84c8f4900ced45394e942e97ce5903ac33b083d3b3255136f"
+    },
+    "s_biad3159_bottom_left_tiff": {
+      "path": "/mnt/data/Fig_5C_Bottom_Left.tif.tiff",
+      "expected_kind": "tiff",
+      "actual_kind": "tiff",
+      "valid": true,
+      "size_bytes": 93008102,
+      "sha256": "18ae790060076c5efc7e03658bf74c66de30801c8636827864485265fa20de6d"
+    }
+  },
+  "invalid_artifacts": []
+}

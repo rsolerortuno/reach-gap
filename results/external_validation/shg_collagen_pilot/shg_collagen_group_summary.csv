@@ -1,0 +1,4 @@
+tissue_class,images,collagen_positive_fraction_median,orientation_coherence_median
+adjacent_colon,4,0.0729665756225586,0.3715157530680673
+cancerous_colon,4,0.06544065475463867,0.2882995054269446
+normal_colon,4,0.0995478630065918,0.3986675425401005

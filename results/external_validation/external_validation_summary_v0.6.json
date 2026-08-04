@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "repository_version": "0.6.0",
+  "status": "EXTERNAL_ADAPTERS_AND_RELATIVE_FEATURES_VALIDATED_PHARMACOLOGICAL_CONCORDANCE_NOT_COMPUTED",
+  "cosmx": {
+    "status": "CROSS_PLATFORM_RELATIVE_GEOMETRY_VALIDATED",
+    "samples": 4,
+    "cells": 199517,
+    "polygon_match_min": 0.804966873791202,
+    "expression_match_min": 0.804966873791202,
+    "distance_unit": "px",
+    "vascular_source": "RNA_ENDOTHELIAL_PROXY_NOT_PERFUSION",
+    "geometry_sensitivity": {
+      "median_definition_distance_ratio": 9.011054268849055,
+      "maximum_definition_distance_ratio": 10.749873094084169,
+      "median_pairwise_balanced_target_rank_spearman": -0.22857142857142862,
+      "target_ranking_generalises_across_samples": false,
+      "interpretation": "DEFINITION_SENSITIVE_AND_TARGET_RANKING_NOT_STABLE"
+    },
+    "absolute_index": {
+      "status": "NOT_COMPUTED",
+      "reasons": [
+        "CosMx pixel size was not supplied in the flat files used here",
+        "RNA endothelial proxies do not identify functionally perfused vessels",
+        "RNA counts are not calibrated surface-antigen density",
+        "No administered antibody distribution is measured in these samples"
+      ]
+    },
+    "runtime_seconds": 6.825072288513184,
+    "figures": [
+      "results/external_validation/cosmx_gse299786/figures/cosmx_segmentation_area_error.png",
+      "results/external_validation/cosmx_gse299786/figures/cosmx_target_proxy_distance.png"
+    ]
+  },
+  "her2_ihc": {
+    "status": "IHC_SCORE_BENCHMARK_ONLY_NOT_MOLECULE_CALIBRATION",
+    "cases": 11,
+    "scores_present": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "best_feature": "brown_median",
+    "best_spearman_vs_her2_score": 0.921383257182275,
+    "max_statistic_exact_permutation_pvalue": 0.0007575757575757576,
+    "permutations_evaluated": 3960,
+    "denominator_valid_only_best_feature_spearman": 0.8677218312746247,
+    "positive_only_masks": 2,
+    "denominator_valid_masks": 9,
+    "absolute_antigen_density": {
+      "status": "NOT_COMPUTED",
+      "reasons": [
+        "Ordinal HER2 IHC score is not receptors per cell",
+        "No calibration beads or antibodies-bound-per-cell curve is supplied",
+        "Positive-only masks cannot define a tumour-cell denominator"
+      ]
+    },
+    "runtime_seconds": 7.0100178718566895,
+    "figures": [
+      "results/external_validation/her2_ihc_ahihci/figures/her2_score_vs_brown_signal.png"
+    ]
+  },
+  "shg_collagen": {
+    "status": "SHG_FEATURE_EXTRACTOR_PILOT_NOT_DIFFUSIVITY_CALIBRATION",
+    "images": 12,
+    "tissue_classes": [
+      "adjacent_colon",
+      "cancerous_colon",
+      "normal_colon"
+    ],
+    "transport_coefficient": {
+      "status": "NOT_COMPUTED",
+      "reasons": [
+        "SHG intensity and orientation are not an antibody diffusion coefficient",
+        "The pilot images are not registered to the RCC Xenium tissue",
+        "No FRAP or tracer transport measurement is supplied"
+      ]
+    },
+    "runtime_seconds": 2.273206949234009,
+    "figures": [
+      "results/external_validation/shg_collagen_pilot/figures/shg_relative_collagen_fraction.png"
+    ]
+  },
+  "artifact_integrity": {
+    "status": "FAIL",
+    "invalid_artifacts": [
+      "bordeau_pdf_download",
+      "bordeau_supplement_download"
+    ],
+    "interpretation": "Bordeau PDF and supplement fallback payloads are HTML/XML error responses and are excluded from validation."
+  },
+  "tenx_breast": {
+    "status": "NOT_ANALYZED_INCOMPLETE_PRIORITY_SET",
+    "available_section": "S1_Top",
+    "missing_priority_sections": [
+      "S2_Mid",
+      "S2_Bot"
+    ],
+    "reason": "A blocked multi-section analysis requires the prespecified contrasting HER2 sections; one section alone is not used as external validation."
+  },
+  "absolute_reachability": {
+    "status": "NOT_COMPUTED",
+    "reasons": [
+      "No valid raw administered-antibody distribution artifact was available",
+      "No functionally perfused vessel measurement was supplied",
+      "No receptors-per-cell calibration was supplied",
+      "SHG features were not linked to antibody diffusivity or registered to the RCC tissue"
+    ]
+  }
+}

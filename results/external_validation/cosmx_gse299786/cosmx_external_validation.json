@@ -1,0 +1,30 @@
+{
+  "status": "CROSS_PLATFORM_RELATIVE_GEOMETRY_VALIDATED",
+  "samples": 4,
+  "cells": 199517,
+  "polygon_match_min": 0.804966873791202,
+  "expression_match_min": 0.804966873791202,
+  "distance_unit": "px",
+  "vascular_source": "RNA_ENDOTHELIAL_PROXY_NOT_PERFUSION",
+  "geometry_sensitivity": {
+    "median_definition_distance_ratio": 9.011054268849055,
+    "maximum_definition_distance_ratio": 10.749873094084169,
+    "median_pairwise_balanced_target_rank_spearman": -0.22857142857142862,
+    "target_ranking_generalises_across_samples": false,
+    "interpretation": "DEFINITION_SENSITIVE_AND_TARGET_RANKING_NOT_STABLE"
+  },
+  "absolute_index": {
+    "status": "NOT_COMPUTED",
+    "reasons": [
+      "CosMx pixel size was not supplied in the flat files used here",
+      "RNA endothelial proxies do not identify functionally perfused vessels",
+      "RNA counts are not calibrated surface-antigen density",
+      "No administered antibody distribution is measured in these samples"
+    ]
+  },
+  "runtime_seconds": 6.825072288513184,
+  "figures": [
+    "results/external_validation/cosmx_gse299786/figures/cosmx_segmentation_area_error.png",
+    "results/external_validation/cosmx_gse299786/figures/cosmx_target_proxy_distance.png"
+  ]
+}

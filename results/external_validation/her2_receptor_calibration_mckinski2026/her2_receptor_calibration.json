@@ -1,0 +1,28 @@
+{
+  "status": "SOURCE_PROTOCOL_HER2_RECEPTOR_CALIBRATION_NOT_XENIUM_TRANSFER",
+  "tumours_in_workbook": 50,
+  "uncensored_replicate_pairs": 65,
+  "raw_cy5_receptor_spearman": 1.0,
+  "raw_cy5_receptor_spearman_pvalue": 0.0,
+  "model": {
+    "raw_mfi_min": 2.58,
+    "raw_mfi_max": 68.12,
+    "receptor_lloq": 10375.0,
+    "receptor_uloq": 178649.0,
+    "log10_slope": 0.7861139606286499,
+    "log10_intercept": 3.775379093429375,
+    "log_log_r2": 0.9906341282693898
+  },
+  "xenium_transfer": {
+    "status": "NOT_COMPUTED",
+    "reasons": [
+      "The calibration is specific to the source Cy5 quantitative-IHC workflow",
+      "No shared calibrator was imaged in both the source assay and Xenium protein assay",
+      "CAP/CLIA score categories are not receptor-copy measurements for the RCC section"
+    ]
+  },
+  "runtime_seconds": 0.5708391666412354,
+  "figures": [
+    "results/external_validation/her2_receptor_calibration_mckinski2026/figures/her2_source_protocol_calibration.png"
+  ]
+}

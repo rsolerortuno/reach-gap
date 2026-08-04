@@ -1,0 +1,6 @@
+rank,requirement,uncertainty_share,evidence_state,next_measurement
+1,administered_antibody_field,0.25210084033613445,MISSING,Acquire spatial antibody concentration or target-engagement measurements after dosing.
+2,functional_perfusion,0.22689075630252103,EXTERNAL_ONLY,Measure an intravascular perfusion tracer co-registered to RCC CD31.
+3,surface_antigen_calibration,0.22689075630252103,EXTERNAL_ONLY,Measure target surface molecules per cell with a shared quantitative calibrator.
+4,matrix_transport,0.17647058823529413,EXTERNAL_ONLY,Measure IgG diffusivity or a validated transport surrogate in the RCC tissue.
+5,same_tissue_pharmacological_endpoint,0.11764705882352942,MISSING,Collect a blinded same-sample pharmacological endpoint before model evaluation.

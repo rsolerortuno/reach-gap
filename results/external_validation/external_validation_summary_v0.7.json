@@ -1,0 +1,155 @@
+{
+  "version": "0.7.0",
+  "status": "EXTERNAL_PERFUSION_AND_CALIBRATION_PRIORS_VALIDATED_MODEL_PHARMACOLOGICAL_CONCORDANCE_NOT_COMPUTED",
+  "perfusion_validation": {
+    "status": "IN_VIVO_HOECHST_PERFUSION_RELATIVE_VALIDATION_COMPOSITE_IMAGES",
+    "images": 2,
+    "downsample": 4,
+    "all_images_negative_distance_correlation": true,
+    "all_images_near_vessel_enrichment": true,
+    "median_distance_hoechst_spearman": -0.16046994885557114,
+    "median_near_to_far_mean_ratio": 2.3813758174686814,
+    "rcc_transfer": {
+      "status": "NOT_COMPUTED",
+      "reasons": [
+        "The validation images are independent LLC mouse tumours, not the RCC Xenium section",
+        "The TIFF exports are RGB composites rather than raw single-channel acquisitions",
+        "Hoechst access validates a perfusion proxy, not administered-antibody delivery"
+      ]
+    },
+    "runtime_seconds": 1.4022583961486816,
+    "figures": [
+      "/mnt/data/reach-gap-v070/reach-gap/results/external_validation/perfusion_s_biad3159/figures/hoechst_vs_cd31_distance.png"
+    ]
+  },
+  "her2_receptor_calibration": {
+    "status": "SOURCE_PROTOCOL_HER2_RECEPTOR_CALIBRATION_NOT_XENIUM_TRANSFER",
+    "tumours_in_workbook": 50,
+    "uncensored_replicate_pairs": 65,
+    "raw_cy5_receptor_spearman": 1.0,
+    "raw_cy5_receptor_spearman_pvalue": 0.0,
+    "model": {
+      "raw_mfi_min": 2.58,
+      "raw_mfi_max": 68.12,
+      "receptor_lloq": 10375.0,
+      "receptor_uloq": 178649.0,
+      "log10_slope": 0.7861139606286499,
+      "log10_intercept": 3.775379093429375,
+      "log_log_r2": 0.9906341282693898
+    },
+    "xenium_transfer": {
+      "status": "NOT_COMPUTED",
+      "reasons": [
+        "The calibration is specific to the source Cy5 quantitative-IHC workflow",
+        "No shared calibrator was imaged in both the source assay and Xenium protein assay",
+        "CAP/CLIA score categories are not receptor-copy measurements for the RCC section"
+      ]
+    },
+    "runtime_seconds": 0.5708391666412354,
+    "figures": [
+      "results/external_validation/her2_receptor_calibration_mckinski2026/figures/her2_source_protocol_calibration.png"
+    ]
+  },
+  "igg_transport_prior": {
+    "status": "EXTERNAL_IGG_TRANSPORT_PRIOR_NOT_RCC_MEASUREMENT",
+    "absolute_diffusion_um2_s": {
+      "central_low": 8.7,
+      "central_high": 19.7,
+      "broad_low": 5.4,
+      "broad_high": 31.2,
+      "basis": "Four tumour FRAP measurements reported by Netti et al."
+    },
+    "relative_diffusion_ratio": {
+      "low": 0.3,
+      "high": 0.5,
+      "basis": "Tumour-to-free diffusion range reported across Davies et al. tumour clones"
+    },
+    "shg_mapping": {
+      "status": "NOT_COMPUTED",
+      "reasons": [
+        "SHG intensity has no universal conversion to collagen concentration",
+        "The FRAP studies and SHG benchmark do not measure the same tissue sections",
+        "RCC-specific porosity, glycosaminoglycans, pressure and binding were not measured"
+      ]
+    },
+    "recommended_solver_use": {
+      "distribution": "loguniform",
+      "low_um2_s": 5.4,
+      "high_um2_s": 31.2,
+      "claim_scope": "sensitivity prior only"
+    }
+  },
+  "administered_antibody_reference": {
+    "status": "PUBLISHED_ADMINISTERED_TRASTUZUMAB_ENDPOINTS_CURATED_REPRESENTATIVE_FIGURE_ONLY",
+    "published_endpoints": {
+      "trastuzumab_alone_threshold_positive_penetration_um": 41.3,
+      "trastuzumab_alone_threshold_positive_penetration_sd_um": 6.7,
+      "trastuzumab_plus_1he_threshold_positive_penetration_um": 58.24,
+      "trastuzumab_plus_1he_threshold_positive_penetration_sd_um": 5.4,
+      "trastuzumab_alone_penetration_limit_um": 68.6,
+      "trastuzumab_plus_1he_penetration_limit_um": 64.54,
+      "dose_mg_per_kg": 2.0,
+      "time_hours": 24.0
+    },
+    "representative_figure_analysis": {
+      "sections_per_group": 3,
+      "metric": "antibody_distance_mean_fraction_of_diagonal",
+      "trastuzumab_alone_mean": 0.034042498717708765,
+      "trastuzumab_plus_1he_mean": 0.027933006971547717,
+      "direction_matches_published_threshold_positive_penetration": false,
+      "exact_two_sided_permutation_pvalue": 0.6,
+      "interpretation": "DESCRIPTIVE_ONLY_COMPRESSED_REPRESENTATIVE_FIGURES"
+    },
+    "model_concordance": {
+      "status": "NOT_COMPUTED",
+      "reasons": [
+        "Raw section-level microscopy and animal-level measurements are not deposited",
+        "The embedded supplementary figures are compressed and may be rescaled",
+        "No reach-gap prediction was prospectively fixed for the SKOV3 experiment"
+      ]
+    },
+    "runtime_seconds": 0.1770625114440918
+  },
+  "breast_cohort_audit": {
+    "status": "INDEPENDENT_BREAST_COHORT_CELL_GROUP_AUDIT_SPATIAL_EXPRESSION_NOT_COMPUTED",
+    "samples": 2,
+    "cells": 679197,
+    "sample_summaries": [
+      {
+        "sample": "S2_Middlle_HER2_2plus",
+        "cells": 345556,
+        "provider_groups": 11,
+        "broad_groups": 9
+      },
+      {
+        "sample": "S2_Bottom_HER2_3plus",
+        "cells": 333641,
+        "provider_groups": 15,
+        "broad_groups": 12
+      }
+    ],
+    "spatial_expression": {
+      "status": "NOT_COMPUTED",
+      "reasons": [
+        "The Explorer output bundles were not extracted in this runtime",
+        "Cell-group CSVs provide labels but not coordinates or expression values",
+        "HER2 state is section-level metadata, not calibrated cell-surface protein"
+      ]
+    }
+  },
+  "artifact_audit": {
+    "status": "PASS",
+    "valid_artifacts": 8,
+    "invalid_artifacts": []
+  },
+  "absolute_reachability": {
+    "status": "NOT_COMPUTED",
+    "reasons": [
+      "Functional perfusion was validated only in independent LLC composite images, not the RCC section",
+      "HER2 receptor calibration is assay-specific and has no shared calibrator with Xenium",
+      "The IgG diffusion interval is an external literature prior, not an RCC measurement",
+      "The Bordeau supplement supplies representative compressed figures and published aggregates, not raw animal-level microscopy",
+      "No administered-antibody concentration or engagement is measured in the RCC tissue"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "S2_Middle_HER2_2plus": {
+    "root_prefix": "",
+    "arrays": [
+      "cell_features/cell_id",
+      "cell_features/csc/data",
+      "cell_features/csc/indices",
+      "cell_features/csc/indptr",
+      "cell_features/data",
+      "cell_features/indices",
+      "cell_features/indptr",
+      "__matrix_encoding__/CSR_FEATURES_BY_CELLS"
+    ],
+    "selected_feature_name": "ERBB2",
+    "selected_feature_index": 87
+  },
+  "S2_Bottom_HER2_3plus": {
+    "root_prefix": "",
+    "arrays": [
+      "cell_features/cell_id",
+      "cell_features/csc/data",
+      "cell_features/csc/indices",
+      "cell_features/csc/indptr",
+      "cell_features/data",
+      "cell_features/indices",
+      "cell_features/indptr",
+      "__matrix_encoding__/CSR_FEATURES_BY_CELLS"
+    ],
+    "selected_feature_name": "ERBB2",
+    "selected_feature_index": 87
+  }
+}

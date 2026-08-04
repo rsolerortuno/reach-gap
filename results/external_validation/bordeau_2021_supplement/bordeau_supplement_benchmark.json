@@ -1,0 +1,31 @@
+{
+  "status": "PUBLISHED_ADMINISTERED_TRASTUZUMAB_ENDPOINTS_CURATED_REPRESENTATIVE_FIGURE_ONLY",
+  "published_endpoints": {
+    "trastuzumab_alone_threshold_positive_penetration_um": 41.3,
+    "trastuzumab_alone_threshold_positive_penetration_sd_um": 6.7,
+    "trastuzumab_plus_1he_threshold_positive_penetration_um": 58.24,
+    "trastuzumab_plus_1he_threshold_positive_penetration_sd_um": 5.4,
+    "trastuzumab_alone_penetration_limit_um": 68.6,
+    "trastuzumab_plus_1he_penetration_limit_um": 64.54,
+    "dose_mg_per_kg": 2.0,
+    "time_hours": 24.0
+  },
+  "representative_figure_analysis": {
+    "sections_per_group": 3,
+    "metric": "antibody_distance_mean_fraction_of_diagonal",
+    "trastuzumab_alone_mean": 0.034042498717708765,
+    "trastuzumab_plus_1he_mean": 0.027933006971547717,
+    "direction_matches_published_threshold_positive_penetration": false,
+    "exact_two_sided_permutation_pvalue": 0.6,
+    "interpretation": "DESCRIPTIVE_ONLY_COMPRESSED_REPRESENTATIVE_FIGURES"
+  },
+  "model_concordance": {
+    "status": "NOT_COMPUTED",
+    "reasons": [
+      "Raw section-level microscopy and animal-level measurements are not deposited",
+      "The embedded supplementary figures are compressed and may be rescaled",
+      "No reach-gap prediction was prospectively fixed for the SKOV3 experiment"
+    ]
+  },
+  "runtime_seconds": 0.1770625114440918
+}

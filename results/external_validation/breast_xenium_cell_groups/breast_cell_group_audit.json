@@ -1,0 +1,27 @@
+{
+  "status": "INDEPENDENT_BREAST_COHORT_CELL_GROUP_AUDIT_SPATIAL_EXPRESSION_NOT_COMPUTED",
+  "samples": 2,
+  "cells": 679197,
+  "sample_summaries": [
+    {
+      "sample": "S2_Middlle_HER2_2plus",
+      "cells": 345556,
+      "provider_groups": 11,
+      "broad_groups": 9
+    },
+    {
+      "sample": "S2_Bottom_HER2_3plus",
+      "cells": 333641,
+      "provider_groups": 15,
+      "broad_groups": 12
+    }
+  ],
+  "spatial_expression": {
+    "status": "NOT_COMPUTED",
+    "reasons": [
+      "The Explorer output bundles were not extracted in this runtime",
+      "Cell-group CSVs provide labels but not coordinates or expression values",
+      "HER2 state is section-level metadata, not calibrated cell-surface protein"
+    ]
+  }
+}

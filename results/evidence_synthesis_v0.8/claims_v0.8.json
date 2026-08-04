@@ -1,0 +1,22 @@
+{
+  "version": "0.8.0",
+  "status": "EVIDENCE_SYNTHESIS_AND_RELATIVE_RCC_TARGET_RANKING_COMPLETE_ABSOLUTE_REACHABILITY_NOT_COMPUTED",
+  "permitted": [
+    "Evidence dependencies and blocked transfers are represented in a machine-readable graph.",
+    "The absolute-readiness score describes evidence completeness under a fixed rubric.",
+    "RCC targets are compared using a relative geometry-expression proxy across six structural vessel definitions and uncertain objective weights.",
+    "VISTA is the stable top target within the relative proxy in 98.525% of draws."
+  ],
+  "conditional": [
+    "The relative ranking is conditional on the measured target set and within-section thresholds.",
+    "Structural CD31 definitions are not functionally perfused-vessel labels.",
+    "External calibrations and priors constrain method uncertainty but do not identify RCC parameters."
+  ],
+  "unsupported": [
+    "Absolute RCC reachable_fraction.",
+    "Absolute RCC penetration_depth.",
+    "Absolute RCC expression_reach_gap.",
+    "Clinical efficacy or programme-priority claims from the relative target ranking.",
+    "Model-versus-administered-antibody concordance."
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "status": "REAL_HE_PATHOLOGY_GEOMETRY_PREPARED_TARGET_INDEX_NOT_COMPUTED",
+  "dataset": "10x Xenium FFPE human renal cell carcinoma gene and protein dataset",
+  "evidence_level": "REAL_HISTOLOGY_AND_PATHOLOGY_ANNOTATIONS_ONLY",
+  "image": {
+    "full_shape_yxs": [
+      60680,
+      24096,
+      3
+    ],
+    "pyramid_levels": 7,
+    "analysis_level": 4,
+    "analysis_shape_yxs": [
+      3793,
+      1506,
+      3
+    ],
+    "physical_size_um_per_pixel": [
+      0.27377074504085364,
+      0.27377310742565253
+    ],
+    "analysis_size_um_per_pixel": [
+      4.380331920653658,
+      4.379792290690376
+    ],
+    "physical_extent_mm": [
+      6.59677987250441,
+      16.612552158588596
+    ]
+  },
+  "annotations": {
+    "features": [
+      {
+        "id": "8cfeef83-4d3c-45d8-a5fb-899803f99759",
+        "name": "Tumor",
+        "geometry_type": "Polygon",
+        "area_px2": 348039764.5,
+        "area_mm2": 26.085951913767815,
+        "bounds_px": [
+          2325.0,
+          6867.0,
+          20912.0,
+          28730.0
+        ]
+      },
+      {
+        "id": "1deb41a6-fc86-4d19-abe4-fb4987765355",
+        "name": "Tumor",
+        "geometry_type": "Polygon",
+        "area_px2": 337621427.0,
+        "area_mm2": 25.305086395608313,
+        "bounds_px": [
+          924.0,
+          29469.0,
+          18385.0,
+          53750.0
+        ]
+      },
+      {
+        "id": "0900bcdc-b20b-46d3-8c41-21982f59593e",
+        "name": "Tumor",
+        "geometry_type": "Polygon",
+        "area_px2": 25784220.0,
+        "area_mm2": 1.9325548160288173,
+        "bounds_px": [
+          15280.0,
+          26780.0,
+          22781.0,
+          34610.0
+        ]
+      },
+      {
+        "id": "24cb0681-81ca-453b-b526-9fd842f0851f",
+        "name": "Necrosis",
+        "geometry_type": "Polygon",
+        "area_px2": 2736035.5,
+        "area_mm2": 0.20506878169480455,
+        "bounds_px": [
+          20953.0,
+          28721.0,
+          22674.0,
+          31275.0
+        ]
+      },
+      {
+        "id": "20827442-18c5-446f-9b34-d864b74844c1",
+        "name": "Immune infiltration",
+        "geometry_type": "Polygon",
+        "area_px2": 23952590.5,
+        "area_mm2": 1.795272229570687,
+        "bounds_px": [
+          18629.0,
+          8571.0,
+          22843.0,
+          18655.0
+        ]
+      },
+      {
+        "id": "bc59240e-2f96-4ca6-b609-5dba36e38b76",
+        "name": "Immune infiltration",
+        "geometry_type": "Polygon",
+        "area_px2": 90565849.0,
+        "area_mm2": 6.788007069932255,
+        "bounds_px": [
+          13893.0,
+          32430.0,
+          23308.0,
+          51348.0
+        ]
+      },
+      {
+        "id": "16678a2b-c9bd-4f82-870c-1fbe31470894",
+        "name": "Hemorrhage",
+        "geometry_type": "Polygon",
+        "area_px2": 18216353.0,
+        "area_mm2": 1.365335104984017,
+        "bounds_px": [
+          11814.0,
+          54641.0,
+          16610.0,
+          60543.0
+        ]
+      },
+      {
+        "id": "d4a0b683-b74b-446f-a477-87b5048b4eff",
+        "name": "Adipose tissue",
+        "geometry_type": "Polygon",
+        "area_px2": 54247999.0,
+        "area_mm2": 4.065945439783576,
+        "bounds_px": [
+          4028.0,
+          46981.0,
+          22763.0,
+          57479.0
+        ]
+      },
+      {
+        "id": "05f8d795-d10f-4656-b447-f13e706742a9",
+        "name": "Blood vessels",
+        "geometry_type": "Polygon",
+        "area_px2": 28369943.5,
+        "area_mm2": 2.1263575528517227,
+        "bounds_px": [
+          2864.0,
+          3863.0,
+          22301.0,
+          8728.0
+        ]
+      }
+    ],
+    "by_name": {
+      "Adipose tissue": {
+        "area_px2": 54247999.0,
+        "area_mm2": 4.065945439783576
+      },
+      "Blood vessels": {
+        "area_px2": 28369943.5,
+        "area_mm2": 2.1263575528517227
+      },
+      "Hemorrhage": {
+        "area_px2": 18216353.0,
+        "area_mm2": 1.365335104984017
+      },
+      "Immune infiltration": {
+        "area_px2": 114518439.5,
+        "area_mm2": 8.583279299502943
+      },
+      "Necrosis": {
+        "area_px2": 2736035.5,
+        "area_mm2": 0.20506878169480455
+      },
+      "Tumor": {
+        "area_px2": 711445411.5,
+        "area_mm2": 53.32359312540495
+      }
+    }
+  },
+  "morphology_by_region": {
+    "UNANNOTATED": {
+      "region_pixels_at_analysis_level": 2090301,
+      "tissue_pixels_at_analysis_level": 663727,
+      "tissue_fraction": 0.3175269973080432,
+      "tissue_area_mm2_estimate": 12.733565310852272,
+      "hematoxylin": {
+        "mean": 0.19078233318222712,
+        "median": 0.16245001599892495,
+        "q10": 0.0,
+        "q90": 0.4036891300377495
+      },
+      "eosin": {
+        "mean": 0.3351362052417675,
+        "median": 0.3006287462236467,
+        "q10": 0.0,
+        "q90": 0.7277588924200125
+      },
+      "lumen_candidate_pixels": 48447,
+      "lumen_candidate_fraction_of_tissue": 0.07299235981058477
+    },
+    "Adipose tissue": {
+      "region_pixels_at_analysis_level": 212771,
+      "tissue_pixels_at_analysis_level": 72457,
+      "tissue_fraction": 0.3405398292060478,
+      "tissue_area_mm2_estimate": 1.3900834857229298,
+      "hematoxylin": {
+        "mean": 0.20866856204060677,
+        "median": 0.2031627864886159,
+        "q10": 0.10683763200491868,
+        "q90": 0.297392831111612
+      },
+      "eosin": {
+        "mean": 0.09174159607773948,
+        "median": 0.03835494140149627,
+        "q10": 0.0,
+        "q90": 0.2590878716672596
+      },
+      "lumen_candidate_pixels": 0,
+      "lumen_candidate_fraction_of_tissue": 0.0
+    },
+    "Blood vessels": {
+      "region_pixels_at_analysis_level": 111765,
+      "tissue_pixels_at_analysis_level": 102025,
+      "tissue_fraction": 0.9128528609135239,
+      "tissue_area_mm2_estimate": 1.9573439092272922,
+      "hematoxylin": {
+        "mean": 0.13556991185215408,
+        "median": 0.1187447934092462,
+        "q10": 0.0,
+        "q90": 0.2654584569155754
+      },
+      "eosin": {
+        "mean": 0.3069910092301551,
+        "median": 0.3228726643544129,
+        "q10": 0.008517359165171582,
+        "q90": 0.537075159768925
+      },
+      "lumen_candidate_pixels": 9094,
+      "lumen_candidate_fraction_of_tissue": 0.08913501592746875
+    },
+    "Hemorrhage": {
+      "region_pixels_at_analysis_level": 71585,
+      "tissue_pixels_at_analysis_level": 34212,
+      "tissue_fraction": 0.4779213522385975,
+      "tissue_area_mm2_estimate": 0.6563553033323609,
+      "hematoxylin": {
+        "mean": 0.05907566417139987,
+        "median": 0.0,
+        "q10": 0.0,
+        "q90": 0.20879458668773307
+      },
+      "eosin": {
+        "mean": 0.6410878378586392,
+        "median": 0.8204874561541966,
+        "q10": 0.03928953757102864,
+        "q90": 1.0
+      },
+      "lumen_candidate_pixels": 0,
+      "lumen_candidate_fraction_of_tissue": 0.0
+    },
+    "Immune infiltration": {
+      "region_pixels_at_analysis_level": 448964,
+      "tissue_pixels_at_analysis_level": 403160,
+      "tissue_fraction": 0.8979784570700546,
+      "tissue_area_mm2_estimate": 7.7346020136640545,
+      "hematoxylin": {
+        "mean": 0.3702979214879786,
+        "median": 0.2932917904513814,
+        "q10": 0.08558589721090963,
+        "q90": 0.7855590296087046
+      },
+      "eosin": {
+        "mean": 0.3084157218029418,
+        "median": 0.31894740747163436,
+        "q10": 0.13918730888482495,
+        "q90": 0.44940165682926425
+      },
+      "lumen_candidate_pixels": 18318,
+      "lumen_candidate_fraction_of_tissue": 0.0454360551642028
+    },
+    "Necrosis": {
+      "region_pixels_at_analysis_level": 10887,
+      "tissue_pixels_at_analysis_level": 10887,
+      "tissue_fraction": 1.0,
+      "tissue_area_mm2_estimate": 0.2088664850748104,
+      "hematoxylin": {
+        "mean": 0.19152749269149888,
+        "median": 0.14016021153245709,
+        "q10": 0.03219138841592335,
+        "q90": 0.42106294291794677
+      },
+      "eosin": {
+        "mean": 0.43299311520743167,
+        "median": 0.4420235949429962,
+        "q10": 0.3121685419069712,
+        "q90": 0.5350298144854726
+      },
+      "lumen_candidate_pixels": 0,
+      "lumen_candidate_fraction_of_tissue": 0.0
+    },
+    "Tumor": {
+      "region_pixels_at_analysis_level": 2765985,
+      "tissue_pixels_at_analysis_level": 2716377,
+      "tissue_fraction": 0.9820649786604049,
+      "tissue_area_mm2_estimate": 52.11354056471556,
+      "hematoxylin": {
+        "mean": 0.29098380733810875,
+        "median": 0.2507045745948538,
+        "q10": 0.1260439447619914,
+        "q90": 0.5154426626238854
+      },
+      "eosin": {
+        "mean": 0.23026113949572047,
+        "median": 0.23037169096121754,
+        "q10": 0.07890876266281498,
+        "q90": 0.37306714771265514
+      },
+      "lumen_candidate_pixels": 19538,
+      "lumen_candidate_fraction_of_tissue": 0.007192668764313643
+    }
+  },
+  "tissue": {
+    "analysis_level_pixels": 4002845,
+    "estimated_area_mm2": 76.79435707258928
+  },
+  "lumen_candidates": {
+    "classification": "UNVALIDATED_LUMEN_CANDIDATE",
+    "count": 772,
+    "area_fraction_of_tissue": 0.023832299277139136,
+    "warning": "H&E bright intratissue spaces are not validated vessels and may include tubules, ducts, tears or other artefacts. They are excluded from mechanistic indexing.",
+    "table": "results/real_rcc_he/unvalidated_lumen_candidates.json"
+  },
+  "alignment_matrix_supplied": [
+    [
+      0.0030273239131817036,
+      1.2896024024947854,
+      -11895.632666864709
+    ],
+    [
+      -1.2896024024947854,
+      0.0030273239131817036,
+      28913.600558020305
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "qc_images": {
+    "he_analysis_level": "results/real_rcc_he/qc/he_analysis_level.jpg",
+    "tissue_mask": "results/real_rcc_he/qc/tissue_mask.png",
+    "hematoxylin_proxy": "results/real_rcc_he/qc/hematoxylin_proxy.png",
+    "eosin_proxy": "results/real_rcc_he/qc/eosin_proxy.png",
+    "pathology_overlay": "results/real_rcc_he/qc/pathology_overlay.png",
+    "unvalidated_lumen_candidates": "results/real_rcc_he/qc/unvalidated_lumen_candidates.png"
+  },
+  "absolute_index": {
+    "status": "NOT_COMPUTED",
+    "abstention_code": "INSUFFICIENT_EVIDENCE",
+    "reasons": [
+      "TARGET_EXPRESSION_NOT_AVAILABLE",
+      "SURFACE_ANTIGEN_CALIBRATION_NOT_AVAILABLE",
+      "FUNCTIONALLY_PERFUSED_VESSELS_NOT_IDENTIFIED",
+      "CELL_COORDINATES_NOT_AVAILABLE"
+    ]
+  }
+}

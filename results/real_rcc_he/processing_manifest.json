@@ -1,0 +1,45 @@
+{
+  "sources": [
+    {
+      "bytes": 3720697771,
+      "sha256": "5e3e35fd6dd6122a3927c01aff273a25846d7a2532191b547eeacba46e1dacde",
+      "md5": "96ad5f699c7d6280cdf6af1c13f39515",
+      "name": "Xenium_V1_Human_Kidney_FFPE_Protein_updated_he_image.ome.tif",
+      "location": "EXTERNAL_SOURCE_NOT_REDISTRIBUTED"
+    },
+    {
+      "bytes": 65584,
+      "sha256": "3bfec612db469f78e35aaed9337e03989e74f023413f8e4e4cdc05a60a04a474",
+      "md5": "b5e848d7147f25817568d5871592eb56",
+      "name": "Xenium_V1_Human_Kidney_FFPE_Protein_updated_annotation.geojson.bin",
+      "location": "EXTERNAL_SOURCE_NOT_REDISTRIBUTED"
+    },
+    {
+      "bytes": 129,
+      "sha256": "1c00942ff045f25d2a758db4f38139323f7181121d132e3ae401ec13239385eb",
+      "md5": "e78bbece6561b9c037cd3eb839f63272",
+      "name": "Xenium_V1_Human_Kidney_FFPE_Protein_updated_he_imagealignment.csv",
+      "location": "EXTERNAL_SOURCE_NOT_REDISTRIBUTED"
+    }
+  ],
+  "parameters": {
+    "analysis_level": 4,
+    "tissue_background_colour_distance_min": 12.0,
+    "lumen_min_equivalent_diameter_um": 12.0,
+    "lumen_max_equivalent_diameter_um": 350.0,
+    "lumen_min_confidence": 0.25
+  },
+  "outputs": {
+    "result": "results/real_rcc_he/he_pathology_result.json",
+    "claims": "results/real_rcc_he/claims.json",
+    "candidate_table": "results/real_rcc_he/unvalidated_lumen_candidates.json",
+    "qc_images": {
+      "he_analysis_level": "results/real_rcc_he/qc/he_analysis_level.jpg",
+      "tissue_mask": "results/real_rcc_he/qc/tissue_mask.png",
+      "hematoxylin_proxy": "results/real_rcc_he/qc/hematoxylin_proxy.png",
+      "eosin_proxy": "results/real_rcc_he/qc/eosin_proxy.png",
+      "pathology_overlay": "results/real_rcc_he/qc/pathology_overlay.png",
+      "unvalidated_lumen_candidates": "results/real_rcc_he/qc/unvalidated_lumen_candidates.png"
+    }
+  }
+}

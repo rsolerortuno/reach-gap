@@ -1,0 +1,31 @@
+{
+  "permitted": [
+    "The complete supplied H&E OME-TIFF was reconstructed and transfer-verified.",
+    "Pathologist-provided tumour, necrosis, immune-infiltration, haemorrhage, adipose and blood-vessel annotations were mapped in H&E pixel space.",
+    "Tissue occupancy and relative H&E stain morphology were computed at a bounded pyramid level.",
+    "Bright intratissue spaces were generated only as unvalidated lumen candidates for QC."
+  ],
+  "conditional": [
+    "H&E morphology may define geometry priors after independent validation against molecular or endothelial markers.",
+    "The supplied affine matrix can align H&E and Xenium spaces once cell coordinates are available."
+  ],
+  "unsupported": [
+    "Target-positive cell fraction.",
+    "Reachable fraction.",
+    "Expression-reach gap.",
+    "Dominant antibody-transport barrier.",
+    "Penetration depth.",
+    "Functional vascular perfusion.",
+    "Clinical efficacy or programme outcome."
+  ],
+  "abstention": {
+    "status": "NOT_COMPUTED",
+    "abstention_code": "INSUFFICIENT_EVIDENCE",
+    "reasons": [
+      "TARGET_EXPRESSION_NOT_AVAILABLE",
+      "SURFACE_ANTIGEN_CALIBRATION_NOT_AVAILABLE",
+      "FUNCTIONALLY_PERFUSED_VESSELS_NOT_IDENTIFIED",
+      "CELL_COORDINATES_NOT_AVAILABLE"
+    ]
+  }
+}

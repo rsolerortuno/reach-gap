@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "repository_version": "0.3.0",
+  "evidence_level": "REAL_HISTOLOGY_AND_PATHOLOGY_ANNOTATIONS_ONLY",
+  "status": "REAL_HE_PATHOLOGY_GEOMETRY_PREPARED_TARGET_INDEX_NOT_COMPUTED",
+  "files": [
+    {
+      "path": "results/real_rcc_he/annotation_areas.csv",
+      "bytes": 213,
+      "sha256": "b20d14856559e179b5451c6d1d64e6f223a297468549883c9643764cbfbd1bb1"
+    },
+    {
+      "path": "results/real_rcc_he/claims.json",
+      "bytes": 1275,
+      "sha256": "ace6a1620a36320ec4920fcb03fa08f1d3d824a7de425a83c26c4d10dfff0507"
+    },
+    {
+      "path": "results/real_rcc_he/execution.json",
+      "bytes": 394,
+      "sha256": "e727b5c888c6e7814ed042c622ce781246e97ced1a9151cee3a1014a6062b23d"
+    },
+    {
+      "path": "results/real_rcc_he/he_pathology_result.json",
+      "bytes": 10361,
+      "sha256": "6874046d442d713f886816f5f17d2ce6736dd9ad1e69ee82146abbbea0ef35d1"
+    },
+    {
+      "path": "results/real_rcc_he/processing_manifest.json",
+      "bytes": 1727,
+      "sha256": "9d90e49bffae7d728193303688f3caa14807957327af8b4b001947a70b9aea85"
+    },
+    {
+      "path": "results/real_rcc_he/qc/eosin_proxy.png",
+      "bytes": 603304,
+      "sha256": "551252975eb7e97f52da804e6aed4a118c31f01274b2a6a21cf55fba47f6472c"
+    },
+    {
+      "path": "results/real_rcc_he/qc/he_analysis_level.jpg",
+      "bytes": 346368,
+      "sha256": "f0dca417d612b2b0096670354e207c768a52765a53be9420275f50096d71845d"
+    },
+    {
+      "path": "results/real_rcc_he/qc/hematoxylin_proxy.png",
+      "bytes": 770957,
+      "sha256": "499afea756f5215e1e8ddcea7db333c051695309180e2a5f7d317b612607d5fe"
+    },
+    {
+      "path": "results/real_rcc_he/qc/pathology_overlay.png",
+      "bytes": 1955513,
+      "sha256": "2008f9537895f5baa6e70f4b726a58236c2405666e07fcccddc4dd5a7d967105"
+    },
+    {
+      "path": "results/real_rcc_he/qc/tissue_mask.png",
+      "bytes": 27304,
+      "sha256": "9ebbea7b7be5161a0d6293d6bff223e3ce9bdc489d1ed1f4eea3eef72773c52f"
+    },
+    {
+      "path": "results/real_rcc_he/qc/unvalidated_lumen_candidates.png",
+      "bytes": 1878108,
+      "sha256": "d7409f5da9033acd58468bff3f8641f306d1e4a38f3a8359b86d40c45ff61e77"
+    },
+    {
+      "path": "results/real_rcc_he/source_he_split_manifest.json",
+      "bytes": 18991,
+      "sha256": "2e0202b15795a8cedf85fdef2d933dbd2a67e0ec3957c2b144b7a32560053bc2"
+    },
+    {
+      "path": "results/real_rcc_he/source_reassembly.json",
+      "bytes": 451,
+      "sha256": "9fc563870eaee5063f1bc2c610b4fe60331d1b1972c6e98775caad8c235fb9c0"
+    },
+    {
+      "path": "results/real_rcc_he/unvalidated_lumen_candidates.json",
+      "bytes": 375097,
+      "sha256": "71d3d827b6105d1b4f44257cbf6f8a307498e4f05404271110f863bed3729466"
+    }
+  ]
+}

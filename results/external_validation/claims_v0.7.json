@@ -1,0 +1,27 @@
+{
+  "permitted": [
+    "In two independently downloaded LLC composite TIFFs, relative Hoechst signal declined with distance from image-derived CD31 structures.",
+    "The published quantitative HER2 workbook provides a strong source-protocol relation between raw Cy5 MFI and receptors per cell within its observed range.",
+    "Published FRAP studies support a broad IgG tumour diffusion sensitivity interval of 5.4 to 31.2 \u00b5m\u00b2/s.",
+    "The valid Bordeau supplementary DOCX contains administered-trastuzumab representative sections and published aggregate penetration endpoints.",
+    "Two additional Xenium breast section cell-group files contain 679,197 uniquely labelled cells."
+  ],
+  "conditional": [
+    "The LLC Hoechst result supports using a perfusion channel rather than CD31 alone when such a channel exists in the same tissue.",
+    "The HER2 and FRAP values may be used as external sensitivity priors only when transfer assumptions are explicit."
+  ],
+  "unsupported": [
+    "The RCC CD31 structures are functionally perfused.",
+    "RCC Xenium intensity is converted to receptors per cell.",
+    "The RCC tissue diffusion coefficient is known.",
+    "reach-gap predictions agree with measured administered-antibody distribution.",
+    "Any real RCC reachable_fraction, penetration_depth or expression_reach_gap."
+  ],
+  "abstention_reasons": [
+    "Functional perfusion was validated only in independent LLC composite images, not the RCC section",
+    "HER2 receptor calibration is assay-specific and has no shared calibrator with Xenium",
+    "The IgG diffusion interval is an external literature prior, not an RCC measurement",
+    "The Bordeau supplement supplies representative compressed figures and published aggregates, not raw animal-level microscopy",
+    "No administered-antibody concentration or engagement is measured in the RCC tissue"
+  ]
+}
