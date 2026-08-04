@@ -1,0 +1,32 @@
+{
+  "status": "COMPUTED_RELATIVE_GEOMETRY_ONLY",
+  "cd31_robust_otsu_threshold": 0.330078125,
+  "endothelial_score_otsu_threshold": 0.255859375,
+  "definitions": {
+    "inclusive_endothelial_or_pericyte_v0_3": {
+      "vessel_cells": 77406,
+      "vessel_fraction": 0.1662735697070461
+    },
+    "endothelial_score_otsu": {
+      "vessel_cells": 76869,
+      "vessel_fraction": 0.1651200556779956
+    },
+    "cd31_otsu": {
+      "vessel_cells": 137609,
+      "vessel_fraction": 0.29559387713894153
+    },
+    "cd31_high_robust_0_5": {
+      "vessel_cells": 96932,
+      "vessel_fraction": 0.20821680049147862
+    },
+    "cd31_plus_any_endothelial_rna": {
+      "vessel_cells": 103252,
+      "vessel_fraction": 0.2217926080587025
+    },
+    "cd31_plus_two_endothelial_rna": {
+      "vessel_cells": 41164,
+      "vessel_fraction": 0.08842318713563349
+    }
+  },
+  "warning": "None of the definitions establishes functional perfusion; strict definitions may fragment vessel walls into individual endothelial cells."
+}

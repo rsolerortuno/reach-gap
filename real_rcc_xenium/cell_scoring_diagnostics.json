@@ -1,0 +1,73 @@
+{
+  "cells": 465534,
+  "vessel_positive_cells": 77406,
+  "vessel_positive_fraction": 0.1662735697070461,
+  "malignant_proxy_cells": 91300,
+  "malignant_proxy_fraction": 0.19611886564676265,
+  "pathology_alignment": {
+    "name": "affine_scale_0.2125",
+    "matrix": [
+      [
+        0.0030273239131817036,
+        1.2896024024947854,
+        -11895.632666864709
+      ],
+      [
+        -1.2896024024947854,
+        0.0030273239131817036,
+        28913.600558020305
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "scale_x": 0.2125,
+    "scale_y": 0.2125,
+    "score": 0.8510511509756903,
+    "fraction_inside": 0.9100785945446139,
+    "accepted": true
+  },
+  "targets": {
+    "PD-L1": {
+      "measurement": "protein_intensity",
+      "positive_cells": 18142,
+      "positive_fraction": 0.03897030077287588,
+      "columns": [
+        "target__PD_L1__signal"
+      ]
+    },
+    "VISTA": {
+      "measurement": "protein_intensity",
+      "positive_cells": 210325,
+      "positive_fraction": 0.4517929947114496,
+      "columns": [
+        "target__VISTA__signal"
+      ]
+    },
+    "PD-1": {
+      "measurement": "protein_intensity",
+      "positive_cells": 67693,
+      "positive_fraction": 0.1454093578557098,
+      "columns": [
+        "target__PD_1__signal"
+      ]
+    },
+    "LAG-3": {
+      "measurement": "protein_intensity",
+      "positive_cells": 87682,
+      "positive_fraction": 0.1883471454286905,
+      "columns": [
+        "target__LAG_3__signal"
+      ]
+    }
+  },
+  "ecm_measurement_status": "NOT_AVAILABLE_IN_GENE_OR_PROTEIN_PANEL",
+  "warnings": [
+    "Endothelial presence does not establish perfusion.",
+    "Protein intensity is not antigen molecules per cell.",
+    "Vessel-calling sensitivity materially changes distance distributions.",
+    "No direct ECM markers were available; ECM was not imputed."
+  ]
+}

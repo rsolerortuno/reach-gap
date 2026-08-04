@@ -1,0 +1,37 @@
+{
+  "artefact_sha256": {
+    "benchmark.json": "1042984e9603a662e13bed3c19ce3b38e43b3967b6eafa62a5e2a3fae04adc93",
+    "benchmark_report.md": "647e96536f86d36292cd8833d7e8e19e0ab9224ff40c3f43a611f9af0cd90f26",
+    "claims.json": "bd21be7fc8e94bbe6ad87f7702832913702f56538d7a822e61da650d902554b5",
+    "features.npz": "7f680eec24371fb740e73e9219a078b9368eaaf64c287c03c2237d5feb9a58ec",
+    "index.json": "4e3a8f9068a70710ff4154118c3a74c1ca658bd949d3e7ffb7fc51da763263bd",
+    "solution.npz": "0880ef68ae731167d38761c86a925ac03280ccb0fbdbebe38daa6be1bfa3d9e7"
+  },
+  "geometry_config": {
+    "antigen_level": 0.8,
+    "antigen_perivascular_bias": 0.25,
+    "cell_count": 900,
+    "dx_um": 10.0,
+    "seed": 17,
+    "size": 42,
+    "stroma_level": 0.65,
+    "vessel_count": 5
+  },
+  "index_draws": 48,
+  "numpy": "2.3.5",
+  "parameters": {
+    "antigen_calibration_factor": 1.0,
+    "beta_caf": 0.8,
+    "beta_ecm": 1.2,
+    "clearance_s": 5e-06,
+    "diffusion_um2_s": 12.0,
+    "engagement_threshold": 0.5,
+    "internalisation_s": 0.0001,
+    "kd_nM": 5.0,
+    "vessel_concentration_nM": 20.0
+  },
+  "python": "3.13.5",
+  "scipy": "1.17.0",
+  "seed": 17,
+  "status": "COMPUTED_SIMULATION_ONLY"
+}
