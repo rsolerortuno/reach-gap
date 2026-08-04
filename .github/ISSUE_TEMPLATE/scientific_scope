@@ -1,0 +1,17 @@
+name: Scientific scope or interpretation question
+description: Ask about evidence transfer, assumptions, limitations or result interpretation.
+title: "[Scientific scope] "
+labels: [question]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: State the output, claim or evidence layer you want to discuss.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Include the relevant dataset, tissue, assay and intended interpretation.
