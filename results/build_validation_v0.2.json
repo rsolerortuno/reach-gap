@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "repository_version": "0.2.0",
+  "created_utc": "2026-07-29T15:24:32Z",
+  "python": "3.13.5",
+  "checks": {
+    "compileall": {
+      "status": "PASS",
+      "command": "python -m compileall -q src tests scripts"
+    },
+    "local_source_audit": {
+      "status": "PASS",
+      "command": "python scripts/local_source_audit.py"
+    },
+    "pytest": {
+      "status": "PASS",
+      "command": "PYTHONPATH=src pytest -q",
+      "tests_passed": 28,
+      "coverage_percent_non_io_modules": 92.58
+    },
+    "notebook_parse_and_embedded_source_identity": {
+      "status": "PASS"
+    },
+    "ruff": {
+      "status": "NOT_RUN",
+      "reason": "The accessible package registry did not expose NumPy, so uv could not resolve the development environment."
+    },
+    "mypy_strict": {
+      "status": "NOT_RUN",
+      "reason": "The accessible package registry did not expose NumPy, so uv could not resolve the development environment."
+    },
+    "full_xenium_execution": {
+      "status": "NOT_COMPUTED",
+      "reason": "The connected chat Drive endpoint rejects downloads above 100 MB; execution is delegated to the supplied Colab notebook beside the 36.1 GB source archive."
+    }
+  },
+  "scientific_status": {
+    "relative_spatial_preparation": "IMPLEMENTED",
+    "absolute_reachability": "NOT_COMPUTED",
+    "absolute_reachability_reason": "Xenium protein intensity is not calibrated to surface-antigen density and CD31 does not establish perfusion."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": "0.6.1",
+  "status": "PASS",
+  "tests_passed": 68,
+  "coverage_percent": 86.49,
+  "ruff_check": "PASS",
+  "ruff_format_check": "PASS",
+  "mypy_full_strict": "PASS",
+  "pyright_full": "PASS",
+  "compileall": "PASS",
+  "local_source_audit": "PASS",
+  "quick_benchmark": "PASS",
+  "manifest_validation": "PASS",
+  "cli_help": "PASS",
+  "wheel_build": "PASS",
+  "wheel_name": "reach_gap-0.6.1-py3-none-any.whl",
+  "wheel_sha256": "8e201e853e7fd7c474a5ac3c6968c737fa2a3b3fb6d77acee6f0b95946556195",
+  "python": "3.13.5",
+  "scientific_status": "EXTERNAL_ADAPTERS_AND_RELATIVE_FEATURES_VALIDATED_PHARMACOLOGICAL_CONCORDANCE_NOT_COMPUTED"
+}

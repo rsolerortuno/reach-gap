@@ -1,0 +1,35 @@
+{
+  "release": "0.5.1",
+  "python": "3.13.5",
+  "tools": {
+    "ruff": "0.16.0",
+    "mypy": "2.3.0",
+    "pyright": "1.1.411"
+  },
+  "ruff_check": {
+    "status": "PASS"
+  },
+  "ruff_format_check": {
+    "status": "PASS"
+  },
+  "pytest": {
+    "status": "PASS",
+    "passed": 54,
+    "coverage_percent": 86.29
+  },
+  "mypy_strict": {
+    "status": "FAIL",
+    "errors": 113,
+    "files": 18
+  },
+  "pyright": {
+    "status": "FAIL",
+    "errors": 100,
+    "warnings": 0
+  },
+  "scientific_grade_effect": "engineering evidence improved; scientific ceiling unchanged",
+  "logs": {
+    "mypy": "results/static_analysis/mypy_strict.txt",
+    "pyright": "results/static_analysis/pyright.txt"
+  }
+}

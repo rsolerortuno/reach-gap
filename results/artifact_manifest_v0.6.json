@@ -1,0 +1,592 @@
+{
+  "schema_version": "1.0",
+  "repository_version": "0.6.0",
+  "generated_at_utc": "2026-07-31T12:35:33.738148+00:00",
+  "artifacts": [
+    {
+      "path": "dist/reach_gap-0.6.0-py3-none-any.whl",
+      "size_bytes": 96251,
+      "sha256": "1eace70731a29c95b94ede908f801e3aa9c23bb70b8dca015b20824168c71000"
+    },
+    {
+      "path": "docs/ASSUMPTIONS.md",
+      "size_bytes": 11821,
+      "sha256": "101df069bc17f63ffc92a7379ca8a27889a1bb33f35400c2c8a4e2956e2e09ef"
+    },
+    {
+      "path": "docs/CRITICAL_EVALUATION.md",
+      "size_bytes": 2463,
+      "sha256": "82c103f48c880b520d43e42449cb29a40dc07cc61eb6f7cd6e82f302206ff178"
+    },
+    {
+      "path": "docs/CRITICAL_EVALUATION_V06.md",
+      "size_bytes": 2357,
+      "sha256": "a459249326b8df0217090bd5fad2fdce097f6ade1b6b54c3dbe145d8c43dbad2"
+    },
+    {
+      "path": "docs/DATA.md",
+      "size_bytes": 2262,
+      "sha256": "236a45d1630f9b4c8a3cec1a6997d9efab4b0a6ebd849de7923d3f28791235ab"
+    },
+    {
+      "path": "docs/DECISIONS.md",
+      "size_bytes": 16059,
+      "sha256": "51b286e84d3d5a93db18a07ead3aa27ceac6cfa471dd4b88243437ea703b97e3"
+    },
+    {
+      "path": "docs/EXTERNAL_VALIDATION_V06.md",
+      "size_bytes": 6223,
+      "sha256": "92be2bd31de0e8e637b54b930872b5a478b8c5bc7491cbdb7b5709feba6f570d"
+    },
+    {
+      "path": "docs/IMPLEMENTATION_REPORT.md",
+      "size_bytes": 3739,
+      "sha256": "840a97e7ea71acda6abb5edc170173a4800740d9941bec97f2fb9682e3926486"
+    },
+    {
+      "path": "docs/IMPLEMENTATION_REPORT_V06.md",
+      "size_bytes": 1730,
+      "sha256": "2e2a45738b9caedf513636589e23e2608c036a6f39f4e49785895e4aa2301eb5"
+    },
+    {
+      "path": "docs/LIMITATIONS.md",
+      "size_bytes": 4518,
+      "sha256": "4d734dbf8ac8cfda28d6830303607a66a7a4c87665ecc583ff61b9561959f7e4"
+    },
+    {
+      "path": "docs/LOCAL_ESSENTIAL_EXTRACTION.md",
+      "size_bytes": 2251,
+      "sha256": "574cc469ee036e7d8046d6a0be39b1d0647768f04e1ebd471a5565adc9094a57"
+    },
+    {
+      "path": "docs/METHODS.md",
+      "size_bytes": 8231,
+      "sha256": "09600e8296e9e8a0ab4e57c8fb14bb58c9c08a517522524f31119a50ba1fc00a"
+    },
+    {
+      "path": "docs/PARAMETERS.md",
+      "size_bytes": 3286,
+      "sha256": "02c93341fe798542074e0de0c37870f4bdf618b2bd5407273843c074f7dce424"
+    },
+    {
+      "path": "docs/PHASE_GATES.md",
+      "size_bytes": 4935,
+      "sha256": "d36704eea593cbb01fe7dbe13fb38f39108dd878958987d9865920db7ffd80b5"
+    },
+    {
+      "path": "docs/REAL_DATA_IMPLEMENTATION_REPORT.md",
+      "size_bytes": 3975,
+      "sha256": "41467b19db468cc4cfd8f5d98dcf04f2b0f74ee3fe0cd12b64d547cb0104db3c"
+    },
+    {
+      "path": "docs/REAL_HE_RCC_REPORT.md",
+      "size_bytes": 3728,
+      "sha256": "a3ba593794fc0a93ad919c492bc091db473a74a05975cf8153d0dd2353fa014f"
+    },
+    {
+      "path": "docs/REAL_PROTEIN_IMAGING_RCC_REPORT.md",
+      "size_bytes": 5111,
+      "sha256": "4efc29d6d8786a80c3c4deda8f17293e6b5bbc102e17f1e558d437932679d170"
+    },
+    {
+      "path": "docs/REAL_XENIUM_RCC_REPORT.md",
+      "size_bytes": 5202,
+      "sha256": "82e04ce22fa224e9b571ef892038391ad10740cb069742fb8e3b379b0b810308"
+    },
+    {
+      "path": "docs/RUNBOOK.md",
+      "size_bytes": 6511,
+      "sha256": "98123d40fa013357fa6e020a2df0a19daab7a713ca236e6fdc92313529afe03f"
+    },
+    {
+      "path": "docs/STATIC_ANALYSIS.md",
+      "size_bytes": 1771,
+      "sha256": "eab2f0d01dbd9950a3958a7182d4bf47f3a0d70cc7b45711dcac82045127543d"
+    },
+    {
+      "path": "docs/STATIC_ANALYSIS_V06.md",
+      "size_bytes": 1175,
+      "sha256": "14c1aa37ba4dc7afb29bb285d25523533a5ecff42b2914f6d1c70e205a673801"
+    },
+    {
+      "path": "docs/XENIUM_RCC.md",
+      "size_bytes": 5562,
+      "sha256": "4db439f680edcfac1f91ed18ebb4d745f607967c88a5655101bce61eb9bce08a"
+    },
+    {
+      "path": "results/artifact_manifest_v0.4.json",
+      "size_bytes": 9944,
+      "sha256": "b1950d45e819e4ea00701c0e6a82bd4903afd3b825fc8446ded4cafdc124e7db"
+    },
+    {
+      "path": "results/artifact_manifest_v0.5.json",
+      "size_bytes": 12242,
+      "sha256": "50f60203e96a0b2757f0d95c6a47d476fdcc4f88076f42268ff3710ce6ea9d81"
+    },
+    {
+      "path": "results/build_validation_v0.2.json",
+      "size_bytes": 1488,
+      "sha256": "ee8266622e9217647534e6c27e7f9256c84fe1c5fbfdb36ed2105ce0e884f71a"
+    },
+    {
+      "path": "results/build_validation_v0.3.json",
+      "size_bytes": 2003,
+      "sha256": "394e4eacfacc807db5a9b12b5e4033a412e117a7811b4c841a451625ca98bdc4"
+    },
+    {
+      "path": "results/build_validation_v0.4.json",
+      "size_bytes": 2668,
+      "sha256": "a9b443c9977a3f0514db54d1b6fdc380353794633f43a23d7e6fb32bfb66d0b6"
+    },
+    {
+      "path": "results/build_validation_v0.5.json",
+      "size_bytes": 3102,
+      "sha256": "57f37674a7cb407e6b4631f9888e8cae901181a1a1f7e6c8b8007022d274f3b0"
+    },
+    {
+      "path": "results/build_validation_v0.6.json",
+      "size_bytes": 3316,
+      "sha256": "34006a05fd09038156996c4d05efd9ff9f0b720dd0e585664b8295a3b378e7cb"
+    },
+    {
+      "path": "results/coverage_v0.3.json",
+      "size_bytes": 65562,
+      "sha256": "788c313ed01dd0270fe1df6620669c731413608846f271eb2f83742f0cf5961a"
+    },
+    {
+      "path": "results/coverage_v0.4.json",
+      "size_bytes": 69715,
+      "sha256": "42b5eeb6ca8ef9acdf0f8d8b9c284246c86913132f6263c2ad47970848318ba7"
+    },
+    {
+      "path": "results/coverage_v0.5.json",
+      "size_bytes": 79596,
+      "sha256": "504aec768285113fbae255c837e7c548c030b231aac57217f81310e66fdcc83a"
+    },
+    {
+      "path": "results/coverage_v0.6.json",
+      "size_bytes": 101137,
+      "sha256": "e1ecc99409b078faa12db0f98e0dfdca76dba00ed09fac8fd973b2e5f17be8e9"
+    },
+    {
+      "path": "results/external_validation/claims_v0.6.json",
+      "size_bytes": 1737,
+      "sha256": "9e3acb2ee09c22fce06fb32b26b1e964cc7cc6b748e1253238b347f0fa950a94"
+    },
+    {
+      "path": "results/external_validation/cosmx_gse299786/cosmx_definition_sensitivity.csv",
+      "size_bytes": 3003,
+      "sha256": "262f7bffd756cd46065f26546d3bc343d307ab6644afd07aa4bcac51170dbe63"
+    },
+    {
+      "path": "results/external_validation/cosmx_gse299786/cosmx_external_validation.json",
+      "size_bytes": 1237,
+      "sha256": "324a944b24a01c03ddb35d810f3b8715561df6f44f9d9c105ab132a754506ad3"
+    },
+    {
+      "path": "results/external_validation/cosmx_gse299786/cosmx_proxy_definitions.csv",
+      "size_bytes": 1431,
+      "sha256": "bf6d6fa57ab4b88fb4212720273f40b1017934220b59f49f75a1ba2468bf5a01"
+    },
+    {
+      "path": "results/external_validation/cosmx_gse299786/cosmx_segmentation_summary.csv",
+      "size_bytes": 1022,
+      "sha256": "67443970f6b424154851ff9c0f3fb92b9724ac4b5778188ed3f4330e4854bf87"
+    },
+    {
+      "path": "results/external_validation/cosmx_gse299786/cosmx_target_proxy_geometry.csv",
+      "size_bytes": 14159,
+      "sha256": "e6b0af1499e134a0556c0b8057a729009f3a116a69596a09c78c249ae53f7976"
+    },
+    {
+      "path": "results/external_validation/cosmx_gse299786/cosmx_target_rank_stability.csv",
+      "size_bytes": 441,
+      "sha256": "25f58e3999467efe59f38e260a64b89c8d8ead0b51b1e987eaa475e1aa740b8f"
+    },
+    {
+      "path": "results/external_validation/cosmx_gse299786/figures/cosmx_segmentation_area_error.png",
+      "size_bytes": 67626,
+      "sha256": "8cfb8fc97adb980ab2abccc66f7ca58ac4a5c19e9ed946f1f34516966c61bad0"
+    },
+    {
+      "path": "results/external_validation/cosmx_gse299786/figures/cosmx_target_proxy_distance.png",
+      "size_bytes": 178566,
+      "sha256": "35e0ba77bd7b49fe79eedc163ee7f73e90ab5ea3dcda0eeff312cd8d7405a72f"
+    },
+    {
+      "path": "results/external_validation/external_data_audit/external_data_artifact_audit.json",
+      "size_bytes": 1567,
+      "sha256": "8da1cbea1ff30cd9104103196d537cc931d39576ca2701d9015d575b081b56f7"
+    },
+    {
+      "path": "results/external_validation/external_validation_summary_v0.6.json",
+      "size_bytes": 4147,
+      "sha256": "c59e18298a0f54777ae0c2137c953a6182d5f46733ed3d89087e4feadcab395b"
+    },
+    {
+      "path": "results/external_validation/her2_ihc_ahihci/figures/her2_score_vs_brown_signal.png",
+      "size_bytes": 55151,
+      "sha256": "98640c193ae188dabdc2788eafcec90f61a97b04e049d925a3152bc9f1cdc204"
+    },
+    {
+      "path": "results/external_validation/her2_ihc_ahihci/her2_ihc_benchmark.json",
+      "size_bytes": 896,
+      "sha256": "c5eb3aa20cf1117553b59280a90e5c89f7060ec2a165f5e7132b160abe27b53c"
+    },
+    {
+      "path": "results/external_validation/her2_ihc_ahihci/her2_ihc_case_features.csv",
+      "size_bytes": 1845,
+      "sha256": "9a81729c586390963b708715e61c4eab4aa536f3c79fc083c2eeb99b74e0851f"
+    },
+    {
+      "path": "results/external_validation/her2_ihc_ahihci/her2_ihc_feature_concordance.csv",
+      "size_bytes": 175,
+      "sha256": "cfb232e893f21f9122c6422bb05ac93b4ea6b9f3e14685abeac99b542bcd2085"
+    },
+    {
+      "path": "results/external_validation/shg_collagen_pilot/figures/shg_relative_collagen_fraction.png",
+      "size_bytes": 59076,
+      "sha256": "345b4e6452b617079fea467f3ddef156065e488bb5029fe8dcfc9bf555989120"
+    },
+    {
+      "path": "results/external_validation/shg_collagen_pilot/shg_collagen_benchmark.json",
+      "size_bytes": 634,
+      "sha256": "ddc6b6f6527ea26c07becc16f225d385381d8f4e93c3f8cba66241a5ce8eae61"
+    },
+    {
+      "path": "results/external_validation/shg_collagen_pilot/shg_collagen_features.csv",
+      "size_bytes": 1923,
+      "sha256": "60111ccc14cc255d3211e93ae7c5f1f97afd0b373dddca508e17e6b26b675e55"
+    },
+    {
+      "path": "results/external_validation/shg_collagen_pilot/shg_collagen_group_summary.csv",
+      "size_bytes": 248,
+      "sha256": "62112e922f20f8cf2e3776edd942ea417a85b8cd877895e7680c49e2355c527f"
+    },
+    {
+      "path": "results/manifest.json",
+      "size_bytes": 455,
+      "sha256": "892d5574caad4f1fc7a44eff92c816d4d640d54a925b51b41ec5c69f16316329"
+    },
+    {
+      "path": "results/mypy_legacy_baseline_v0.6.txt",
+      "size_bytes": 33729,
+      "sha256": "94714e7f168d47cb66ecd2a105591142ac240d19523b622a45121d09e8ad52ba"
+    },
+    {
+      "path": "results/mypy_strict_v0.6_full_legacy.txt",
+      "size_bytes": 37331,
+      "sha256": "3f3bddc7db7e0835b251bc7c8ab40fc002e3ef495b9933ff19211164c759c492"
+    },
+    {
+      "path": "results/mypy_strict_v0.6_new_modules.txt",
+      "size_bytes": 43,
+      "sha256": "71144743c83babea384888a735db0c4daba3d4d7b7942b6839984bd5c21b52bb"
+    },
+    {
+      "path": "results/pyright_v0.6_new_modules.txt",
+      "size_bytes": 37,
+      "sha256": "6d88a1b220adb7a3d62092b6e38431f0b3fe8babe9864fab90e5849766260332"
+    },
+    {
+      "path": "results/real_rcc_he/annotation_areas.csv",
+      "size_bytes": 213,
+      "sha256": "b20d14856559e179b5451c6d1d64e6f223a297468549883c9643764cbfbd1bb1"
+    },
+    {
+      "path": "results/real_rcc_he/artifact_manifest.json",
+      "size_bytes": 2730,
+      "sha256": "c189714f2526aa79dc81f073b8281830bd35b072449d93888c85b1eba444c547"
+    },
+    {
+      "path": "results/real_rcc_he/claims.json",
+      "size_bytes": 1275,
+      "sha256": "ace6a1620a36320ec4920fcb03fa08f1d3d824a7de425a83c26c4d10dfff0507"
+    },
+    {
+      "path": "results/real_rcc_he/execution.json",
+      "size_bytes": 394,
+      "sha256": "e727b5c888c6e7814ed042c622ce781246e97ced1a9151cee3a1014a6062b23d"
+    },
+    {
+      "path": "results/real_rcc_he/he_pathology_result.json",
+      "size_bytes": 10361,
+      "sha256": "6874046d442d713f886816f5f17d2ce6736dd9ad1e69ee82146abbbea0ef35d1"
+    },
+    {
+      "path": "results/real_rcc_he/processing_manifest.json",
+      "size_bytes": 1843,
+      "sha256": "690e4528b4970e677a300775ca4f9c2b4064a764ed57b4ef5aa7e456f7c757ae"
+    },
+    {
+      "path": "results/real_rcc_he/qc/eosin_proxy.png",
+      "size_bytes": 603304,
+      "sha256": "551252975eb7e97f52da804e6aed4a118c31f01274b2a6a21cf55fba47f6472c"
+    },
+    {
+      "path": "results/real_rcc_he/qc/he_analysis_level.jpg",
+      "size_bytes": 346368,
+      "sha256": "f0dca417d612b2b0096670354e207c768a52765a53be9420275f50096d71845d"
+    },
+    {
+      "path": "results/real_rcc_he/qc/hematoxylin_proxy.png",
+      "size_bytes": 770957,
+      "sha256": "499afea756f5215e1e8ddcea7db333c051695309180e2a5f7d317b612607d5fe"
+    },
+    {
+      "path": "results/real_rcc_he/qc/pathology_overlay.png",
+      "size_bytes": 1955513,
+      "sha256": "2008f9537895f5baa6e70f4b726a58236c2405666e07fcccddc4dd5a7d967105"
+    },
+    {
+      "path": "results/real_rcc_he/qc/tissue_mask.png",
+      "size_bytes": 27304,
+      "sha256": "9ebbea7b7be5161a0d6293d6bff223e3ce9bdc489d1ed1f4eea3eef72773c52f"
+    },
+    {
+      "path": "results/real_rcc_he/qc/unvalidated_lumen_candidates.png",
+      "size_bytes": 1878108,
+      "sha256": "d7409f5da9033acd58468bff3f8641f306d1e4a38f3a8359b86d40c45ff61e77"
+    },
+    {
+      "path": "results/real_rcc_he/source_he_split_manifest.json",
+      "size_bytes": 18991,
+      "sha256": "2e0202b15795a8cedf85fdef2d933dbd2a67e0ec3957c2b144b7a32560053bc2"
+    },
+    {
+      "path": "results/real_rcc_he/source_reassembly.json",
+      "size_bytes": 451,
+      "sha256": "9fc563870eaee5063f1bc2c610b4fe60331d1b1972c6e98775caad8c235fb9c0"
+    },
+    {
+      "path": "results/real_rcc_he/unvalidated_lumen_candidates.json",
+      "size_bytes": 375097,
+      "sha256": "71d3d827b6105d1b4f44257cbf6f8a307498e4f05404271110f863bed3729466"
+    },
+    {
+      "path": "results/real_rcc_imaging/channel_cell_image_concordance.csv",
+      "size_bytes": 1908,
+      "sha256": "1b90ae70f94834d10783e0290bb1847d614127ffa80110624a7cd24f8c7117ad"
+    },
+    {
+      "path": "results/real_rcc_imaging/claims.json",
+      "size_bytes": 1168,
+      "sha256": "168c34d6d28d3dd29dcda96dd0e5575dc9457f8247f8e640288e6e806550d90c"
+    },
+    {
+      "path": "results/real_rcc_imaging/figures/cell_image_concordance.png",
+      "size_bytes": 59355,
+      "sha256": "f5b49b1e7068c6270dce2449ff28a5ca727a7510a5304864d5ca3a25c4bcf442"
+    },
+    {
+      "path": "results/real_rcc_imaging/figures/image_vessel_definition_sensitivity.png",
+      "size_bytes": 95166,
+      "sha256": "6d7f6ff93c3538e3b43d7836ce9b0b1bc94347d68c263c233debe8e7a9ba9428"
+    },
+    {
+      "path": "results/real_rcc_imaging/figures/perivascular_stroma_profile.png",
+      "size_bytes": 73751,
+      "sha256": "728e53832f6b99241203462b655010faa5c93ce5b49570a78ab348ad814862d8"
+    },
+    {
+      "path": "results/real_rcc_imaging/image_vessel_definition_sensitivity.csv",
+      "size_bytes": 2072,
+      "sha256": "f63adaadfcebf77e18c3fad8c3d7a9066f6b69e69e6e800995fbf16f066a4e90"
+    },
+    {
+      "path": "results/real_rcc_imaging/perivascular_stroma_profile.csv",
+      "size_bytes": 852,
+      "sha256": "7c8f5ef901385a2114171d8c39052472067b74bde436a7dccfa66f11cb29ee9b"
+    },
+    {
+      "path": "results/real_rcc_imaging/real_imaging_summary.json",
+      "size_bytes": 2682,
+      "sha256": "fdf4b7b657636e12f48a9cf595a6eca4d084060b438302a05962942e53f8d018"
+    },
+    {
+      "path": "results/real_rcc_imaging/target_image_assignment_summary.csv",
+      "size_bytes": 1685,
+      "sha256": "93d21c52aef4a8d72f7f9c4eefc7de5721320b732a5d5700046428023713958f"
+    },
+    {
+      "path": "results/real_rcc_xenium/annotation_alignment_candidates.json",
+      "size_bytes": 5256,
+      "sha256": "96f9ef57502cca0b0ec768857424b605a70a325006f9ffe4d3fe458ff2e456b4"
+    },
+    {
+      "path": "results/real_rcc_xenium/cell_scoring_diagnostics.json",
+      "size_bytes": 1859,
+      "sha256": "15fe91384ac6debf71c578dab1b4491f72578926c0b6aa73edb7cd228eb6cf2a"
+    },
+    {
+      "path": "results/real_rcc_xenium/claims.json",
+      "size_bytes": 1302,
+      "sha256": "35f7ba3d0e0ff2dfb38674a14199b0d7af11f73a31d70d71a84a7b1c0fdc1b77"
+    },
+    {
+      "path": "results/real_rcc_xenium/feature_summary.csv",
+      "size_bytes": 55520,
+      "sha256": "137a4c46302e2b93fd94e64dcdf9838c05da1be4320bc7ad603728edee3dae82"
+    },
+    {
+      "path": "results/real_rcc_xenium/figures/rna_protein_concordance.png",
+      "size_bytes": 42742,
+      "sha256": "5d31454ca12e3b297bb560c7d4d85519226fadf634fa71bec0719b8b02d36d3e"
+    },
+    {
+      "path": "results/real_rcc_xenium/figures/segmentation_area_robustness.png",
+      "size_bytes": 66536,
+      "sha256": "7fd0dab4654e1609a48ca3ce82199e7ade3744ac4f1986e3395140be92a93136"
+    },
+    {
+      "path": "results/real_rcc_xenium/figures/target_map_LAG_3.png",
+      "size_bytes": 852114,
+      "sha256": "bcdc1df1342d8e5cf333d63be16358ce1b9a1a5bdff6f2cba38859e03227e1fa"
+    },
+    {
+      "path": "results/real_rcc_xenium/figures/target_map_PD_1.png",
+      "size_bytes": 779234,
+      "sha256": "a9a2a715cb207888550179baac4a027657956f0bc5f26c6b3ce958ded68d896f"
+    },
+    {
+      "path": "results/real_rcc_xenium/figures/target_map_PD_L1.png",
+      "size_bytes": 449828,
+      "sha256": "31e5eb25c85f007b14aadba40ff40c5330925e0d4fa6542f603cffcda98a78b7"
+    },
+    {
+      "path": "results/real_rcc_xenium/figures/target_map_VISTA.png",
+      "size_bytes": 967729,
+      "sha256": "a1dc341df101338a0b46344e305625813da8fa5937e7a817b28276abcc4ea21a"
+    },
+    {
+      "path": "results/real_rcc_xenium/figures/vessel_definition_sensitivity.png",
+      "size_bytes": 44173,
+      "sha256": "51946ec42c1c0129f3cd8b56372d436058bd3e5c1be52408f5ffcec73c35e55f"
+    },
+    {
+      "path": "results/real_rcc_xenium/full_cell_tables_manifest.json",
+      "size_bytes": 4887,
+      "sha256": "02cd77e773b717ff4a12d6f242dbf941f13fa1092eb2d53bb99a636e28272e20"
+    },
+    {
+      "path": "results/real_rcc_xenium/marker_resolution.json",
+      "size_bytes": 10792,
+      "sha256": "3aa8e5420e23ea59b32449e1972c7219f38bcb03c155a311b4f99310db6b7e80"
+    },
+    {
+      "path": "results/real_rcc_xenium/pathology_annotations_xenium.geojson",
+      "size_bytes": 179623,
+      "sha256": "14c7abf9876d9bf37b44eb92df4df914de11e22c2bfe6c8f29ddde41dfb7acca"
+    },
+    {
+      "path": "results/real_rcc_xenium/pathology_molecular_summary.csv",
+      "size_bytes": 1887,
+      "sha256": "d02f837bfba74f0eecc16278eb599aca3ac6edae0f5edbf8e2947782938e8bf3"
+    },
+    {
+      "path": "results/real_rcc_xenium/processing_manifest.json",
+      "size_bytes": 5589,
+      "sha256": "f1bf6211b992681cb793fa9a80a802ffa475d410ac05c8630fd6df24358d2c67"
+    },
+    {
+      "path": "results/real_rcc_xenium/real_data_summary.json",
+      "size_bytes": 4857,
+      "sha256": "e322ef562fcb9675fe7f6c6f6cfe8aca97608cb2eeba3c153213085c5c211206"
+    },
+    {
+      "path": "results/real_rcc_xenium/rna_protein_concordance.csv",
+      "size_bytes": 659,
+      "sha256": "a27ff99f7e6190a9124651f126235d1a26d45a0bb963d9e73614b7aace938c8c"
+    },
+    {
+      "path": "results/real_rcc_xenium/scored_cells_sample.csv.gz",
+      "size_bytes": 2152824,
+      "sha256": "b3ba3c8ba61c03fcca0ea5934cf9d6eacc66bdb990291e5d1b943397e7e97211"
+    },
+    {
+      "path": "results/real_rcc_xenium/segmentation_boundary_metrics_sample.csv.gz",
+      "size_bytes": 1954987,
+      "sha256": "03ac99e4b61e64f0b344fd6f12006c666bb60f1dc68386898665b738f4158712"
+    },
+    {
+      "path": "results/real_rcc_xenium/segmentation_robustness.json",
+      "size_bytes": 878,
+      "sha256": "6341229d42513490a7849ae3891daed9273e3cd295bdf3548624966f1a806d1f"
+    },
+    {
+      "path": "results/real_rcc_xenium/target_spatial_summary.csv",
+      "size_bytes": 3011,
+      "sha256": "382cfd277d86831b60c0877a26a0b92a93ed5ca058bfc45bc5092a7f192b2abf"
+    },
+    {
+      "path": "results/real_rcc_xenium/vessel_calling_sensitivity.csv",
+      "size_bytes": 5746,
+      "sha256": "0219d4743aaf208518674a27f6c57579133c034bcfc640f679358f3dceede4f8"
+    },
+    {
+      "path": "results/real_rcc_xenium/vessel_calling_sensitivity.json",
+      "size_bytes": 1014,
+      "sha256": "aa46db0071319763ea9b9374aaa56f1a80ecbb0c1264e2f8592a3636c0ff7473"
+    },
+    {
+      "path": "results/real_rcc_xenium/vessel_robustness_ranges.csv",
+      "size_bytes": 614,
+      "sha256": "29fb556ce01437d2f8a117cf3313bd649da93d6a30396808263d5498bb6c73bd"
+    },
+    {
+      "path": "results/simulated/benchmark.json",
+      "size_bytes": 4932,
+      "sha256": "1042984e9603a662e13bed3c19ce3b38e43b3967b6eafa62a5e2a3fae04adc93"
+    },
+    {
+      "path": "results/simulated/benchmark_report.md",
+      "size_bytes": 439,
+      "sha256": "647e96536f86d36292cd8833d7e8e19e0ab9224ff40c3f43a611f9af0cd90f26"
+    },
+    {
+      "path": "results/simulated/claims.json",
+      "size_bytes": 956,
+      "sha256": "bd21be7fc8e94bbe6ad87f7702832913702f56538d7a822e61da650d902554b5"
+    },
+    {
+      "path": "results/simulated/execution.json",
+      "size_bytes": 1195,
+      "sha256": "7054567fef5fa0bb02811b046ea93048fa2afbfb0a4f20490a703a5b08c90d0c"
+    },
+    {
+      "path": "results/simulated/features.npz",
+      "size_bytes": 46893,
+      "sha256": "7f680eec24371fb740e73e9219a078b9368eaaf64c287c03c2237d5feb9a58ec"
+    },
+    {
+      "path": "results/simulated/index.json",
+      "size_bytes": 2152,
+      "sha256": "4e3a8f9068a70710ff4154118c3a74c1ca658bd949d3e7ffb7fc51da763263bd"
+    },
+    {
+      "path": "results/simulated/solution.npz",
+      "size_bytes": 40786,
+      "sha256": "0880ef68ae731167d38761c86a925ac03280ccb0fbdbebe38daa6be1bfa3d9e7"
+    },
+    {
+      "path": "results/static_analysis/mypy_strict.txt",
+      "size_bytes": 15130,
+      "sha256": "8def0c59846a8b57a12c1736c593655bef21d636728b7c7a9ae6a30391cf3948"
+    },
+    {
+      "path": "results/static_analysis/pyright.txt",
+      "size_bytes": 28403,
+      "sha256": "19e5e5c403352370a17c4463da4183877e051f53436f9fa2e643481cd15d3453"
+    },
+    {
+      "path": "results/static_analysis_v0.5.1.json",
+      "size_bytes": 694,
+      "sha256": "f245dbbf008fb708bb46448af5daa0c1725b8cfdfd9cfcfeb0b08c22a50e3c42"
+    },
+    {
+      "path": "results/static_analysis_v0.6.json",
+      "size_bytes": 994,
+      "sha256": "0413b83a00c0b137bb20a957e7bff864c871729d7566241b85d9028d523a0597"
+    }
+  ]
+}

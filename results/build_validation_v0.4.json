@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "repository_version": "0.4.0",
+  "validated_at_utc": "2026-07-30T11:45:00Z",
+  "environment": {
+    "python": "3.13.5",
+    "local_runtime_note": "Validation performed in the active sandbox; clean-checkout validation is recorded separately after packaging."
+  },
+  "checks": {
+    "pytest": {
+      "status": "PASS",
+      "tests_passed": 48,
+      "tests_failed": 0,
+      "elapsed_seconds": 13.55,
+      "max_rss_kb": 252744,
+      "command": "PYTHONPATH=src python -m pytest -q --cov=src/reach_gap --cov-report=json:results/coverage_v0.4.json"
+    },
+    "coverage_non_io_modules": {
+      "status": "PASS",
+      "percent": 87.91848617176129,
+      "threshold_percent": 85.0,
+      "note": "I/O adapters parquet_lite.py, real_rcc.py, and xenium.py are excluded from the stated non-I/O threshold in project policy; the JSON coverage artefact records all measured modules."
+    },
+    "compileall": {
+      "status": "PASS",
+      "command": "python -m compileall -q src scripts tests"
+    },
+    "local_source_audit": {
+      "status": "PASS",
+      "command": "PYTHONPATH=src python scripts/local_source_audit.py"
+    },
+    "quick_benchmark": {
+      "status": "PASS",
+      "command": "PYTHONPATH=src python -m reach_gap.cli benchmark --quick --output /tmp/reach-gap-v04-benchmark.json"
+    },
+    "manifest_validation": {
+      "status": "PASS",
+      "command": "PYTHONPATH=src python -m reach_gap.cli validate-manifest results/manifest.json"
+    },
+    "cli_help": {
+      "status": "PASS",
+      "command": "PYTHONPATH=src python -m reach_gap.cli --help"
+    },
+    "ruff_local": {
+      "status": "NOT_RUN_PACKAGE_UNAVAILABLE",
+      "reason": "The accessible package registry did not provide Ruff. GitHub Actions retains the configured Ruff check."
+    },
+    "mypy_strict_local": {
+      "status": "NOT_RUN_PACKAGE_UNAVAILABLE",
+      "reason": "The accessible package registry did not provide mypy. GitHub Actions retains the configured mypy --strict check."
+    },
+    "clean_checkout": {
+      "status": "PASS",
+      "source_archive": "reach-gap-v0.4-real-xenium.zip",
+      "tests_passed": 48,
+      "elapsed_seconds": 13.83,
+      "max_rss_kb": 252248,
+      "commands": [
+        "PYTHONPATH=src python -m pytest -q",
+        "python -m compileall -q src scripts tests",
+        "PYTHONPATH=src python scripts/local_source_audit.py",
+        "PYTHONPATH=src python -m reach_gap.cli benchmark --quick --output /tmp/reach-gap-v04-clean-benchmark.json",
+        "PYTHONPATH=src python -m reach_gap.cli validate-manifest results/manifest.json",
+        "PYTHONPATH=src python -m reach_gap.cli --help"
+      ]
+    }
+  }
+}

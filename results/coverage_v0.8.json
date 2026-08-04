@@ -1,0 +1,10 @@
+{
+  "version": "0.8.0",
+  "coverage_percent": 88.30002896032435,
+  "covered_lines": 3049,
+  "statements": 3453,
+  "missing_lines": 404,
+  "excluded_lines": 35,
+  "threshold_percent": 85.0,
+  "status": "PASS"
+}

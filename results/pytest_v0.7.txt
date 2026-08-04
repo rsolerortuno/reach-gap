@@ -1,0 +1,37 @@
+........................................................................ [ 90%]
+........                                                                 [100%]
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.5-final-0 ________________
+
+Name                                   Stmts   Miss  Cover   Missing
+--------------------------------------------------------------------
+src/reach_gap/__init__.py                  1      0   100%
+src/reach_gap/artifact_validation.py      45     11    76%   36, 38, 41-50
+src/reach_gap/benchmark.py               138      6    96%   40, 50, 108, 138, 350-351
+src/reach_gap/bordeau_validation.py      121     11    91%   49, 54, 79, 93, 100, 105, 144-145, 148, 157-158
+src/reach_gap/breast_cohort.py            33      2    94%   33, 53
+src/reach_gap/bundle_tools.py            102     11    89%   27, 93-94, 105, 107, 149, 158, 172, 223-225
+src/reach_gap/cli.py                     171     73    57%   70-73, 83-85, 97, 126-130, 141-146, 159-166, 178-184, 197-204, 220-235, 245-260, 271-272, 282-292, 302-306, 317-328, 338-339, 348-349, 359-360, 372, 386-388, 399-401, 411-412, 424
+src/reach_gap/config.py                   24      3    88%   34, 36, 39
+src/reach_gap/cosmx.py                   206      9    96%   52, 57, 68, 71, 76, 87, 171, 185, 251
+src/reach_gap/features.py                 64      2    97%   35, 75
+src/reach_gap/geometry.py                 54      1    98%   31
+src/reach_gap/he_pathology.py            401     47    88%   96-101, 123, 127, 139, 152, 156, 169, 176, 182, 193, 196, 201, 222, 230, 234, 236-245, 261, 280, 284-285, 313, 358, 364, 375, 385, 392, 395, 399, 414, 446, 522, 527-528, 598, 660, 703
+src/reach_gap/her2_calibration.py        187     21    89%   41, 56-60, 74, 99, 103-104, 120-126, 142, 149, 186, 266
+src/reach_gap/her2_ihc.py                130      7    95%   22, 37-42, 48, 60, 103, 135
+src/reach_gap/indexing.py                120      7    94%   73, 82, 90, 104-105, 119, 255
+src/reach_gap/manifest.py                  7      0   100%
+src/reach_gap/perfusion.py               158     17    89%   44, 47, 51, 59, 66, 73-77, 89, 106, 109, 112, 135, 138, 153, 157, 272
+src/reach_gap/protein_imaging.py         198     47    76%   49, 65-73, 83, 89, 95, 97, 120, 126, 133, 140, 146, 155, 165-173, 188, 193, 216, 220, 222, 247, 251, 261-263, 286, 294, 302-305, 321-326, 347
+src/reach_gap/reporting.py                 9      0   100%
+src/reach_gap/retrospective.py            42      2    95%   44, 68
+src/reach_gap/schemas.py                 113      1    99%   66
+src/reach_gap/segmentation.py             80     53    34%   15, 39-83, 89-110
+src/reach_gap/sensitivity.py              55      4    93%   35, 41, 62, 74
+src/reach_gap/shg_collagen.py             65      3    95%   25, 27, 106
+src/reach_gap/solver.py                   93     13    86%   24, 72, 74, 76, 130-131, 158-160, 173, 175, 200-201
+src/reach_gap/transport_priors.py         30      0   100%
+--------------------------------------------------------------------
+TOTAL                                   2647    351    87%
+Required test coverage of 85% reached. Total coverage: 86.74%
+80 passed in 13.76s

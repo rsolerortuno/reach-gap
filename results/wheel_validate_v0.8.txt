@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": 70,
+  "issues": [],
+  "summary": {
+    "version": "0.8.0",
+    "status": "EVIDENCE_SYNTHESIS_AND_RELATIVE_RCC_TARGET_RANKING_COMPLETE_ABSOLUTE_REACHABILITY_NOT_COMPUTED",
+    "absolute_readiness_score": 40.5,
+    "dominant_uncertainty": "administered_antibody_field",
+    "stable_top_target": "VISTA",
+    "stable_top_probability": 0.98525,
+    "absolute_outputs": {
+      "reachable_fraction": "NOT_COMPUTED",
+      "penetration_depth": "NOT_COMPUTED",
+      "expression_reach_gap": "NOT_COMPUTED",
+      "model_pharmacological_concordance": "NOT_COMPUTED"
+    }
+  }
+}

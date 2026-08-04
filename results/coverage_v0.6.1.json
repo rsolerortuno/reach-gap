@@ -1,0 +1,8 @@
+{
+  "version": "0.6.1",
+  "tests_passed": 68,
+  "configured_coverage_percent": 86.49,
+  "threshold_percent": 85.0,
+  "status": "PASS",
+  "python": "3.13.5"
+}

@@ -1,0 +1,47 @@
+{
+  "version": "0.6.1",
+  "generated_from": "clean local release workspace",
+  "files": [
+    {
+      "path": "dist/reach_gap-0.6.1-py3-none-any.whl",
+      "size_bytes": 96899,
+      "sha256": "8e201e853e7fd7c474a5ac3c6968c737fa2a3b3fb6d77acee6f0b95946556195"
+    },
+    {
+      "path": "results/build_validation_v0.6.1.json",
+      "size_bytes": 649,
+      "sha256": "257bd71fb08da780dd1007f4e5d66dcefe1a442a6cf1e4c5c451d45bbc7abac6"
+    },
+    {
+      "path": "results/static_analysis_v0.6.1.json",
+      "size_bytes": 480,
+      "sha256": "87d09b696f117c9878f5b2843b8412570598d476c9f76c66c485e1a9ec1ea6f5"
+    },
+    {
+      "path": "results/coverage_v0.6.1.json",
+      "size_bytes": 158,
+      "sha256": "52d12576a9c76212c7a54519ff7a661973bc920e910536246fc90c7adeeb4c86"
+    },
+    {
+      "path": "results/external_validation/external_validation_summary_v0.6.1.json",
+      "size_bytes": 4308,
+      "sha256": "f9ac3a3a42b212adef31ab001800bd3bd9f550ba711bf14b9608303db3b8650e"
+    },
+    {
+      "path": "docs/STATIC_ANALYSIS_V061.md",
+      "size_bytes": 1295,
+      "sha256": "0b429e5e52e37d7502fc13ed0606977f082db5e319031100c9d1b57ab64bac43"
+    },
+    {
+      "path": "docs/IMPLEMENTATION_REPORT_V061.md",
+      "size_bytes": 970,
+      "sha256": "71a001c521503464f18bd38636a9d5f182452768a608d76b88db8b182a399f7c"
+    },
+    {
+      "path": "docs/CRITICAL_EVALUATION_V061.md",
+      "size_bytes": 1318,
+      "sha256": "e288e88a588cd19909ed5f7969db5445b028f0c5aadf62ca87437ceebfc464b1"
+    }
+  ],
+  "scientific_results_changed_from_v0.6": false
+}

@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "repository_version": "0.8.0",
+  "generated_at_utc": "2026-08-04T19:27:30.613801+00:00",
+  "generated_from": "validated v0.8.0 release workspace",
+  "artifacts": [
+    {
+      "path": "dist/reach_gap-0.8.0-py3-none-any.whl",
+      "size_bytes": 139912,
+      "sha256": "67560047febf90fa5cffe052e2a8fc1a1c36cd17af7fd80fe0541be7082a6c28"
+    },
+    {
+      "path": "dist/reach_gap-0.8.0.tar.gz",
+      "size_bytes": 15938698,
+      "sha256": "7bcf3c60c4ae552958067cd66d6b4de406df2475aa275bf16507d00bb4281373"
+    },
+    {
+      "path": "results/build_validation_v0.8.json",
+      "size_bytes": 3372,
+      "sha256": "bc3bac72a7bfe772c04c9d7b04cebcb2edef539e753d08f275948b6cbc8df7be"
+    },
+    {
+      "path": "results/static_analysis_v0.8.json",
+      "size_bytes": 823,
+      "sha256": "2829a5de09710cf0e538df8a6472cb6861c29ef10849432cf26d93fe6f19648f"
+    },
+    {
+      "path": "results/coverage_v0.8.json",
+      "size_bytes": 210,
+      "sha256": "5be6682c0cfe1b8061e3db9d89dd41dcae41ae06bf2c62bcd8c403ddf53ef815"
+    },
+    {
+      "path": "results/pytest_coverage_v0.8.txt",
+      "size_bytes": 6606,
+      "sha256": "6255bd0e57e259b96bdeb705a07f17a0c39236091bd03cccd036331dbde9a0fd"
+    },
+    {
+      "path": "results/sdist_pytest_v0.8.txt",
+      "size_bytes": 6628,
+      "sha256": "a2b59a4ceda2ddb591906ce6db93f71bdc67c925aaa076e3b94ec8b0ab16c741"
+    },
+    {
+      "path": "results/v080_validation_cli.txt",
+      "size_bytes": 604,
+      "sha256": "c8144b626b66f47006868c8203f157efd3ffae9bd44f755f4a8bd03029c9f50a"
+    },
+    {
+      "path": "docs/EVIDENCE_SYNTHESIS_V080.md",
+      "size_bytes": 3538,
+      "sha256": "ba7f61f31b180718c814973e681cd19c4dd5d5b56fdfd4bea818dbb7fc2255e1"
+    },
+    {
+      "path": "docs/RELATIVE_ACCESSIBILITY_V080.md",
+      "size_bytes": 2892,
+      "sha256": "77bee26f86b8f0afbb6537753c53bcb5c9a73bbdcb6ad3c2467358b822075d9c"
+    },
+    {
+      "path": "docs/IMPLEMENTATION_REPORT_V080.md",
+      "size_bytes": 1768,
+      "sha256": "4d9f3c4d8df6d4c804f5a6cc78e39fdb96ee6ff3f575b70b4d6eed4490e8865b"
+    },
+    {
+      "path": "docs/CRITICAL_EVALUATION_V080.md",
+      "size_bytes": 2642,
+      "sha256": "15008d0021985d3dae76ea0fbe444fddcac20ce42cfe32b4206ca644605fd7de"
+    },
+    {
+      "path": "docs/STATIC_ANALYSIS_V080.md",
+      "size_bytes": 1600,
+      "sha256": "f74ed324d3a61ab76a1ce5ccfbac1e5fa5f360c55c56701707915865dba51063"
+    },
+    {
+      "path": "docs/RELEASE_NOTES_V080.md",
+      "size_bytes": 1321,
+      "sha256": "c1a05a50a8413734642c002397f3b4751ec877da056748e835b3ac14f6b69054"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 18125,
+      "sha256": "0b22d6be4e07d9987be91b5c7366072464c8ee0d9a2b0e9b9d5a7c9e69805c29"
+    },
+    {
+      "path": "REACH_GAP_V080_FINAL_RELEASE_REPORT.md",
+      "size_bytes": 2994,
+      "sha256": "d9397618fb04613bdd3b6097f20da15ae4661d78eee59303528d88e0814dac11"
+    },
+    {
+      "path": "results/evidence_synthesis_v0.8/artifact_manifest_v0.8.json",
+      "size_bytes": 2338,
+      "sha256": "1ac600d4f66006f3206185f39a1d5195face1ee0d954749a91fafe433970c26a"
+    },
+    {
+      "path": "results/evidence_synthesis_v0.8/claims_v0.8.json",
+      "size_bytes": 1171,
+      "sha256": "5cc18d8ac856683e902582d8053d07d0f7d2a9d5193f8cb8a3cdc0c7c3b6145e"
+    },
+    {
+      "path": "results/evidence_synthesis_v0.8/evidence/evidence_graph_v0.8.json",
+      "size_bytes": 18597,
+      "sha256": "1b3e4af5d030f379a8ee694c4950b312c580e7e13261b8705f6151a86fc616a3"
+    },
+    {
+      "path": "results/evidence_synthesis_v0.8/evidence/evidence_requirements_v0.8.csv",
+      "size_bytes": 1652,
+      "sha256": "22a9dd4ebf1b0ee9b3e8726c2e678c4cffa5bda87bfadb8c1e8606748444e6fd"
+    },
+    {
+      "path": "results/evidence_synthesis_v0.8/evidence/evidence_uncertainty_budget_v0.8.svg",
+      "size_bytes": 2829,
+      "sha256": "08d133c186c20c7481154dcd9dcb0e4d53959ce674de30bad5c66b5d60d177ba"
+    },
+    {
+      "path": "results/evidence_synthesis_v0.8/evidence/measurement_priorities_v0.8.csv",
+      "size_bytes": 767,
+      "sha256": "9e966c3373965f1b17f2ce37fef100495fb5c88890a90b3decdee1e4eab05baa"
+    },
+    {
+      "path": "results/evidence_synthesis_v0.8/relative_accessibility/leave_one_component_out_v0.8.csv",
+      "size_bytes": 462,
+      "sha256": "bcb58ccc5ec63b08b3c871b52a66a82985d4171f4cb95f5e2e28944ea6ffbc9d"
+    },
+    {
+      "path": "results/evidence_synthesis_v0.8/relative_accessibility/pairwise_win_probability_v0.8.csv",
+      "size_bytes": 156,
+      "sha256": "c440bac92456fdb020d61a17703e82a4ba03f37d2f07fabbc727c1415352560a"
+    },
+    {
+      "path": "results/evidence_synthesis_v0.8/relative_accessibility/relative_accessibility_v0.8.json",
+      "size_bytes": 3480,
+      "sha256": "539763fff9b5315745103ced4782de5573b539da1759420411c6670ce6723ff9"
+    },
+    {
+      "path": "results/evidence_synthesis_v0.8/relative_accessibility/target_rank_summary_v0.8.csv",
+      "size_bytes": 512,
+      "sha256": "228389506f61f177607fa76c1b2d7217f31881922fe508c35f083c6f478a1212"
+    },
+    {
+      "path": "results/evidence_synthesis_v0.8/relative_accessibility/target_top_rank_probability_v0.8.svg",
+      "size_bytes": 2503,
+      "sha256": "ebd48a762befc7ef22503470b2cafa26f438db4bac2af2f887745961db38e3d4"
+    },
+    {
+      "path": "results/evidence_synthesis_v0.8/summary_v0.8.json",
+      "size_bytes": 1216,
+      "sha256": "f318c36e448654e3778640697162bf807e35d850514ddfe6ff62b1348a1fb3c4"
+    },
+    {
+      "path": "results/evidence_synthesis_v0.8/validation_v0.8.json",
+      "size_bytes": 603,
+      "sha256": "4727e4b91ea618760a8dd31977e1ea080e9ee7e832b9ea546798fd45ef9c2e09"
+    }
+  ],
+  "scientific_status": "EVIDENCE_SYNTHESIS_AND_RELATIVE_RCC_TARGET_RANKING_COMPLETE_ABSOLUTE_REACHABILITY_NOT_COMPUTED",
+  "absolute_reachability": "NOT_COMPUTED"
+}

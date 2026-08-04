@@ -1,0 +1,24 @@
+{
+  "version": "0.8.0",
+  "ruff_version": "0.16.0",
+  "ruff_check": "PASS",
+  "ruff_format_check": "PASS",
+  "ruff_format_files": 116,
+  "mypy_version": "2.3.0",
+  "mypy_scope": "all 37 source modules",
+  "mypy_strict": "PASS",
+  "pyright_version": "1.1.411",
+  "pyright_v080_scope": [
+    "src/reach_gap/evidence_synthesis.py",
+    "src/reach_gap/relative_accessibility.py",
+    "src/reach_gap/v080_results.py",
+    "src/reach_gap/visuals.py"
+  ],
+  "pyright_v080_errors": 0,
+  "pyright_v080_warnings": 0,
+  "pyright_full_package_errors": 0,
+  "pyright_full_package_warnings": 1,
+  "pyright_full_package_status": "PASS_WITH_ONE_OPTIONAL_DEPENDENCY_SOURCE_WARNING",
+  "pyright_full_package_warning": "pyarrow import source could not be resolved in xenium.py; no type error was reported",
+  "reach_gap_modules_ignored": 0
+}

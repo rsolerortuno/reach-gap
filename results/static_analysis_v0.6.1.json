@@ -1,0 +1,16 @@
+{
+  "version": "0.6.1",
+  "ruff_check": "PASS",
+  "ruff_format_check": "PASS",
+  "mypy_scope": "all 25 source modules",
+  "mypy_strict": "PASS",
+  "pyright_version": "1.1.411",
+  "pyright_scope": "all 25 source modules",
+  "pyright_errors": 0,
+  "pyright_warnings": 0,
+  "third_party_exceptions": {
+    "mypy_tifffile_override": "narrow module override for Python 3.12 syntax in dependency source",
+    "skimage_no_untyped_call_lines": 3,
+    "reach_gap_modules_ignored": 0
+  }
+}

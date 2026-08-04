@@ -1,0 +1,46 @@
+{
+  "release": "0.6.0",
+  "python": "3.13.5",
+  "tools": {
+    "ruff": "0.16.0",
+    "mypy": "2.3.0",
+    "pyright": "1.1.411"
+  },
+  "ruff_check": {
+    "status": "PASS"
+  },
+  "ruff_format_check": {
+    "status": "PASS"
+  },
+  "pytest": {
+    "status": "PASS",
+    "passed": 68,
+    "coverage_percent": 86.83
+  },
+  "mypy_strict_v0_6_modules": {
+    "status": "PASS",
+    "errors": 0,
+    "files": 4,
+    "target_python": "3.11",
+    "follow_imports": "skip"
+  },
+  "pyright_v0_6_modules": {
+    "status": "PASS",
+    "errors": 0,
+    "warnings": 0,
+    "files": 4
+  },
+  "legacy_mypy_baseline": {
+    "status": "PASS_NON_REGRESSION",
+    "errors": 224,
+    "files": 17,
+    "maximum_errors": 224,
+    "target_python": "3.11",
+    "note": "Full package is not claimed to pass strict typing."
+  },
+  "logs": {
+    "mypy_new": "results/mypy_strict_v0.6_new_modules.txt",
+    "mypy_legacy": "results/mypy_legacy_baseline_v0.6.txt",
+    "pyright_new": "results/pyright_v0.6_new_modules.txt"
+  }
+}

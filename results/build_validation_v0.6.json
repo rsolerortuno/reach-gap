@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "repository_version": "0.6.0",
+  "validated_at_utc": "2026-07-31T12:35:33.736940+00:00",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "linux x86_64"
+  },
+  "checks": {
+    "cosmx_external_validation": {
+      "status": "PASS_WITH_ABSTENTION",
+      "samples": 4,
+      "cells": 199517,
+      "distance_unit": "px",
+      "geometry_sensitivity": {
+        "median_definition_distance_ratio": 9.011054268849055,
+        "maximum_definition_distance_ratio": 10.749873094084169,
+        "median_pairwise_balanced_target_rank_spearman": -0.22857142857142862,
+        "target_ranking_generalises_across_samples": false,
+        "interpretation": "DEFINITION_SENSITIVE_AND_TARGET_RANKING_NOT_STABLE"
+      },
+      "absolute_index": "NOT_COMPUTED"
+    },
+    "her2_ihc_benchmark": {
+      "status": "PASS_ORDINAL_ONLY",
+      "cases": 11,
+      "best_spearman": 0.921383257182275,
+      "max_statistic_exact_permutation_pvalue": 0.0007575757575757576,
+      "absolute_antigen_density": "NOT_COMPUTED"
+    },
+    "shg_collagen_pilot": {
+      "status": "PASS_FEATURE_EXTRACTOR_ONLY",
+      "images": 12,
+      "transport_coefficient": "NOT_COMPUTED"
+    },
+    "external_artifact_integrity": {
+      "status": "PASS_FAIL_CLOSED",
+      "audit_result": "FAIL",
+      "invalid_artifacts": [
+        "bordeau_pdf_download",
+        "bordeau_supplement_download"
+      ],
+      "pharmacological_concordance": "NOT_COMPUTED"
+    },
+    "pytest": {
+      "status": "PASS",
+      "tests_passed": 68,
+      "tests_failed": 0,
+      "command": "PYTHONPATH=src pytest -q --cov-report=json:results/coverage_v0.6.json"
+    },
+    "coverage": {
+      "status": "PASS",
+      "percent": 86.82808716707022,
+      "threshold_percent": 85.0
+    },
+    "ruff_check": {
+      "status": "PASS",
+      "command": "ruff check ."
+    },
+    "ruff_format": {
+      "status": "PASS",
+      "command": "ruff format --check ."
+    },
+    "mypy_new_modules": {
+      "status": "PASS",
+      "errors": 0,
+      "files": 4,
+      "command": "mypy --strict --python-version 3.11 --follow-imports=skip <v0.6 modules>"
+    },
+    "pyright_new_modules": {
+      "status": "PASS",
+      "errors": 0,
+      "warnings": 0,
+      "files": 4,
+      "version": "1.1.411"
+    },
+    "legacy_mypy_non_regression": {
+      "status": "PASS",
+      "errors": 224,
+      "maximum_errors": 224,
+      "note": "Full package is not claimed to pass strict Mypy."
+    },
+    "compileall": {
+      "status": "PASS"
+    },
+    "local_source_audit": {
+      "status": "PASS"
+    },
+    "quick_benchmark": {
+      "status": "PASS"
+    },
+    "manifest_validation": {
+      "status": "PASS"
+    },
+    "cli_help": {
+      "status": "PASS",
+      "new_commands": [
+        "prepare-cosmx-external-validation",
+        "benchmark-her2-ihc",
+        "benchmark-shg-collagen",
+        "validate-artifact"
+      ]
+    },
+    "wheel_build": {
+      "status": "PASS",
+      "path": "dist/reach_gap-0.6.0-py3-none-any.whl"
+    },
+    "clean_tree_validation": {
+      "status": "PASS",
+      "path": "/mnt/data/reach-gap-v060-clean-prepackage",
+      "tests_passed": 68,
+      "note": "Clean copied tree excluded caches and passed tests, compile, audits, CLI, benchmark, manifest, Ruff, new-module Mypy/Pyright and legacy baseline."
+    }
+  }
+}

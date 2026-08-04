@@ -1,0 +1,293 @@
+src/reach_gap/schemas.py:50: error: Variable "reach_gap.schemas.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:50: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:51: error: Variable "reach_gap.schemas.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:51: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:52: error: Variable "reach_gap.schemas.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:52: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:53: error: Variable "reach_gap.schemas.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:53: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:54: error: Variable "reach_gap.schemas.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:54: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:55: error: Variable "reach_gap.schemas.IntArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:55: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:56: error: Variable "reach_gap.schemas.IntArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:56: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:57: error: Variable "reach_gap.schemas.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:57: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:58: error: Variable "reach_gap.schemas.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:58: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:66: error: Returning Any from function declared to return "tuple[int, int]"  [no-any-return]
+src/reach_gap/schemas.py:66: error: FloatArray? has no attribute "shape"  [attr-defined]
+src/reach_gap/schemas.py:73: error: Variable "reach_gap.schemas.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:73: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:74: error: Variable "reach_gap.schemas.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:74: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:75: error: Variable "reach_gap.schemas.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:75: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:76: error: Variable "reach_gap.schemas.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:76: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:77: error: Variable "reach_gap.schemas.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:77: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:78: error: Variable "reach_gap.schemas.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:78: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:79: error: Variable "reach_gap.schemas.IntArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:79: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:80: error: Variable "reach_gap.schemas.IntArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:80: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:81: error: Variable "reach_gap.schemas.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:81: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:82: error: Variable "reach_gap.schemas.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:82: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:91: error: Returning Any from function declared to return "tuple[int, int]"  [no-any-return]
+src/reach_gap/schemas.py:91: error: FloatArray? has no attribute "shape"  [attr-defined]
+src/reach_gap/schemas.py:98: error: Variable "reach_gap.schemas.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:98: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:99: error: Variable "reach_gap.schemas.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:99: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:100: error: Variable "reach_gap.schemas.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/schemas.py:100: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/schemas.py:106: error: Class cannot subclass "BaseModel" (has type "Any")  [misc]
+src/reach_gap/schemas.py:125: error: Class cannot subclass "BaseModel" (has type "Any")  [misc]
+src/reach_gap/schemas.py:133: error: Class cannot subclass "BaseModel" (has type "Any")  [misc]
+src/reach_gap/schemas.py:157: error: Class cannot subclass "BaseModel" (has type "Any")  [misc]
+src/reach_gap/solver.py:88: error: Unsupported operand type for unary - (FloatArray?)  [operator]
+src/reach_gap/solver.py:99: error: BoolArray? has no attribute "ravel"  [attr-defined]
+src/reach_gap/solver.py:112: error: BoolArray? has no attribute "shape"  [attr-defined]
+src/reach_gap/manifest.py:15: error: Returning Any from function declared to return "ProvenanceManifest"  [no-any-return]
+src/reach_gap/geometry.py:46: error: Need type annotation for "vessel_mask"  [var-annotated]
+src/reach_gap/geometry.py:53: error: Need type annotation for "raw_caf"  [var-annotated]
+src/reach_gap/geometry.py:55: error: Need type annotation for "raw_ecm"  [var-annotated]
+src/reach_gap/geometry.py:58: error: Need type annotation for "vessel_proximity"  [var-annotated]
+src/reach_gap/retrospective.py:80: error: Need type annotation for "null"  [var-annotated]
+src/reach_gap/parquet_lite.py:358: error: Returning Any from function declared to return "list[Any] | ndarray[Any, dtype[Any]]"  [no-any-return]
+src/reach_gap/parquet_lite.py:362: error: Returning Any from function declared to return "list[Any] | ndarray[Any, dtype[Any]]"  [no-any-return]
+src/reach_gap/parquet_lite.py:366: error: Returning Any from function declared to return "list[Any] | ndarray[Any, dtype[Any]]"  [no-any-return]
+src/reach_gap/parquet_lite.py:370: error: Returning Any from function declared to return "list[Any] | ndarray[Any, dtype[Any]]"  [no-any-return]
+src/reach_gap/parquet_lite.py:467: error: Returning Any from function declared to return "list[Any] | ndarray[Any, dtype[Any]]"  [no-any-return]
+src/reach_gap/parquet_lite.py:492: error: Argument 1 to "append" of "list" has incompatible type "list[Any] | ndarray[Any, dtype[Any]]"; expected "ndarray[Any, dtype[Any]]"  [arg-type]
+src/reach_gap/features.py:36: error: Unsupported operand type for ~ (BoolArray?)  [operator]
+src/reach_gap/features.py:36: error: Unsupported operand types for * ("tuple[Any, Any]" and "float")  [operator]
+src/reach_gap/features.py:36: note: Left operand is of type "Any | tuple[Any, Any]"
+src/reach_gap/features.py:46: error: "float" has no attribute "astype"  [attr-defined]
+src/reach_gap/features.py:51: error: "bool" has no attribute "astype"  [attr-defined]
+src/reach_gap/features.py:84: error: Need type annotation for "count"  [var-annotated]
+src/reach_gap/features.py:89: error: Need type annotation for "tumour"  [var-annotated]
+src/reach_gap/features.py:114: error: Unsupported operand types for * ("tuple[Any, Any]" and "float")  [operator]
+src/reach_gap/features.py:114: note: Left operand is of type "Any | tuple[Any, Any]"
+src/reach_gap/xenium.py:294: error: Argument 1 to "int" has incompatible type "str | bytes | date | datetime | timedelta | <7 more items> | complex | integer[Any] | floating[Any] | complexfloating[Any, Any]"; expected "str | Buffer | SupportsInt | SupportsIndex | SupportsTrunc"  [arg-type]
+src/reach_gap/xenium.py:372: error: Argument 1 to "File" has incompatible type "Path"; expected "str"  [arg-type]
+src/reach_gap/xenium.py:508: error: Need type annotation for "sums"  [var-annotated]
+src/reach_gap/xenium.py:509: error: Need type annotation for "positive_cells"  [var-annotated]
+src/reach_gap/xenium.py:510: error: Argument 1 to "File" has incompatible type "Path"; expected "str"  [arg-type]
+src/reach_gap/xenium.py:552: error: Need type annotation for "lookup"  [var-annotated]
+src/reach_gap/xenium.py:555: error: Argument 1 to "File" has incompatible type "Path"; expected "str"  [arg-type]
+src/reach_gap/xenium.py:568: error: Need type annotation for "local_cells"  [var-annotated]
+src/reach_gap/xenium.py:591: error: Variable "reach_gap.xenium.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/xenium.py:591: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/xenium.py:599: error: Returning Any from function declared to return FloatArray?  [no-any-return]
+src/reach_gap/xenium.py:600: error: Returning Any from function declared to return FloatArray?  [no-any-return]
+src/reach_gap/xenium.py:640: error: Variable "reach_gap.xenium.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/xenium.py:640: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/xenium.py:645: error: Argument 1 to "robust_scale" has incompatible type "ndarray[Any, dtype[Any]]"; expected "Sequence[float]"  [arg-type]
+src/reach_gap/xenium.py:646: error: Returning Any from function declared to return FloatArray?  [no-any-return]
+src/reach_gap/xenium.py:649: error: Variable "reach_gap.xenium.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/xenium.py:649: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/xenium.py:656: error: Returning Any from function declared to return FloatArray?  [no-any-return]
+src/reach_gap/xenium.py:661: error: Variable "reach_gap.xenium.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/xenium.py:661: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/xenium.py:666: error: Variable "reach_gap.xenium.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/xenium.py:666: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/xenium.py:675: error: Returning Any from function declared to return FloatArray?  [no-any-return]
+src/reach_gap/xenium.py:678: error: Need type annotation for "output"  [var-annotated]
+src/reach_gap/xenium.py:683: error: Value of type "float | Any" is not indexable  [index]
+src/reach_gap/xenium.py:684: error: Value of type "signedinteger[Any] | Any" is not indexable  [index]
+src/reach_gap/xenium.py:686: error: Item "bool" of "bool | Any" has no attribute "astype"  [union-attr]
+src/reach_gap/xenium.py:688: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/xenium.py:699: error: Variable "reach_gap.xenium.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/xenium.py:699: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/xenium.py:709: error: Need type annotation for "distances"  [var-annotated]
+src/reach_gap/xenium.py:710: error: Need type annotation for "local_density"  [var-annotated]
+src/reach_gap/xenium.py:718: error: Value of type "float | Any" is not indexable  [index]
+src/reach_gap/xenium.py:761: error: "bool" has no attribute "mean"  [attr-defined]
+src/reach_gap/xenium.py:788: error: Argument 1 to "otsu_threshold" has incompatible type "ndarray[Any, dtype[Any]]"; expected "Sequence[float]"  [arg-type]
+src/reach_gap/xenium.py:825: error: "bool" has no attribute "sum"  [attr-defined]
+src/reach_gap/xenium.py:826: error: "bool" has no attribute "mean"  [attr-defined]
+src/reach_gap/xenium.py:1073: error: Call to untyped function (unknown) in typed context  [no-untyped-call]
+src/reach_gap/xenium.py:1077: error: Call to untyped function (unknown) in typed context  [no-untyped-call]
+src/reach_gap/bundle_tools.py:159: error: Argument 1 to "int" has incompatible type "str | bytes | date | datetime | timedelta | <7 more items> | complex | integer[Any] | floating[Any] | complexfloating[Any, Any]"; expected "str | Buffer | SupportsInt | SupportsIndex | SupportsTrunc"  [arg-type]
+src/reach_gap/bundle_tools.py:160: error: Argument 1 to "int" has incompatible type "str | bytes | date | datetime | timedelta | <7 more items> | complex | integer[Any] | floating[Any] | complexfloating[Any, Any]"; expected "str | Buffer | SupportsInt | SupportsIndex | SupportsTrunc"  [arg-type]
+src/reach_gap/bundle_tools.py:171: error: No overload variant of "int" matches argument type "object"  [call-overload]
+src/reach_gap/bundle_tools.py:171: note: Possible overload variants:
+src/reach_gap/bundle_tools.py:171: note:     def int(str | Buffer | SupportsInt | SupportsIndex | SupportsTrunc = ..., /) -> int
+src/reach_gap/bundle_tools.py:171: note:     def int(str | bytes | bytearray, /, base: SupportsIndex) -> int
+src/reach_gap/sensitivity.py:37: error: Unsupported left operand type for & (BoolArray?)  [operator]
+src/reach_gap/sensitivity.py:42: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/sensitivity.py:42: error: Value of type IntArray? is not indexable  [index]
+src/reach_gap/real_rcc.py:184: error: Need type annotation for "output"  [var-annotated]
+src/reach_gap/real_rcc.py:202: error: Argument 1 to "robust_scale" has incompatible type "ndarray[Any, dtype[Any]]"; expected "Sequence[float]"  [arg-type]
+src/reach_gap/real_rcc.py:205: error: Argument 1 to "otsu_threshold" has incompatible type "ndarray[Any, dtype[Any]]"; expected "Sequence[float]"  [arg-type]
+src/reach_gap/protein_imaging.py:45: error: Returning Any from function declared to return "float"  [no-any-return]
+src/reach_gap/protein_imaging.py:49: error: Returning Any from function declared to return "float"  [no-any-return]
+src/reach_gap/protein_imaging.py:162: error: Variable "reach_gap.protein_imaging.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/protein_imaging.py:162: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/protein_imaging.py:184: error: Variable "reach_gap.protein_imaging.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/protein_imaging.py:184: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/protein_imaging.py:200: error: Returning Any from function declared to return FloatArray?  [no-any-return]
+src/reach_gap/protein_imaging.py:242: error: Variable "reach_gap.protein_imaging.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/protein_imaging.py:242: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/protein_imaging.py:243: error: Variable "reach_gap.protein_imaging.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/protein_imaging.py:243: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/protein_imaging.py:252: error: "int" object is not iterable  [misc]
+src/reach_gap/protein_imaging.py:263: error: "int" object is not iterable  [misc]
+src/reach_gap/protein_imaging.py:279: error: Variable "reach_gap.protein_imaging.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/protein_imaging.py:279: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/protein_imaging.py:279: error: Variable "reach_gap.protein_imaging.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/protein_imaging.py:284: error: Returning Any from function declared to return FloatArray?  [no-any-return]
+src/reach_gap/protein_imaging.py:285: error: Returning Any from function declared to return FloatArray?  [no-any-return]
+src/reach_gap/protein_imaging.py:285: error: Unsupported operand types for * ("tuple[Any, Any]" and "float")  [operator]
+src/reach_gap/protein_imaging.py:285: note: Left operand is of type "Any | tuple[Any, Any]"
+src/reach_gap/protein_imaging.py:288: error: Variable "reach_gap.protein_imaging.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/protein_imaging.py:288: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/protein_imaging.py:291: error: Returning Any from function declared to return FloatArray?  [no-any-return]
+src/reach_gap/protein_imaging.py:301: error: FloatArray? has no attribute "astype"  [attr-defined]
+src/reach_gap/protein_imaging.py:315: error: Variable "reach_gap.protein_imaging.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/protein_imaging.py:315: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/protein_imaging.py:323: error: Returning Any from function declared to return FloatArray?  [no-any-return]
+src/reach_gap/protein_imaging.py:330: error: Variable "reach_gap.protein_imaging.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/protein_imaging.py:330: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/indexing.py:80: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/indexing.py:85: error: Unsupported left operand type for & (BoolArray?)  [operator]
+src/reach_gap/indexing.py:121: error: Value of type IntArray? is not indexable  [index]
+src/reach_gap/indexing.py:122: error: Value of type IntArray? is not indexable  [index]
+src/reach_gap/indexing.py:124: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/indexing.py:127: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/indexing.py:137: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/indexing.py:141: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/he_pathology.py:186: error: Variable "reach_gap.he_pathology.UInt8Array" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:186: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:223: error: Returning Any from function declared to return "dict[str, Any]"  [no-any-return]
+src/reach_gap/he_pathology.py:230: error: "yield from" can't be applied to "Any | None"  [misc]
+src/reach_gap/he_pathology.py:232: error: Item "None" of "Any | None" has no attribute "__iter__" (not iterable)  [union-attr]
+src/reach_gap/he_pathology.py:279: error: Variable "reach_gap.he_pathology.UInt8Array" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:279: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:279: error: Variable "reach_gap.he_pathology.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:283: error: UInt8Array? has no attribute "shape"  [attr-defined]
+src/reach_gap/he_pathology.py:300: error: "int" object is not iterable  [misc]
+src/reach_gap/he_pathology.py:302: error: Returning Any from function declared to return BoolArray?  [no-any-return]
+src/reach_gap/he_pathology.py:306: error: Returning Any from function declared to return BoolArray?  [no-any-return]
+src/reach_gap/he_pathology.py:309: error: Variable "reach_gap.he_pathology.UInt8Array" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:309: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:309: error: Variable "reach_gap.he_pathology.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:326: error: Variable "reach_gap.he_pathology.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:326: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:332: error: Variable "reach_gap.he_pathology.UInt8Array" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:332: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:333: error: Variable "reach_gap.he_pathology.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:333: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:334: error: Variable "reach_gap.he_pathology.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:334: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:338: error: Variable "reach_gap.he_pathology.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:338: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:339: error: Variable "reach_gap.he_pathology.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:339: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:346: error: UInt8Array? has no attribute "shape"  [attr-defined]
+src/reach_gap/he_pathology.py:346: error: BoolArray? has no attribute "shape"  [attr-defined]
+src/reach_gap/he_pathology.py:346: error: FloatArray? has no attribute "shape"  [attr-defined]
+src/reach_gap/he_pathology.py:350: error: Unsupported operand type for ~ (BoolArray?)  [operator]
+src/reach_gap/he_pathology.py:355: error: "int" object is not iterable  [misc]
+src/reach_gap/he_pathology.py:384: error: Value of type BoolArray? is not indexable  [index]
+src/reach_gap/he_pathology.py:388: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/he_pathology.py:458: error: Variable "reach_gap.he_pathology.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:458: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:458: error: Variable "reach_gap.he_pathology.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:459: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/he_pathology.py:473: error: Variable "reach_gap.he_pathology.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:473: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:474: error: Variable "reach_gap.he_pathology.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:474: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:475: error: Variable "reach_gap.he_pathology.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:475: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:476: error: Variable "reach_gap.he_pathology.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:476: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:504: error: Variable "reach_gap.he_pathology.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:504: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:504: error: Variable "reach_gap.he_pathology.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:504: error: Variable "reach_gap.he_pathology.UInt8Array" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:508: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/he_pathology.py:510: error: FloatArray? has no attribute "shape"  [attr-defined]
+src/reach_gap/he_pathology.py:514: error: FloatArray? has no attribute "shape"  [attr-defined]
+src/reach_gap/he_pathology.py:516: error: Returning Any from function declared to return UInt8Array?  [no-any-return]
+src/reach_gap/he_pathology.py:532: error: Variable "reach_gap.he_pathology.UInt8Array" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:532: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:535: error: Variable "reach_gap.he_pathology.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:535: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:536: error: Variable "reach_gap.he_pathology.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:536: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:537: error: Variable "reach_gap.he_pathology.FloatArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:537: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:538: error: Variable "reach_gap.he_pathology.BoolArray" is not valid as a type  [valid-type]
+src/reach_gap/he_pathology.py:538: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+src/reach_gap/he_pathology.py:639: error: UInt8Array? has no attribute "shape"  [attr-defined]
+src/reach_gap/he_pathology.py:645: error: Need type annotation for "exclusion_mask"  [var-annotated]
+src/reach_gap/he_pathology.py:645: error: BoolArray? has no attribute "shape"  [attr-defined]
+src/reach_gap/he_pathology.py:729: error: No overload variant of "__truediv__" of "integer" matches argument type "SupportsDunderLT[Any]"  [operator]
+src/reach_gap/he_pathology.py:729: note: Possible overload variants:
+src/reach_gap/he_pathology.py:729: note:     def __truediv__(self, float | integer[Any], /) -> float64
+src/reach_gap/he_pathology.py:729: note:     def __truediv__(self, complex, /) -> complex128
+src/reach_gap/he_pathology.py:729: error: No overload variant of "__truediv__" of "integer" matches argument type "SupportsDunderGT[Any]"  [operator]
+src/reach_gap/he_pathology.py:729: note: Right operand is of type "SupportsDunderLT[Any] | SupportsDunderGT[Any]"
+src/reach_gap/real_rcc_imaging.py:163: error: Returning Any from function declared to return "ndarray[Any, dtype[Any]]"  [no-any-return]
+src/reach_gap/real_rcc_imaging.py:167: error: Argument 1 to "robust_scale" has incompatible type "ndarray[Any, dtype[Any]]"; expected "Sequence[float]"  [arg-type]
+src/reach_gap/real_rcc_imaging.py:232: error: Argument 1 to "File" has incompatible type "Path"; expected "str"  [arg-type]
+src/reach_gap/real_rcc_imaging.py:363: error: Argument 2 to "sample_local_mean" has incompatible type "ndarray[Any, dtype[Any]]"; expected "Sequence[float]"  [arg-type]
+src/reach_gap/real_rcc_imaging.py:364: error: Argument 3 to "sample_local_mean" has incompatible type "ndarray[Any, dtype[Any]]"; expected "Sequence[float]"  [arg-type]
+src/reach_gap/real_rcc_imaging.py:371: error: Argument 2 to "calibrate_image_threshold" has incompatible type "ndarray[Any, dtype[Any]]"; expected "Sequence[bool]"  [arg-type]
+src/reach_gap/real_rcc_imaging.py:440: error: FloatArray? has no attribute "astype"  [attr-defined]
+src/reach_gap/real_rcc_imaging.py:442: error: Argument 2 to "sample_pixels" has incompatible type "ndarray[Any, dtype[Any]]"; expected "Sequence[float]"  [arg-type]
+src/reach_gap/real_rcc_imaging.py:443: error: Argument 3 to "sample_pixels" has incompatible type "ndarray[Any, dtype[Any]]"; expected "Sequence[float]"  [arg-type]
+src/reach_gap/real_rcc_imaging.py:458: error: Argument 2 to "sample_pixels" has incompatible type "ndarray[Any, dtype[Any]]"; expected "Sequence[float]"  [arg-type]
+src/reach_gap/real_rcc_imaging.py:459: error: Argument 3 to "sample_pixels" has incompatible type "ndarray[Any, dtype[Any]]"; expected "Sequence[float]"  [arg-type]
+src/reach_gap/real_rcc_imaging.py:477: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/benchmark.py:37: error: Value of type IntArray? is not indexable  [index]
+src/reach_gap/benchmark.py:38: error: Value of type IntArray? is not indexable  [index]
+src/reach_gap/benchmark.py:42: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/benchmark.py:48: error: Unsupported left operand type for & (BoolArray?)  [operator]
+src/reach_gap/benchmark.py:51: error: Value of type IntArray? is not indexable  [index]
+src/reach_gap/benchmark.py:59: error: Unsupported operand types for * ("tuple[Any, Any]" and "float")  [operator]
+src/reach_gap/benchmark.py:59: note: Left operand is of type "Any | tuple[Any, Any]"
+src/reach_gap/benchmark.py:116: error: Unsupported operand types for * ("tuple[Any, Any]" and "float")  [operator]
+src/reach_gap/benchmark.py:116: note: Left operand is of type "Any | tuple[Any, Any]"
+src/reach_gap/benchmark.py:121: error: FloatArray? has no attribute "shape"  [attr-defined]
+src/reach_gap/benchmark.py:127: error: FloatArray? has no attribute "shape"  [attr-defined]
+src/reach_gap/benchmark.py:133: error: FloatArray? has no attribute "shape"  [attr-defined]
+src/reach_gap/benchmark.py:141: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/benchmark.py:142: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/benchmark.py:143: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/benchmark.py:144: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/benchmark.py:145: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/benchmark.py:149: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/benchmark.py:267: error: Value of type BoolArray? is not indexable  [index]
+src/reach_gap/benchmark.py:330: error: Unsupported left operand type for & (BoolArray?)  [operator]
+src/reach_gap/benchmark.py:336: error: BoolArray? has no attribute "shape"  [attr-defined]
+src/reach_gap/benchmark.py:341: error: BoolArray? has no attribute "shape"  [attr-defined]
+src/reach_gap/benchmark.py:343: error: Value of type FloatArray? is not indexable  [index]
+src/reach_gap/cli.py:42: error: Untyped decorator makes function "simulate" untyped  [untyped-decorator]
+src/reach_gap/cli.py:56: error: Untyped decorator makes function "ingest" untyped  [untyped-decorator]
+src/reach_gap/cli.py:71: error: Untyped decorator makes function "features" untyped  [untyped-decorator]
+src/reach_gap/cli.py:83: error: Untyped decorator makes function "solve" untyped  [untyped-decorator]
+src/reach_gap/cli.py:97: error: Untyped decorator makes function "index_command" untyped  [untyped-decorator]
+src/reach_gap/cli.py:113: error: Untyped decorator makes function "sensitivity" untyped  [untyped-decorator]
+src/reach_gap/cli.py:128: error: Untyped decorator makes function "extract_xenium_essentials_command" untyped  [untyped-decorator]
+src/reach_gap/cli.py:144: error: Untyped decorator makes function "prepare_he_rcc_command" untyped  [untyped-decorator]
+src/reach_gap/cli.py:164: error: Untyped decorator makes function "prepare_xenium_rcc_command" untyped  [untyped-decorator]
+src/reach_gap/cli.py:182: error: Untyped decorator makes function "prepare_xenium_essential_rcc_command" untyped  [untyped-decorator]
+src/reach_gap/cli.py:202: error: Untyped decorator makes function "prepare_rcc_protein_imaging_command" untyped  [untyped-decorator]
+src/reach_gap/cli.py:233: error: Untyped decorator makes function "prepare_cosmx_external_validation_command" untyped  [untyped-decorator]
+src/reach_gap/cli.py:258: error: Untyped decorator makes function "benchmark_her2_ihc_command" untyped  [untyped-decorator]
+src/reach_gap/cli.py:270: error: Untyped decorator makes function "benchmark_shg_collagen_command" untyped  [untyped-decorator]
+src/reach_gap/cli.py:290: error: Untyped decorator makes function "validate_artifact_command" untyped  [untyped-decorator]
+src/reach_gap/cli.py:306: error: Untyped decorator makes function "retrospective" untyped  [untyped-decorator]
+src/reach_gap/cli.py:318: error: Untyped decorator makes function "benchmark" untyped  [untyped-decorator]
+src/reach_gap/cli.py:331: error: Untyped decorator makes function "report" untyped  [untyped-decorator]
+src/reach_gap/cli.py:342: error: Untyped decorator makes function "validate_manifest_command" untyped  [untyped-decorator]
+Found 224 errors in 17 files (checked 25 source files)

@@ -1,0 +1,86 @@
+{
+  "checks": {
+    "bundled_coverage_percent": 88.30002896032435,
+    "bundled_tests_passed": 120,
+    "markdown_files_checked": 8,
+    "portfolio_figures": 9,
+    "readme_required_headings": 10,
+    "yaml_files_checked": 5
+  },
+  "issues": [],
+  "publication_manifest": [
+    {
+      "path": "README.md",
+      "sha256": "79a35a15b9b66ecab6fb1968d706dc4f25e42d2afbd41d04d4bca9cfdc89f1e0",
+      "size_bytes": 15488
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "cfd1a102c71ec200e506e3e04c10cb2bef00d2612f5537807b9e9665ca2bb464",
+      "size_bytes": 4661
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha256": "422c9d6c4cc6e8133432a1f9e90d948caaf1861bd57e981ba875347458713dfe",
+      "size_bytes": 4346
+    },
+    {
+      "path": "scripts/generate_portfolio_figures.py",
+      "sha256": "728bdd7ff0f93d0236e498076a9bd68412f9ee41c6f344e855ace04b19843a04",
+      "size_bytes": 16205
+    },
+    {
+      "path": "scripts/validate_github_publication.py",
+      "sha256": "57d75472415550fdbb0c4e92e23c98ce716ebd241aba4a75830237f67e0044d8",
+      "size_bytes": 7736
+    },
+    {
+      "path": "reports/figures/external_validation_panel.png",
+      "sha256": "d7fd0688fa95e7424523ee199f3a9970700e57dcf839e30abcec5d0568d29144",
+      "size_bytes": 454230
+    },
+    {
+      "path": "reports/figures/leave_one_component_out.png",
+      "sha256": "9adac0e3b1644330e3c61e68df78706972a61f9b1321b931cd26765fedd88cb9",
+      "size_bytes": 73393
+    },
+    {
+      "path": "reports/figures/measurement_priority.png",
+      "sha256": "a856184af61fa2bfa4cad747c42d0642f8317fe756a46d3a015c1b9374969e10",
+      "size_bytes": 98949
+    },
+    {
+      "path": "reports/figures/pairwise_win_probability.png",
+      "sha256": "5e89bfe22a1e47b5730c8a4fc9a16e0cf8bd53a3629b5250d0cb110dfcc8651c",
+      "size_bytes": 99438
+    },
+    {
+      "path": "reports/figures/rcc_target_geometry.png",
+      "sha256": "4ef4b48760ad6594464bd3048b1a6c0e34cb36d1db966bb534090b92307d14c8",
+      "size_bytes": 123135
+    },
+    {
+      "path": "reports/figures/rcc_target_maps_panel.png",
+      "sha256": "1472ad0ee19b1138d47912f8f5943f290121dce357e88a45f023eb9a5d08bd48",
+      "size_bytes": 1514628
+    },
+    {
+      "path": "reports/figures/reach_gap_workflow.png",
+      "sha256": "c61e1f115db34e221bcc379ab4ea87a344d8eed18d3744879fbc0701c2773f33",
+      "size_bytes": 212042
+    },
+    {
+      "path": "reports/figures/target_rank_probability.png",
+      "sha256": "ce1028559f69e7970c777b22e0d95363955da9b4f0fce0b9bfaa9fc90a1b9459",
+      "size_bytes": 89273
+    },
+    {
+      "path": "reports/figures/validation_summary.png",
+      "sha256": "509ab04c296566d2e0b4a092187571f72f3a63d9babbf82429138efc5a94c383",
+      "size_bytes": 119630
+    }
+  ],
+  "repository_version": "0.8.0",
+  "schema_version": "1.0",
+  "status": "PASS"
+}

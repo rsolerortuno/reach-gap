@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "source_id": "committed-simulation-results",
+  "source_url": null,
+  "licence": "MIT",
+  "checksum_sha256": "7f680eec24371fb740e73e9219a078b9368eaaf64c287c03c2237d5feb9a58ec",
+  "platform": "simulation",
+  "coordinate_unit": "um",
+  "segmentation_version": "synthetic-v1",
+  "vessel_definition": "simulated circular vessel pixels",
+  "perfusion_measured": false,
+  "antigen_calibration_nM_per_signal": 300.0,
+  "seed": 17
+}

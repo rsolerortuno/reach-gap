@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "repository_version": "0.5.0",
+  "validated_at_utc": "2026-07-30T14:15:00Z",
+  "environment": {
+    "python": "3.13.5",
+    "local_runtime_note": "Validation performed in the active sandbox; a clean archive rerun is recorded after packaging."
+  },
+  "checks": {
+    "real_rcc_protein_imaging": {
+      "status": "PASS_WITH_ABSTENTION",
+      "cells": 465534,
+      "channels": 6,
+      "pyramid_level": 4,
+      "pixel_size_um": 3.4,
+      "runtime_seconds": 32.33471083641052,
+      "peak_rss_mib": 916.96875,
+      "scientific_status": "REAL_PROTEIN_IMAGE_GEOMETRY_PREPARED_ABSOLUTE_INDEX_NOT_COMPUTED",
+      "command": "PYTHONPATH=src python -m reach_gap.cli prepare-rcc-protein-imaging <scored_cells_dir> <cell_feature_matrix.h5> <morphology_focus> --qc-mask-dir <qc_masks> --background-dir <background_qc_images> --output-dir <output> --level 4"
+    },
+    "pytest": {
+      "status": "PASS",
+      "tests_passed": 54,
+      "tests_failed": 0,
+      "elapsed_seconds": 16.26,
+      "max_rss_kb": 254640,
+      "command": "PYTHONPATH=src python -m pytest -q --cov=reach_gap --cov-report=json:results/coverage_v0.5.json"
+    },
+    "coverage_non_io_modules": {
+      "status": "PASS",
+      "percent": 86.27700127064803,
+      "threshold_percent": 85.0,
+      "note": "Large real-data I/O adapters are excluded from the stated non-I/O threshold; protein_imaging.py remains included."
+    },
+    "compileall": {
+      "status": "PASS",
+      "command": "python -m compileall -q src scripts tests"
+    },
+    "local_source_audit": {
+      "status": "PASS",
+      "command": "PYTHONPATH=src python scripts/local_source_audit.py"
+    },
+    "quick_benchmark": {
+      "status": "PASS",
+      "command": "PYTHONPATH=src python -m reach_gap.cli benchmark --quick --output /tmp/reach-gap-v05-benchmark.json"
+    },
+    "manifest_validation": {
+      "status": "PASS",
+      "command": "PYTHONPATH=src python -m reach_gap.cli validate-manifest results/manifest.json"
+    },
+    "cli_help": {
+      "status": "PASS",
+      "command": "PYTHONPATH=src python -m reach_gap.cli --help",
+      "new_command_present": "prepare-rcc-protein-imaging"
+    },
+    "ruff_local": {
+      "status": "NOT_RUN_PACKAGE_UNAVAILABLE",
+      "reason": "Ruff is not installed in the active runtime; GitHub Actions retains the configured check."
+    },
+    "mypy_strict_local": {
+      "status": "NOT_RUN_PACKAGE_UNAVAILABLE",
+      "reason": "mypy is not installed in the active runtime; GitHub Actions retains the configured strict check."
+    },
+    "clean_checkout": {
+      "status": "PASS",
+      "source_archive": "reach-gap-v0.5-real-protein-imaging.zip",
+      "tests_passed": 54,
+      "elapsed_seconds": 16.12,
+      "max_rss_kb": 254060,
+      "commands": [
+        "PYTHONPATH=src python -m pytest -q",
+        "python -m compileall -q src scripts tests",
+        "PYTHONPATH=src python scripts/local_source_audit.py",
+        "PYTHONPATH=src python -m reach_gap.cli --help",
+        "PYTHONPATH=src python -m reach_gap.cli validate-manifest results/manifest.json"
+      ]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+                                                                                
+ Usage: python -m reach_gap.cli [OPTIONS] COMMAND [ARGS]...                     
+                                                                                
+ Mechanistic spatial antibody reachability with uncertainty and abstention.     
+                                                                                
+╭─ Options ────────────────────────────────────────────────────────────────────╮
+│ --install-completion          Install completion for the current shell.      │
+│ --show-completion             Show completion for the current shell, to copy │
+│                               it or customize the installation.              │
+│ --help                        Show this message and exit.                    │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─ Commands ───────────────────────────────────────────────────────────────────╮
+│ simulate                             Generate a deterministic synthetic      │
+│                                      tumour section and extracted features.  │
+│ ingest                               Ingest a generic spatial cell table and │
+│                                      provenance manifest.                    │
+│ features                             Create model-ready features from a      │
+│                                      deterministic simulation.               │
+│ solve                                Solve the steady reaction-diffusion     │
+│                                      system.                                 │
+│ index                                Compute uncertainty-aware reachability  │
+│                                      metrics and claims.                     │
+│ sensitivity                          Run global Sobol sensitivity analysis.  │
+│ extract-xenium-essentials            Stream essential Xenium members into    │
+│                                      transferable files or verified parts.   │
+│ prepare-he-rcc                       Prepare real RCC H&E geometry without   │
+│                                      asserting target reachability.          │
+│ prepare-xenium-rcc                   Prepare the public Xenium RCC           │
+│                                      gene-and-protein dataset by streaming   │
+│                                      its bundle.                             │
+│ prepare-xenium-essential-rcc         Prepare the RCC Xenium dataset from     │
+│                                      compact essential files, without the    │
+│                                      large ZIP.                              │
+│ prepare-rcc-protein-imaging          Add morphology-focus protein images to  │
+│                                      the real RCC geometry analysis.         │
+│ prepare-cosmx-external-validation    Validate CosMx flat-file adapters and   │
+│                                      relative RNA geometry in pixel units.   │
+│ benchmark-her2-ihc                   Benchmark relative HER2 IHC intensity   │
+│                                      against ordinal pathology scores.       │
+│ benchmark-shg-collagen               Benchmark relative SHG collagen         │
+│                                      features without deriving diffusivity.  │
+│ audit-breast-cell-groups             Audit independent breast-section        │
+│                                      cell-group composition.                 │
+│ benchmark-perfusion                  Benchmark relative Hoechst perfusion    │
+│                                      against CD31 distance in RGB TIFFs.     │
+│ benchmark-her2-receptor-calibration  Fit the published source-protocol       │
+│                                      Cy5-to-HER2 receptor calibration.       │
+│ build-igg-transport-prior            Build a literature-derived IgG          │
+│                                      transport sensitivity prior.            │
+│ benchmark-bordeau-supplement         Curate administered-trastuzumab         │
+│                                      endpoints from the valid supplementary  │
+│                                      DOCX.                                   │
+│ validate-artifact                    Validate PDF/ZIP/GZIP/TIFF content      │
+│                                      instead of trusting its extension.      │
+│ retrospective                        Run the preregistered evaluation-only   │
+│                                      retrospective.                          │
+│ benchmark                            Run the complete simulation benchmark   │
+│                                      and all required ablations.             │
+│ report                               Render a Markdown report from a         │
+│                                      benchmark result.                       │
+│ validate-manifest                    Validate a provenance manifest.         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+

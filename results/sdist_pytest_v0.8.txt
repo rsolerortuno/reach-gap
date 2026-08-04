@@ -1,0 +1,81 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.5, pytest-9.0.2, pluggy-1.6.0
+rootdir: /mnt/data/reach-gap-v0.8.0-sdist-test/reach_gap-0.8.0
+configfile: pyproject.toml
+testpaths: tests
+plugins: asyncio-1.3.0, anyio-4.13.0, ddtrace-4.4.0, cov-7.0.0, json-report-1.5.0, Faker-40.1.2, metadata-3.1.1
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 120 items
+
+tests/test_artifact_validation.py ..                                     [  1%]
+tests/test_bordeau_validation.py ...                                     [  4%]
+tests/test_breast_cohort.py .                                            [  5%]
+tests/test_bundle_tools.py .                                             [  5%]
+tests/test_cli_manifest_benchmark.py ........                            [ 12%]
+tests/test_cosmx.py ....                                                 [ 15%]
+tests/test_evidence_synthesis.py ....                                    [ 19%]
+tests/test_geometry_features.py .....                                    [ 23%]
+tests/test_he_pathology.py ....                                          [ 26%]
+tests/test_her2_calibration.py ...                                       [ 29%]
+tests/test_her2_ihc.py ...                                               [ 31%]
+tests/test_indexing.py ...                                               [ 34%]
+tests/test_parquet_lite.py .....                                         [ 38%]
+tests/test_perfusion.py ..                                               [ 40%]
+tests/test_protein_imaging.py ....                                       [ 43%]
+tests/test_real_rcc.py ...                                               [ 45%]
+tests/test_relative_accessibility.py ......                              [ 50%]
+tests/test_segmentation.py ..                                            [ 52%]
+tests/test_sensitivity_retrospective.py ....                             [ 55%]
+tests/test_shg_collagen.py ..                                            [ 57%]
+tests/test_solver.py ....                                                [ 60%]
+tests/test_standalone_extractor.py ..                                    [ 62%]
+tests/test_transport_priors.py ..                                        [ 64%]
+tests/test_truthfulness.py ...........                                   [ 73%]
+tests/test_v071_results.py ....                                          [ 76%]
+tests/test_v080_results.py ..                                            [ 78%]
+tests/test_visuals.py .....                                              [ 82%]
+tests/test_xenium.py .......                                             [ 88%]
+tests/test_xenium_zarr_v071.py ..............                            [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.5-final-0 ________________
+
+Name                                      Stmts   Miss  Cover   Missing
+-----------------------------------------------------------------------
+src/reach_gap/__init__.py                     1      0   100%
+src/reach_gap/artifact_validation.py         45     11    76%   36, 38, 41-50
+src/reach_gap/benchmark.py                  138      6    96%   40, 50, 108, 138, 350-351
+src/reach_gap/bordeau_validation.py         121     11    91%   49, 54, 79, 93, 100, 105, 144-145, 148, 157-158
+src/reach_gap/breast_cohort.py               33      2    94%   33, 53
+src/reach_gap/bundle_tools.py               102     11    89%   27, 93-94, 105, 107, 149, 158, 172, 223-225
+src/reach_gap/cli.py                        220     77    65%   77-80, 90-92, 104, 133-137, 148-153, 166-173, 185-191, 204-211, 227-242, 252-267, 278-279, 289-299, 309-313, 324-335, 345-346, 355-356, 366-367, 379, 412, 488-494, 512, 522-524, 535-537, 547-548, 560
+src/reach_gap/config.py                      24      3    88%   34, 36, 39
+src/reach_gap/cosmx.py                      206      9    96%   52, 57, 68, 71, 76, 87, 171, 185, 251
+src/reach_gap/evidence_synthesis.py         142      5    96%   120, 127, 570, 578, 584
+src/reach_gap/features.py                    64      2    97%   35, 75
+src/reach_gap/geometry.py                    54      1    98%   31
+src/reach_gap/he_pathology.py               401     47    88%   96-101, 123, 127, 139, 152, 156, 169, 176, 182, 193, 196, 201, 222, 230, 234, 236-245, 261, 280, 284-285, 313, 358, 364, 375, 385, 392, 395, 399, 414, 446, 522, 527-528, 598, 660, 703
+src/reach_gap/her2_calibration.py           187     21    89%   41, 56-60, 74, 99, 103-104, 120-126, 142, 149, 186, 266
+src/reach_gap/her2_ihc.py                   130      7    95%   22, 37-42, 48, 60, 103, 135
+src/reach_gap/indexing.py                   120      7    94%   73, 82, 90, 104-105, 119, 255
+src/reach_gap/manifest.py                     7      0   100%
+src/reach_gap/perfusion.py                  158     17    89%   44, 47, 51, 59, 66, 73-77, 89, 106, 109, 112, 135, 138, 153, 157, 272
+src/reach_gap/protein_imaging.py            198     47    76%   49, 65-73, 83, 89, 95, 97, 120, 126, 133, 140, 146, 155, 165-173, 188, 193, 216, 220, 222, 247, 251, 261-263, 286, 294, 302-305, 321-326, 347
+src/reach_gap/relative_accessibility.py     160      7    96%   90-91, 97, 100, 103, 105, 158
+src/reach_gap/reporting.py                    9      0   100%
+src/reach_gap/retrospective.py               42      2    95%   44, 68
+src/reach_gap/schemas.py                    113      1    99%   66
+src/reach_gap/segmentation.py                80     53    34%   15, 39-83, 89-110
+src/reach_gap/sensitivity.py                 55      4    93%   35, 41, 62, 74
+src/reach_gap/shg_collagen.py                65      3    95%   25, 27, 106
+src/reach_gap/solver.py                      93     13    86%   24, 72, 74, 76, 130-131, 158-160, 173, 175, 200-201
+src/reach_gap/transport_priors.py            30      0   100%
+src/reach_gap/v071_results.py               119      2    98%   55, 83
+src/reach_gap/v080_results.py               126      6    95%   66, 200, 227, 304, 324-325
+src/reach_gap/visuals.py                     36      0   100%
+src/reach_gap/xenium_zarr.py                108      0   100%
+src/reach_gap/xenium_zarr_io.py              58     27    53%   41, 48-55, 61-99
+-----------------------------------------------------------------------
+TOTAL                                      3445    402    88%
+Required test coverage of 85% reached. Total coverage: 88.33%
+============================= 120 passed in 17.27s =============================

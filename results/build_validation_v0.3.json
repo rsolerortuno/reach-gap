@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "repository_version": "0.3.0",
+  "created_utc": "2026-07-29T17:19:02Z",
+  "python": "3.13.5",
+  "checks": {
+    "compileall": {
+      "status": "PASS",
+      "command": "python -m compileall -q src tests scripts"
+    },
+    "local_source_audit": {
+      "status": "PASS",
+      "command": "PYTHONPATH=src python scripts/local_source_audit.py"
+    },
+    "pytest": {
+      "status": "PASS",
+      "command": "PYTHONPATH=src pytest -q --cov=src/reach_gap --cov-report=json:results/coverage_v0.3.json",
+      "tests_passed": 36,
+      "coverage_percent_all_package_modules": 91.39
+    },
+    "real_he_reassembly": {
+      "status": "PASS",
+      "parts_verified": 40,
+      "reconstructed_bytes": 3720697771,
+      "provider_md5": "96ad5f699c7d6280cdf6af1c13f39515",
+      "provider_md5_match": true
+    },
+    "real_he_bounded_memory_run": {
+      "status": "PASS",
+      "elapsed_wall_seconds": 18.29,
+      "maximum_resident_set_gib": 1.0040855407714844,
+      "analysis_pyramid_level": 4
+    },
+    "ruff": {
+      "status": "NOT_RUN",
+      "reason": "ruff is not installed in the build runtime; the check remains configured in GitHub Actions."
+    },
+    "mypy_strict": {
+      "status": "NOT_RUN",
+      "reason": "mypy is not installed in the build runtime; strict type checking remains configured in GitHub Actions."
+    },
+    "xenium_molecular_execution": {
+      "status": "NOT_COMPUTED",
+      "reason": "The full molecular bundle has not been reduced to the essential cell table and cell-feature matrix. A bounded-memory extractor is included."
+    }
+  },
+  "scientific_status": {
+    "real_he_pathology_geometry": "COMPUTED",
+    "real_molecular_spatial_layer": "NOT_COMPUTED",
+    "absolute_real_tissue_reachability": "NOT_COMPUTED",
+    "abstention_reasons": [
+      "TARGET_EXPRESSION_NOT_AVAILABLE",
+      "SURFACE_ANTIGEN_CALIBRATION_NOT_AVAILABLE",
+      "FUNCTIONALLY_PERFUSED_VESSELS_NOT_IDENTIFIED",
+      "CELL_COORDINATES_NOT_AVAILABLE"
+    ]
+  }
+}
