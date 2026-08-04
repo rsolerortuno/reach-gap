@@ -1,0 +1,118 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "reach-gap"
+version = "0.8.0"
+description = "Evidence-aware spatial modelling of antibody accessibility in tumour tissue."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Rafael Soler Ortuño"}]
+keywords = ["spatial biology", "antibody therapeutics", "Xenium", "tumour microenvironment", "uncertainty quantification"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "pandas>=2.1",
+  "pydantic>=2.6",
+  "typer>=0.12",
+  "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "mypy==2.3.0",
+  "pytest==9.0.2",
+  "pytest-cov==7.0.0",
+  "ruff==0.16.0",
+  "pandas-stubs==2.2.3.250527",
+  "scipy-stubs==1.17.0.2",
+  "types-PyYAML==6.0.12.20260518",
+  "h5py-stubs==0.1.2",
+  "pyarrow-stubs==20.0.0.20260625",
+  "types-shapely==2.1.0.20260630",
+]
+viz = [
+  "matplotlib>=3.8",
+]
+xenium = [
+  "h5py>=3.10",
+  "pyarrow>=15.0",
+  "shapely>=2.0",
+  "tifffile>=2024.1",
+  "Pillow>=10.0",
+  "scikit-image>=0.22",
+  "zarr>=2.17,<3",
+]
+
+[project.urls]
+Homepage = "https://github.com/rsolerortuno/reach-gap"
+Repository = "https://github.com/rsolerortuno/reach-gap"
+Issues = "https://github.com/rsolerortuno/reach-gap/issues"
+Documentation = "https://github.com/rsolerortuno/reach-gap#readme"
+
+[project.scripts]
+reach = "reach_gap.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/reach_gap"]
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/release_assets",
+  "/.pytest_cache",
+  "/.ruff_cache",
+  "/.mypy_cache",
+  "/.coverage",
+  "/htmlcov",
+  "/build",
+  "/dist",
+]
+
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+extend-exclude = ["notebooks/*.ipynb"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "RUF"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/reach_gap/cli.py" = ["B008"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+follow_imports = "normal"
+packages = ["reach_gap"]
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-markers --cov=reach_gap --cov-report=term-missing --cov-fail-under=85"
+testpaths = ["tests"]
+
+
+[tool.coverage.run]
+omit = [
+  "src/reach_gap/xenium.py",
+  "src/reach_gap/parquet_lite.py",
+  "src/reach_gap/real_rcc.py",
+  "src/reach_gap/real_rcc_imaging.py",
+]
+
+[[tool.mypy.overrides]]
+module = ["tifffile", "tifffile.*"]
+follow_imports = "skip"
+ignore_errors = true

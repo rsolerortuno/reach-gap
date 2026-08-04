@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use reach-gap, please cite this software release."
+title: "reach-gap: evidence-aware spatial modelling of antibody accessibility"
+version: 0.8.0
+type: software
+authors:
+  - given-names: Rafael
+    family-names: Soler Ortuño
+license: MIT
+date-released: 2026-08-05
+repository-code: "https://github.com/rsolerortuno/reach-gap"
+url: "https://github.com/rsolerortuno/reach-gap"
+abstract: >-
+  reach-gap connects spatial tissue measurements, simplified antibody-transport modelling,
+  uncertainty propagation and an auditable evidence graph. It reports relative target-accessibility
+  evidence when supported and explicitly abstains from absolute claims when required same-tissue
+  measurements are missing.
+keywords:
+  - spatial biology
+  - antibody therapeutics
+  - tumour microenvironment
+  - uncertainty quantification
+  - Xenium
