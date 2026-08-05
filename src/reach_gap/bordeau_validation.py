@@ -20,7 +20,6 @@ from typing import Any
 import numpy as np
 import pandas as pd
 from numpy.typing import NDArray
-from PIL import Image
 from scipy.ndimage import distance_transform_edt
 
 FloatArray = NDArray[np.float64]
@@ -131,6 +130,14 @@ def _exact_group_difference_pvalue(values: NDArray[np.float64]) -> float:
 
 def benchmark_bordeau_supplement(docx_path: Path, output_dir: Path) -> dict[str, Any]:
     """Curate published endpoints and test representative-panel direction robustness."""
+
+    try:
+        from PIL import Image
+    except ImportError as exc:
+        raise RuntimeError(
+            "benchmark_bordeau_supplement requires Pillow. "
+            "Install the 'xenium' extra: pip install 'reach-gap[xenium]'"
+        ) from exc
 
     started = time.time()
     output_dir.mkdir(parents=True, exist_ok=True)
