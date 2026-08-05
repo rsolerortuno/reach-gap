@@ -59,8 +59,8 @@ def read_xenium_sparse_matrix(path: Path) -> XeniumSparseMatrix:
     """Read a zipped native Xenium matrix using an installed Zarr implementation."""
 
     try:
-        import zarr  # type: ignore[import-not-found]
-        from zarr.storage import ZipStore  # type: ignore[import-not-found]
+        import zarr  # type: ignore[import-untyped]
+        from zarr.storage import ZipStore  # type: ignore[import-untyped]
     except ImportError as exc:
         raise RuntimeError(
             "Reading a real Xenium Zarr requires the project's pinned zarr dependency"
